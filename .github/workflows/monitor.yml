@@ -1,24 +1,36 @@
-name: A-Stock Monitor v4
+name: A-Stock Monitor
 
 on:
   schedule:
-    # Every 1 minute, 09:20-15:00 CST (01:20-07:00 UTC), Mon-Fri
-    - cron: '* 1-6 * * 1-5'
+    # UTC 01:20-07:05 = China 09:20-15:05, Mon-Fri.
+    # GitHub may batch schedules under load; run.py also gates market hours.
+    - cron: '20-59 1 * * 1-5'
+    - cron: '* 2-6 * * 1-5'
+    - cron: '0-5 7 * * 1-5'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: astock-monitor
+  cancel-in-progress: true
 
 jobs:
   scan-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install lxml
 
       - name: Run monitor
         env:
@@ -26,12 +38,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           BARK_KEY: ${{ secrets.BARK_KEY }}
+          BARK_SERVER: ${{ secrets.BARK_SERVER }}
           PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
         run: python run.py
 
-      - name: Deploy to Netlify
-        run: |
-          npm install -g netlify-cli
-          npx --yes netlify-cli deploy --dir=./deploy --prod --auth "$NETLIFY_AUTH_TOKEN" --message "v4 auto-deploy $(date -u +'%H:%M')"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      - name: Deploy to GitHub Pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com

@@ -1,140 +1,164 @@
 #!/usr/bin/env python
-"""A股利好监控 v3 — GitHub Actions 版本"""
-import sys, json
-from datetime import datetime
-from monitor.scraper import get_bullish_news
-from monitor.dashboard import generate_dashboard
-from monitor.notifier import notify_all
+import json
+import os
+from datetime import datetime, time
+from zoneinfo import ZoneInfo
+
 from monitor.auto_deploy import auto_deploy
-from monitor.keyword_learner import get_learner
-from monitor.heat_tracker import get_tracker
-from monitor.config import HISTORY_PATH, logger
-from monitor.recommender import AStockRecommender
+from monitor.config import DATA_PATH, HISTORY_PATH, logger
+from monitor.dashboard import write_dashboard
+from monitor.engine import build_recommendations, build_summary, notification_fingerprint, score_news
 from monitor.market_data import MarketDataEngine
+from monitor.notifier import notify_all, should_notify
+from monitor.scraper import fetch_all_news
+
+CN_TZ = ZoneInfo("Asia/Shanghai")
 
 
-def run_once():
-    logger.info("=" * 55)
-    logger.info("v3 cloud scan starting...")
+def run_once(force: bool = False) -> dict:
+    now = datetime.now(CN_TZ)
+    logger.info("=" * 60)
+    logger.info("A-stock monitor v5 scan starting at %s", now.isoformat(timespec="seconds"))
 
-    # 0. 获取市场数据
-    market_engine = MarketDataEngine()
+    if not force and not _should_scan_market_window(now):
+        data = _load_existing_or_empty(now, "非交易监控时段，等待下一次开盘窗口。")
+        write_dashboard(data)
+        auto_deploy()
+        logger.info("Skipped outside market window.")
+        return {"skipped": True, "dashboard": True}
+
+    market_data = _fetch_market_data()
+    news_items = fetch_all_news()
+    important, scored, sector_impact = score_news(news_items)
+    recommendations = build_recommendations(scored, market_data)
+    summary = build_summary(important, scored, recommendations, sector_impact)
+    data = {
+        "summary": summary,
+        "important_news": important,
+        "scored_news": scored[:80],
+        "sector_impact": sector_impact,
+        "recommendations": recommendations,
+        "market_data": market_data,
+        "status": "running",
+    }
+
+    write_dashboard(data)
+    auto_deploy()
+    _append_history(important, recommendations, summary)
+    push_result = _maybe_push(important, recommendations)
+
+    result = {
+        "skipped": False,
+        "total_news": len(news_items),
+        "matched": len(scored),
+        "important": len(important),
+        "recommendations": len(recommendations),
+        "pushed": any(push_result.values()) if push_result else False,
+    }
+    logger.info("A-stock monitor v5 scan done: %s", result)
+    logger.info("=" * 60)
+    return result
+
+
+def _fetch_market_data() -> dict:
     try:
-        market_data = market_engine.fetch_all()
-        logger.info("Market data fetched: %d sectors, %d gainers" % (
-            len(market_data.get("sectors", [])),
-            len(market_data.get("gainers", [])),
-        ))
-        sector_momentum = market_engine.get_sector_momentum()
-        capital_signal = market_engine.get_capital_flow_signal()
-        logger.info("Capital signal: northbound=%s overall=%s" % (
-            capital_signal.get("northbound_status", "?"),
-            capital_signal.get("overall_signal", 0),
-        ))
-    except Exception as e:
-        logger.warning("Market data error (non-fatal): %s" % e)
-        market_data = None
-        sector_momentum = None
-        capital_signal = None
+        engine = MarketDataEngine()
+        data = engine.fetch_all()
+        logger.info("Market data fetched: %d sectors, %d gainers", len(data.get("sectors", [])), len(data.get("gainers", [])))
+        return data
+    except Exception as exc:
+        logger.warning("Market data error (non-fatal): %s", exc)
+        return {}
 
-    # 1. 扫描新闻 + 评分
-    important, all_scored = get_bullish_news()
 
-    # 2. 自学习
-    learner = get_learner()
-    titles = [n["title"] for n in all_scored]
-    learner.extract_words(titles)
-    new_kws = learner.discover_new_keywords()
-    hot_topics = learner.get_hot_topics(3)
-    sector_heat = learner.get_sector_heat(all_scored)
+def _maybe_push(important: list[dict], recommendations: list[dict]) -> dict | None:
+    if not important:
+        return None
+    fingerprint = notification_fingerprint(important, recommendations)
+    if not should_notify(fingerprint):
+        return None
+    top = important[0]
+    title = f"{top['level']}: {top['event']}"
+    lines = [f"检测到 {len(important)} 条重大利好信号", ""]
+    for item in important[:5]:
+        sectors = "、".join(item.get("sectors", [])[:4])
+        stocks = "、".join(item.get("stocks", [])[:4])
+        lines.append(f"[{item['score']}] {item['title'][:72]}")
+        if sectors:
+            lines.append(f"板块: {sectors}")
+        if stocks:
+            lines.append(f"人气股: {stocks}")
+    if recommendations:
+        rec = recommendations[0]
+        lines.extend([
+            "",
+            f"首选观察: {rec['stock']} / {rec['action_label']} / {rec['score']}",
+            f"仓位上限: {rec['position_pct']}%  止损: {rec['stop_loss']}  止盈: {rec['take_profit']}",
+            f"入场: {rec['entry']}",
+        ])
+    return notify_all(title, "\n".join(lines))
 
-    # 3. 机构热点追踪
-    tracker = get_tracker()
-    hot_sectors = tracker.fetch_sector_hot()
-    tracker.fetch_institution_news()
-    mood = tracker.get_market_mood(all_scored)
 
-    # 4. 保存历史
+def _append_history(important: list[dict], recommendations: list[dict], summary: dict) -> None:
     try:
         history = []
         if HISTORY_PATH.exists():
             history = json.loads(HISTORY_PATH.read_text("utf-8")).get("history", [])
-        for n in important:
-            secs = ",".join(n.get("sectors", []))
-            stks = ",".join(s["name"] for s in n.get("stocks", [])[:3])
-            history.insert(0, {
-                "title": n["title"][:60], "score": n["final_score"],
-                "source": n["source"], "sectors": secs, "stocks": stks,
-                "time": n["timestamp"][:16],
-            })
-        history = history[:200]
-        with open(HISTORY_PATH, "w", encoding="utf-8") as f:
-            json.dump({"history": history, "last_scan": datetime.now().isoformat(),
-                       "v3": True}, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        logger.warning("History: %s" % e)
+        for item in important[:8]:
+            history.insert(
+                0,
+                {
+                    "time": summary["timestamp"],
+                    "title": item["title"][:90],
+                    "score": item["score"],
+                    "event": item["event"],
+                    "sectors": item.get("sectors", [])[:4],
+                    "top_stock": recommendations[0]["stock"] if recommendations else "",
+                },
+            )
+        HISTORY_PATH.write_text(json.dumps({"history": history[:300], "last_scan": summary["timestamp"]}, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as exc:
+        logger.warning("History save error: %s", exc)
 
-    # 5. 多因子推荐
-    recs = None
-    try:
-        recommender = AStockRecommender()
-        recs = recommender.process_news(all_scored, sector_momentum, capital_signal)
-        if recs:
-            logger.info("Top recommendations: %s" % [(r["stock"], r["action"],
-                        r["confidence"], r["suggested_position_pct"]) for r in recs[:3]])
-    except Exception as e:
-        logger.warning("Recommender error: %s" % e)
 
-    # 6. 生成看板 + 部署
-    auto_keywords = [k["word"] for k in new_kws[:10]]
-    hot_topic_words = [t["word"] for t in hot_topics]
-    dp = generate_dashboard(important, all_scored, mood, hot_sectors,
-                            auto_keywords, hot_topic_words, recs,
-                            market_data=market_data)
-    try:
-        auto_deploy()
-    except Exception as e:
-        logger.warning("auto-deploy skip: %s" % e)
+def _should_scan_market_window(now: datetime) -> bool:
+    if now.weekday() >= 5:
+        return False
+    current = now.time()
+    return time(9, 20) <= current <= time(15, 5)
 
-    # 7. 推送通知
-    notified = False
-    if important:
-        top = important[0]
-        title = "A股利好v3: %s" % top["title"][:35]
-        lines = ["检测到 %s 条利好信号" % len(important)]
-        if capital_signal:
-            nb = capital_signal.get("northbound_net", 0)
-            nb_status = capital_signal.get("northbound_status", "?")
-            lines.append("北向资金: %s (%+.2f亿)" % (nb_status, nb))
-        for n in important[:5]:
-            secs = " ".join(n.get("sectors", []))
-            stks = " ".join(s["name"] for s in n.get("stocks", [])[:3])
-            lines.append("[%s分] %s" % (n["final_score"], n["title"][:50]))
-            if secs: lines.append("  行业: %s" % secs)
-            if stks: lines.append("  股票: %s" % stks)
-        if recs and recs[0]:
-            r = recs[0]
-            lines.append("\n推荐: %s [%s] 仓%s%% 风险%s" % (
-                r["stock"], r["action"], r["suggested_position_pct"],
-                r.get("risk_rating", "?"),
-            ))
-        if auto_keywords:
-            lines.append("\n热点新词: %s" % " ".join(auto_keywords[:5]))
-        r = notify_all(title, "\n".join(lines))
-        notified = any(r.values())
 
-    s = {"total": len(all_scored), "important": len(important),
-         "sectors": len(sector_heat), "mood": mood.get("mood"),
-         "new_kws": len(new_kws), "notified": notified, "dashboard": dp}
-    logger.info("v3 cloud scan done: %s" % s)
-    logger.info("=" * 55)
-    return s
+def _load_existing_or_empty(now: datetime, message: str) -> dict:
+    if DATA_PATH.exists():
+        try:
+            data = json.loads(DATA_PATH.read_text("utf-8"))
+            data["summary"]["timestamp"] = now.isoformat(timespec="seconds")
+            data["status"] = message
+            return data
+        except Exception:
+            pass
+    summary = {
+        "timestamp": now.isoformat(timespec="seconds"),
+        "important_count": 0,
+        "matched_count": 0,
+        "sector_count": 0,
+        "mood": {"label": "中性", "score": 50, "class": "neutral"},
+        "top_stock": "",
+        "top_action": "",
+        "version": "v5",
+        "scan_interval": "1分钟",
+    }
+    return {
+        "summary": summary,
+        "important_news": [],
+        "scored_news": [],
+        "sector_impact": {"sectors": [], "updated_at": now.isoformat(timespec="seconds")},
+        "recommendations": [],
+        "market_data": {},
+        "status": message,
+    }
 
 
 if __name__ == "__main__":
-    r = run_once()
-    print("\nv3 结果: %s条匹配, %s条重要" % (r["total"], r["important"]))
-    print("  行业热度: %s个行业, 情绪: %s" % (r["sectors"], r["mood"]))
-    print("  新发现关键词: %s个" % r["new_kws"])
-    print("  推送: %s" % r["notified"])
-    print("  看板: %s" % r["dashboard"])
+    result = run_once(force=os.environ.get("FORCE_SCAN", "0") == "1")
+    print(json.dumps(result, ensure_ascii=False, indent=2))

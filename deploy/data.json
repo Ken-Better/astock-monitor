@@ -1,0 +1,1417 @@
+{
+  "summary": {
+    "timestamp": "2026-06-05T00:01:59",
+    "important_count": 0,
+    "matched_count": 22,
+    "sector_count": 12,
+    "mood": {
+      "label": "谨慎",
+      "score": 35.7,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "强关注",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+      "url": "https://finance.eastmoney.com/a/202606043759657639.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "中信证券国内外AI算力与具身智能产业将迎重要产业进展",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 43.1,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "算力",
+        "具身智能"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrk0202402.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780584741",
+      "fingerprint": "Wix面临证券欺诈调查AI竞争加剧财报暴雷后股价暴跌27",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 40.0,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+      "url": "https://finance.eastmoney.com/a/202606043760358188.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "商务部美滥用出口管制冲击全球半导体产供链稳定",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 36.7,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "半导体"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3",
+      "url": "https://finance.eastmoney.com/a/202606043760475270.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIACosmos3",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 35.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "亚马逊AI扩张遭遇内外夹击：工程师公开叫停数据中心建设",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrn9129214.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780582020",
+      "fingerprint": "亚马逊AI扩张遭遇内外夹击工程师公开叫停数据中心建设",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 35.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "数据中心"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "凯易律师事务所与Palantir达成重大AI合作",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2353964.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780582188",
+      "fingerprint": "凯易律师事务所与Palantir达成重大AI合作",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 35.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "英伟达与现代汽车洽谈韩国AI中心 深化机器人及自动驾驶合作",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrn9127957.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780581796",
+      "fingerprint": "英伟达与现代汽车洽谈韩国AI中心深化机器人及自动驾驶合作",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 34.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "联合国报告：人工智能全球环境足迹加速扩张 能源与治理挑战愈发严峻",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2352622.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780581930",
+      "fingerprint": "联合国报告人工智能全球环境足迹加速扩张能源与治理挑战愈发严峻",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 34.4,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "人工智能"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrh3426263.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780585102",
+      "fingerprint": "高盛预测SpaceX人工智能业务2030年营收将暴涨100倍",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 34.1,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "人工智能"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "软银单日暴跌12%：高杠杆豪赌AI的狂欢与警钟",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrn9127229.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780581623",
+      "fingerprint": "软银单日暴跌12高杠杆豪赌AI的狂欢与警钟",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 33.6,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "AIPCon 10开幕：Palantir携多家企业揭秘AI如何放大真实“专业技能”",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrn9140113.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780584401",
+      "fingerprint": "AIPCon10开幕Palantir携多家企业揭秘AI如何放大真实专业技能",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 33.2,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "AEye携手密歇根州交通部 亮相ITS America展示“物理AI”实时交通智能",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrn9136894.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780583809",
+      "fingerprint": "AEye携手密歇根州交通部亮相ITSAmerica展示物理AI实时交通智能",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 31.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "Databricks与Perplexity联合创始人游说AI科研人才：别去大型科技企业任职",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrh3418749.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780583564",
+      "fingerprint": "Databricks与Perplexity联合创始人游说AI科研人才别去大型科技企业任职",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 31.2,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "美股三大指数走势分化 道指再创新高 芯片股普跌",
+      "url": "https://finance.eastmoney.com/a/202606043760642286.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "美股三大指数走势分化道指再创新高芯片股普跌",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 31.1,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "Mainstreet宣布新一轮常态化发行人要约回购计划",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2357744.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780583072",
+      "fingerprint": "Mainstreet宣布新一轮常态化发行人要约回购计划",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 30.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "AI产业站在“C位” 22只硬科技股市盈率或将大幅下降",
+      "url": "https://finance.eastmoney.com/a/202606043759395236.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "AI产业站在C位22只硬科技股市盈率或将大幅下降",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "刚刚全线跳水！AI大牛股闪崩暴跌！发生了什么？",
+      "url": "https://finance.eastmoney.com/a/202606043760479119.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "刚刚全线跳水AI大牛股闪崩暴跌发生了什么",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "“量价共振”！光纤订单饱满 AIDC需求或翻倍(附股)",
+      "url": "https://finance.eastmoney.com/a/202606043760186256.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "量价共振光纤订单饱满AIDC需求或翻倍附股",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "美国麦卡锡建筑公司与Palantir达成战略合作 将AI引入建筑工地",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2355670.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780582517",
+      "fingerprint": "美国麦卡锡建筑公司与Palantir达成战略合作将AI引入建筑工地",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 30.0,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2361140.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780583875",
+      "fingerprint": "Alkermes将在SLEEP2026公布睡眠医学新数据涵盖创新药物及真实世界研究",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 28.6,
+      "level": "普通",
+      "event": "医药创新",
+      "matched_keywords": [
+        "创新药"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "创新药",
+        "医疗器械",
+        "CXO",
+        "生物医药"
+      ],
+      "stocks": [
+        "恒瑞医药",
+        "迈瑞医疗",
+        "药明康德",
+        "百济神州",
+        "爱尔眼科"
+      ],
+      "duration": "1-7天",
+      "risk": "medium"
+    },
+    {
+      "title": "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话",
+      "url": "https://finance.eastmoney.com/a/202604223714665026.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "投资能到80岁揭秘实战派博主的锂电池慢牛逻辑对话琳子话",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 27.9,
+      "level": "普通",
+      "event": "新能源/汽车",
+      "matched_keywords": [
+        "锂电池"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "新能源汽车",
+        "锂电池",
+        "储能",
+        "智能驾驶"
+      ],
+      "stocks": [
+        "比亚迪",
+        "宁德时代",
+        "亿纬锂能",
+        "阳光电源",
+        "德赛西威"
+      ],
+      "duration": "2-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "英特尔携手富士康扩大AI基础设施布局",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-04/doc-iniahhrm2349251.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780581106",
+      "fingerprint": "英特尔携手富士康扩大AI基础设施布局",
+      "scan_time": "2026-06-05T00:01:59",
+      "score": 27.6,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 150.6,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
+          "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+          "AIPCon 10开幕：Palantir携多家企业揭秘AI如何放大真实“专业技能”"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 150.6,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
+          "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+          "AIPCon 10开幕：Palantir携多家企业揭秘AI如何放大真实“专业技能”"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 150.6,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
+          "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+          "AIPCon 10开幕：Palantir携多家企业揭秘AI如何放大真实“专业技能”"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 150.6,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
+          "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+          "AIPCon 10开幕：Palantir携多家企业揭秘AI如何放大真实“专业技能”"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 17.0,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+          "美股三大指数走势分化 道指再创新高 芯片股普跌"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 17.0,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+          "美股三大指数走势分化 道指再创新高 芯片股普跌"
+        ]
+      },
+      {
+        "sector": "先进封装",
+        "score": 17.0,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+          "美股三大指数走势分化 道指再创新高 芯片股普跌"
+        ]
+      },
+      {
+        "sector": "信创",
+        "score": 17.0,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+          "美股三大指数走势分化 道指再创新高 芯片股普跌"
+        ]
+      },
+      {
+        "sector": "创新药",
+        "score": 7.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+        ]
+      },
+      {
+        "sector": "医疗器械",
+        "score": 7.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+        ]
+      },
+      {
+        "sector": "CXO",
+        "score": 7.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+        ]
+      },
+      {
+        "sector": "生物医药",
+        "score": 7.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+        ]
+      }
+    ],
+    "updated_at": "2026-06-05T00:01:59"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+        "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+        "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3"
+      ],
+      "risk_flags": [],
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+        "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+        "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3"
+      ],
+      "risk_flags": [],
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+        "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+        "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3"
+      ],
+      "risk_flags": [],
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+        "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+        "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3"
+      ],
+      "risk_flags": [],
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+        "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
+        "英伟达官宣推出全球首款完全开放的全模态物理AI模型NVIDIA Cosmos 3"
+      ],
+      "risk_flags": [],
+      "rank": 5
+    },
+    {
+      "stock": "中芯国际",
+      "score": 48.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+        "美股三大指数走势分化 道指再创新高 芯片股普跌"
+      ],
+      "risk_flags": [],
+      "rank": 6
+    },
+    {
+      "stock": "北方华创",
+      "score": 48.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+        "美股三大指数走势分化 道指再创新高 芯片股普跌"
+      ],
+      "risk_flags": [],
+      "rank": 7
+    },
+    {
+      "stock": "中微公司",
+      "score": 48.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+        "美股三大指数走势分化 道指再创新高 芯片股普跌"
+      ],
+      "risk_flags": [],
+      "rank": 8
+    },
+    {
+      "stock": "寒武纪",
+      "score": 48.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+        "美股三大指数走势分化 道指再创新高 芯片股普跌"
+      ],
+      "risk_flags": [],
+      "rank": 9
+    },
+    {
+      "stock": "海光信息",
+      "score": 48.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+        "美股三大指数走势分化 道指再创新高 芯片股普跌"
+      ],
+      "risk_flags": [],
+      "rank": 10
+    },
+    {
+      "stock": "恒瑞医药",
+      "score": 30.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+      ],
+      "risk_flags": [],
+      "rank": 11
+    },
+    {
+      "stock": "迈瑞医疗",
+      "score": 30.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+      ],
+      "risk_flags": [],
+      "rank": 12
+    },
+    {
+      "stock": "药明康德",
+      "score": 30.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+      ],
+      "risk_flags": [],
+      "rank": 13
+    },
+    {
+      "stock": "百济神州",
+      "score": 30.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+      ],
+      "risk_flags": [],
+      "rank": 14
+    },
+    {
+      "stock": "爱尔眼科",
+      "score": 30.2,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "Alkermes将在SLEEP 2026公布睡眠医学新数据：涵盖创新药物及真实世界研究"
+      ],
+      "risk_flags": [],
+      "rank": 15
+    },
+    {
+      "stock": "比亚迪",
+      "score": 29.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+      ],
+      "risk_flags": [],
+      "rank": 16
+    },
+    {
+      "stock": "宁德时代",
+      "score": 29.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+      ],
+      "risk_flags": [],
+      "rank": 17
+    },
+    {
+      "stock": "亿纬锂能",
+      "score": 29.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+      ],
+      "risk_flags": [],
+      "rank": 18
+    }
+  ],
+  "market_data": {
+    "timestamp": "2026-06-05T00:01:58.846935",
+    "market_open": false,
+    "sectors": [],
+    "gainers": [],
+    "northbound": {
+      "sh_net": -26.19,
+      "sz_net": -0.02,
+      "total_net": -26.21,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": -26.21,
+      "status": "outflow",
+      "updated": "2026-06-05T00:01:06.880873"
+    },
+    "main_force": {
+      "inflow_sectors": [],
+      "outflow_sectors": [],
+      "top_flow": [],
+      "updated": "2026-06-05T00:01:59.250923"
+    }
+  },
+  "status": "running"
+}

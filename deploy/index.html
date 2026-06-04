@@ -1,26 +1,171 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>A股利好监控 v3</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A股重大利好监控 v5</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#080c12;color:#e0e6ed;font-size:14px;display:flex;align-items:center;justify-content:center;min-height:100vh}
-.c{text-align:center;padding:20px}
-.ht{font-size:24px;font-weight:700;color:#ff6b6b;margin-bottom:12px}
-.st{font-size:13px;color:#5a6a7a;margin-bottom:8px}
-.d{color:#3a4a5a;font-size:11px;margin-top:20px}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.sd{width:10px;height:10px;border-radius:50%;background:#fbbf24;animation:pulse 2s infinite;margin:0 auto 12px}
+:root {
+  --bg:#0b0f14; --panel:#111923; --panel2:#0f1720; --line:#223044;
+  --text:#e7edf5; --muted:#7f8da3; --red:#ff5a66; --green:#27d17f;
+  --amber:#ffc857; --blue:#58a6ff; --cyan:#56d4dd;
+}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top left,#182238,#0b0f14 38%,#080b10);color:var(--text);font-family:"Segoe UI","Microsoft YaHei",Arial,sans-serif;font-size:14px;letter-spacing:0}
+.wrap{max-width:1120px;margin:0 auto;padding:14px} .top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:14px 0 12px;border-bottom:1px solid var(--line)}
+.brand{font-size:22px;font-weight:800;color:var(--red)} .sub{color:var(--muted);font-size:12px;margin-top:4px;line-height:1.5} .stamp{text-align:right;color:var(--muted);font-size:11px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0} .metric{background:linear-gradient(180deg,var(--panel),#0d141c);border:1px solid var(--line);border-radius:8px;padding:10px;min-height:72px}
+.metric b{display:block;font-size:22px;color:var(--red)} .metric span{font-size:11px;color:var(--muted)} .band{background:rgba(88,166,255,.08);border:1px solid rgba(88,166,255,.2);border-radius:8px;padding:10px 12px;margin-bottom:10px;color:#b8d7ff;line-height:1.45}
+.section{margin:12px 0} .title{font-weight:700;color:#b9c7d8;margin:0 0 8px;font-size:13px} .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:8px} .card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:8px;padding:10px;min-width:0}
+.score{display:inline-block;background:var(--red);color:white;font-weight:800;border-radius:5px;padding:1px 7px;font-size:11px;margin-right:6px} .pill{display:inline-block;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);border-radius:999px;padding:2px 7px;margin:2px 3px 2px 0;color:#aab7c8;font-size:10px;line-height:1.6}
+.headline{line-height:1.45;margin:7px 0;color:#d9e4ef;word-break:break-word} .meta{color:var(--muted);font-size:11px;display:flex;gap:8px;flex-wrap:wrap} a{color:var(--blue);text-decoration:none}
+.rec{border-left-color:var(--green)} .rec.buy{border-left-color:var(--amber)} .rec.watch{border-left-color:var(--blue)} .rec.avoid{border-left-color:#777}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:center} .stock{font-size:16px;font-weight:800} .action{font-size:12px;color:var(--green);font-weight:700;white-space:nowrap} .plan{font-size:11px;color:#9eacbd;line-height:1.55;margin-top:6px}
+.impact{display:flex;gap:6px;flex-wrap:wrap} .impact .pill{color:#ffd78a;border-color:rgba(255,200,87,.25)} .empty{color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:8px;padding:14px;text-align:center}
+.foot{color:#536176;text-align:center;font-size:11px;padding:18px 0;line-height:1.6} @media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.top{display:block}.stamp{text-align:left;margin-top:8px}}
 </style>
 </head>
 <body>
-<div class="c">
-<div class="sd"></div>
-<div class="ht">A股利好监控 v3</div>
-<div class="st">GitHub Actions 扫描器 · 等待首次运行...</div>
-<div class="d">首次扫描完成后，dashboard 将自动部署至此页面</div>
+<main class="wrap">
+  <header class="top">
+    <div>
+      <div class="brand">A股重大利好监控 <span style="font-size:12px;color:var(--muted)">v5</span></div>
+      <div class="sub">新闻事件评分 / 板块影响 / 人气股交易计划 / 风险约束 / 手机推送</div>
+    </div>
+    <div class="stamp">当前页面生成 2026-06-05 00:01:59<br>GitHub Pages 自动发布</div>
+  </header>
+  <div id="app">
+  <section class="grid">
+    <div class="metric"><b>0</b><span>重大利好</span></div>
+    <div class="metric"><b>22</b><span>匹配信号</span></div>
+    <div class="metric"><b>12</b><span>影响板块</span></div>
+    <div class="metric"><b>35.7</b><span>情绪：谨慎</span></div>
+  </section>
+  <div class="band">当前首选观察：科大讯飞 / 强关注<br>更新时间：2026-06-05 00:01:59 / 扫描频率：1分钟</div>
+  <section class="section"><h2 class="title">人气股交易计划</h2><div class="cards"><article class="card rec strong_buy">
+  <div class="row"><div class="stock">#1 科大讯飞</div><div class="action">强关注 / 100</div></div>
+  <div><span class="pill">AI应用</span><span class="pill">传媒游戏</span><span class="pill">机器人</span><span class="pill">算力</span></div>
+  <div class="plan">仓位上限：12% / 入场：开盘后量能确认且高开不超过6%再考虑<br>止损：-6% / 止盈：+12%至+18%分批 / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">中信证券：国内外AI算力与具身智能产业将迎重要产业进展</span><span class="pill">Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%</span></div>
+</article><article class="card rec strong_buy">
+  <div class="row"><div class="stock">#2 中科曙光</div><div class="action">强关注 / 100</div></div>
+  <div><span class="pill">AI应用</span><span class="pill">传媒游戏</span><span class="pill">机器人</span><span class="pill">算力</span></div>
+  <div class="plan">仓位上限：12% / 入场：开盘后量能确认且高开不超过6%再考虑<br>止损：-6% / 止盈：+12%至+18%分批 / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">中信证券：国内外AI算力与具身智能产业将迎重要产业进展</span><span class="pill">Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%</span></div>
+</article><article class="card rec strong_buy">
+  <div class="row"><div class="stock">#3 浪潮信息</div><div class="action">强关注 / 100</div></div>
+  <div><span class="pill">AI应用</span><span class="pill">传媒游戏</span><span class="pill">机器人</span><span class="pill">算力</span></div>
+  <div class="plan">仓位上限：12% / 入场：开盘后量能确认且高开不超过6%再考虑<br>止损：-6% / 止盈：+12%至+18%分批 / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">中信证券：国内外AI算力与具身智能产业将迎重要产业进展</span><span class="pill">Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%</span></div>
+</article><article class="card rec strong_buy">
+  <div class="row"><div class="stock">#4 金山办公</div><div class="action">强关注 / 100</div></div>
+  <div><span class="pill">AI应用</span><span class="pill">传媒游戏</span><span class="pill">机器人</span><span class="pill">算力</span></div>
+  <div class="plan">仓位上限：12% / 入场：开盘后量能确认且高开不超过6%再考虑<br>止损：-6% / 止盈：+12%至+18%分批 / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">中信证券：国内外AI算力与具身智能产业将迎重要产业进展</span><span class="pill">Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%</span></div>
+</article><article class="card rec strong_buy">
+  <div class="row"><div class="stock">#5 拓尔思</div><div class="action">强关注 / 100</div></div>
+  <div><span class="pill">AI应用</span><span class="pill">传媒游戏</span><span class="pill">机器人</span><span class="pill">算力</span></div>
+  <div class="plan">仓位上限：12% / 入场：开盘后量能确认且高开不超过6%再考虑<br>止损：-6% / 止盈：+12%至+18%分批 / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">中信证券：国内外AI算力与具身智能产业将迎重要产业进展</span><span class="pill">Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%</span></div>
+</article><article class="card rec watch">
+  <div class="row"><div class="stock">#6 中芯国际</div><div class="action">观察 / 48.2</div></div>
+  <div><span class="pill">信创</span><span class="pill">先进封装</span><span class="pill">半导体</span><span class="pill">芯片设备</span></div>
+  <div class="plan">仓位上限：0% / 入场：等待板块持续性和成交量确认<br>止损：- / 止盈：- / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">商务部：美滥用出口管制冲击全球半导体产供链稳定</span><span class="pill">美股三大指数走势分化 道指再创新高 芯片股普跌</span></div>
+</article><article class="card rec watch">
+  <div class="row"><div class="stock">#7 北方华创</div><div class="action">观察 / 48.2</div></div>
+  <div><span class="pill">信创</span><span class="pill">先进封装</span><span class="pill">半导体</span><span class="pill">芯片设备</span></div>
+  <div class="plan">仓位上限：0% / 入场：等待板块持续性和成交量确认<br>止损：- / 止盈：- / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">商务部：美滥用出口管制冲击全球半导体产供链稳定</span><span class="pill">美股三大指数走势分化 道指再创新高 芯片股普跌</span></div>
+</article><article class="card rec watch">
+  <div class="row"><div class="stock">#8 中微公司</div><div class="action">观察 / 48.2</div></div>
+  <div><span class="pill">信创</span><span class="pill">先进封装</span><span class="pill">半导体</span><span class="pill">芯片设备</span></div>
+  <div class="plan">仓位上限：0% / 入场：等待板块持续性和成交量确认<br>止损：- / 止盈：- / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">商务部：美滥用出口管制冲击全球半导体产供链稳定</span><span class="pill">美股三大指数走势分化 道指再创新高 芯片股普跌</span></div>
+</article><article class="card rec watch">
+  <div class="row"><div class="stock">#9 寒武纪</div><div class="action">观察 / 48.2</div></div>
+  <div><span class="pill">信创</span><span class="pill">先进封装</span><span class="pill">半导体</span><span class="pill">芯片设备</span></div>
+  <div class="plan">仓位上限：0% / 入场：等待板块持续性和成交量确认<br>止损：- / 止盈：- / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">商务部：美滥用出口管制冲击全球半导体产供链稳定</span><span class="pill">美股三大指数走势分化 道指再创新高 芯片股普跌</span></div>
+</article><article class="card rec watch">
+  <div class="row"><div class="stock">#10 海光信息</div><div class="action">观察 / 48.2</div></div>
+  <div><span class="pill">信创</span><span class="pill">先进封装</span><span class="pill">半导体</span><span class="pill">芯片设备</span></div>
+  <div class="plan">仓位上限：0% / 入场：等待板块持续性和成交量确认<br>止损：- / 止盈：- / 时间止损：3个交易日无放量确认则降级观察</div>
+  <div class="plan"><span class="pill">商务部：美滥用出口管制冲击全球半导体产供链稳定</span><span class="pill">美股三大指数走势分化 道指再创新高 芯片股普跌</span></div>
+</article></div></section>
+  <section class="section"><h2 class="title">事件影响板块</h2><div class="cards"><article class="card">
+  <div class="row"><div class="stock">AI应用</div><div class="action">150.6</div></div>
+  <div class="impact"><span class="pill">AI/算力</span></div>
+  <div class="plan">关联股票：<span class="pill">中科曙光</span><span class="pill">拓尔思</span><span class="pill">浪潮信息</span><span class="pill">科大讯飞</span><span class="pill">金山办公</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">算力</div><div class="action">150.6</div></div>
+  <div class="impact"><span class="pill">AI/算力</span></div>
+  <div class="plan">关联股票：<span class="pill">中科曙光</span><span class="pill">拓尔思</span><span class="pill">浪潮信息</span><span class="pill">科大讯飞</span><span class="pill">金山办公</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">传媒游戏</div><div class="action">150.6</div></div>
+  <div class="impact"><span class="pill">AI/算力</span></div>
+  <div class="plan">关联股票：<span class="pill">中科曙光</span><span class="pill">拓尔思</span><span class="pill">浪潮信息</span><span class="pill">科大讯飞</span><span class="pill">金山办公</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">机器人</div><div class="action">150.6</div></div>
+  <div class="impact"><span class="pill">AI/算力</span></div>
+  <div class="plan">关联股票：<span class="pill">中科曙光</span><span class="pill">拓尔思</span><span class="pill">浪潮信息</span><span class="pill">科大讯飞</span><span class="pill">金山办公</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">半导体</div><div class="action">17.0</div></div>
+  <div class="impact"><span class="pill">半导体/国产替代</span></div>
+  <div class="plan">关联股票：<span class="pill">中微公司</span><span class="pill">中芯国际</span><span class="pill">北方华创</span><span class="pill">寒武纪</span><span class="pill">海光信息</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">芯片设备</div><div class="action">17.0</div></div>
+  <div class="impact"><span class="pill">半导体/国产替代</span></div>
+  <div class="plan">关联股票：<span class="pill">中微公司</span><span class="pill">中芯国际</span><span class="pill">北方华创</span><span class="pill">寒武纪</span><span class="pill">海光信息</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">先进封装</div><div class="action">17.0</div></div>
+  <div class="impact"><span class="pill">半导体/国产替代</span></div>
+  <div class="plan">关联股票：<span class="pill">中微公司</span><span class="pill">中芯国际</span><span class="pill">北方华创</span><span class="pill">寒武纪</span><span class="pill">海光信息</span></div>
+</article><article class="card">
+  <div class="row"><div class="stock">信创</div><div class="action">17.0</div></div>
+  <div class="impact"><span class="pill">半导体/国产替代</span></div>
+  <div class="plan">关联股票：<span class="pill">中微公司</span><span class="pill">中芯国际</span><span class="pill">北方华创</span><span class="pill">寒武纪</span><span class="pill">海光信息</span></div>
+</article></div></section>
+  <section class="section"><h2 class="title">重大利好新闻</h2><div class="empty">暂无达到阈值的信号</div></section>
 </div>
+  <div class="foot">风险提示：本页是事件监控和交易计划辅助，不构成投资建议。默认单股仓位不超过12%，同一板块集中度需要自行控制。</div>
+</main>
+<script>
+async function refreshData() {
+  try {
+    const res = await fetch('data.json?ts=' + Date.now());
+    if (!res.ok) return;
+    const data = await res.json();
+    window.__DATA__ = data;
+    render(data);
+  } catch (e) {}
+}
+function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function pills(items) { return (items || []).map(x => `<span class="pill">${esc(x)}</span>`).join(''); }
+function section(title, cards) { return `<section class="section"><h2 class="title">${esc(title)}</h2>${cards.length ? `<div class="cards">${cards.join('')}</div>` : '<div class="empty">暂无达到阈值的信号</div>'}</section>`; }
+function render(data) {
+  const s = data.summary || {};
+  const topText = s.top_stock ? `当前首选观察：${esc(s.top_stock)} / ${esc(s.top_action)}` : '当前没有达到阈值的重大信号，系统保持观察。';
+  const recs = (data.recommendations || []).slice(0, 10).map(r => `<article class="card rec ${esc(r.action)}">
+    <div class="row"><div class="stock">#${esc(r.rank)} ${esc(r.stock)}</div><div class="action">${esc(r.action_label)} / ${esc(r.score)}</div></div>
+    <div>${pills(r.sectors)}</div><div class="plan">仓位上限：${esc(r.position_pct)}% / 入场：${esc(r.entry)}<br>止损：${esc(r.stop_loss)} / 止盈：${esc(r.take_profit)} / 时间止损：${esc(r.time_stop)}</div>
+    <div class="plan">${pills((r.reasons || []).slice(0, 2))}</div></article>`);
+  const sectors = (((data.sector_impact || {}).sectors) || []).slice(0, 8).map(x => `<article class="card">
+    <div class="row"><div class="stock">${esc(x.sector)}</div><div class="action">${esc(x.score)}</div></div>
+    <div class="impact">${pills(x.events)}</div><div class="plan">关联股票：${pills(x.stocks)}</div></article>`);
+  const news = (data.important_news || []).slice(0, 12).map(n => `<article class="card">
+    <div><span class="score">${esc(n.score)}</span><span class="pill">${esc(n.level)}</span><span class="pill">${esc(n.source)}</span><span class="pill">${esc(n.event)}</span></div>
+    <div class="headline">${esc(n.title)}</div><div>${pills((n.sectors || []).slice(0, 4))}</div><div>${pills((n.matched_keywords || []).slice(0, 5))}</div>
+    <div class="meta"><span>${esc(n.duration)}</span><a href="${esc(n.url)}" target="_blank">原文</a></div></article>`);
+  document.getElementById('app').innerHTML = `<section class="grid">
+    <div class="metric"><b>${esc(s.important_count || 0)}</b><span>重大利好</span></div>
+    <div class="metric"><b>${esc(s.matched_count || 0)}</b><span>匹配信号</span></div>
+    <div class="metric"><b>${esc(s.sector_count || 0)}</b><span>影响板块</span></div>
+    <div class="metric"><b>${esc((s.mood || {}).score || 50)}</b><span>情绪：${esc((s.mood || {}).label || '中性')}</span></div>
+  </section><div class="band">${topText}<br>更新时间：${esc((s.timestamp || '').replace('T', ' '))} / 扫描频率：${esc(s.scan_interval || '1分钟')}</div>
+  ${section('人气股交易计划', recs)}${section('事件影响板块', sectors)}${section('重大利好新闻', news)}`;
+}
+refreshData();
+setInterval(refreshData, 60000);
+</script>
 </body>
 </html>

@@ -1,99 +1,142 @@
-import json, urllib.request, hashlib
+import json
+import re
+import urllib.request
 from datetime import datetime
+from html import unescape
+
 from bs4 import BeautifulSoup
 
-from .config import NOTIFY_THRESHOLD, HISTORY_PATH, logger
-from .analyzer import score_all_news
+from .config import MAX_NEWS_ITEMS, NEWS_SOURCES, logger
 
-HEADERS = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
-           "Accept":"text/html,application/json,*/*","Accept-Language":"zh-CN,zh;q=0.9"}
-KNOWN_CACHE = set()
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/json,*/*",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+}
 
-def _fetch(url, timeout=12):
+
+def _decode(raw: bytes, content_type: str = "") -> str:
+    charset = ""
+    if "charset=" in content_type:
+        charset = content_type.split("charset=", 1)[1].split(";", 1)[0].strip()
+    for encoding in [charset, "utf-8", "gb18030", "gbk"]:
+        if not encoding:
+            continue
+        try:
+            return raw.decode(encoding, errors="replace")
+        except LookupError:
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
+def _fetch(url: str, timeout: int = 12) -> str | None:
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            raw = resp.read()
-            ct = resp.headers.get("Content-Type","")
-            if "charset=" in ct:
-                cs = ct.split("charset=")[-1].split(";")[0].strip()
-                return raw.decode(cs, errors="replace")
-            try: return raw.decode("utf-8")
-            except: return raw.decode("gbk", errors="replace")
-    except Exception as e:
-        logger.warning(f"Fetch fail [{url[:50]}]: {e}")
+            return _decode(resp.read(), resp.headers.get("Content-Type", ""))
+    except Exception as exc:
+        logger.warning("Fetch failed %s: %s", url[:80], exc)
         return None
 
-def _east():
-    r = []
-    html = _fetch("https://finance.eastmoney.com/a/czqyw.html")
-    if not html: return r
+
+def _clean_title(text: str) -> str:
+    text = unescape(text or "")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:160]
+
+
+def _fetch_cls(source: dict) -> list[dict]:
+    raw = _fetch(source["url"])
+    if not raw:
+        return []
     try:
-        soup = BeautifulSoup(html, "lxml")
-        for a in soup.select("a"):
-            t = a.get_text(strip=True); h = a.get("href","")
-            if t and len(t) > 10:
-                if h.startswith("/"): h = f"https://finance.eastmoney.com{h}"
-                r.append({"title":t,"url":h,"source":"东方财富"})
-    except: pass
-    return r
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        return []
+    items = []
+    for item in data.get("data", {}).get("roll_data", []):
+        title = _clean_title(item.get("describes") or item.get("title") or item.get("content"))
+        if title:
+            items.append(
+                {
+                    "title": title,
+                    "url": f"https://www.cls.cn/detail/{item.get('id', '')}",
+                    "source": source["name"],
+                    "source_weight": source["weight"],
+                    "published_at": item.get("ctime") or item.get("time") or "",
+                }
+            )
+    return items
 
-def _cls():
-    r = []
-    data = _fetch("https://www.cls.cn/v1/roll/get_roll_list?app=Cailianshe&os=web&sv=8.8.8")
-    if not data: return r
+
+def _fetch_sina(source: dict) -> list[dict]:
+    raw = _fetch(source["url"])
+    if not raw:
+        return []
     try:
-        parsed = json.loads(data)
-        for item in parsed.get("data",{}).get("roll_data",[]):
-            s = item.get("describes","") or item.get("title","") or item.get("content","")
-            if s: r.append({"title":s[:120],"url":f"https://www.cls.cn/detail/{item.get('id','')}","source":"财联社"})
-    except: pass
-    return r
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        return []
+    items = []
+    for item in data.get("result", {}).get("data", []):
+        title = _clean_title(item.get("title", ""))
+        if title:
+            items.append(
+                {
+                    "title": title,
+                    "url": item.get("url", ""),
+                    "source": source["name"],
+                    "source_weight": source["weight"],
+                    "published_at": item.get("ctime") or "",
+                }
+            )
+    return items
 
-def _sina():
-    r = []
-    data = _fetch("https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&num=20")
-    if not data: return r
-    try:
-        parsed = json.loads(data)
-        for item in parsed.get("result",{}).get("data",[]):
-            t = item.get("title","").strip()
-            if t: r.append({"title":t,"url":item.get("url",""),"source":"新浪财经"})
-    except: pass
-    return r
 
-FETCHERS = [("东方财富头条",_east),("财联社电报",_cls),("新浪财经",_sina)]
+def _fetch_html(source: dict) -> list[dict]:
+    raw = _fetch(source["url"])
+    if not raw:
+        return []
+    soup = BeautifulSoup(raw, "lxml")
+    items = []
+    for link in soup.select("a"):
+        title = _clean_title(link.get_text(" ", strip=True))
+        href = link.get("href", "")
+        if len(title) < 10:
+            continue
+        if href.startswith("//"):
+            href = "https:" + href
+        elif href.startswith("/"):
+            root = re.match(r"^https?://[^/]+", source["url"])
+            href = (root.group(0) if root else "") + href
+        items.append(
+            {
+                "title": title,
+                "url": href,
+                "source": source["name"],
+                "source_weight": source["weight"],
+                "published_at": "",
+            }
+        )
+    return items
 
-def fetch_all():
-    alln = []
-    for name,fn in FETCHERS:
-        try:
-            lst = fn(); logger.info(f"{name}: {len(lst)} items"); alln.extend(lst)
-        except: pass
-    seen = set(); uq = []
-    for n in alln:
-        k = n["title"][:40]
-        if k not in seen: seen.add(k); uq.append(n)
-    logger.info(f"Total unique: {len(uq)}")
-    return uq
 
-def load_cache():
-    global KNOWN_CACHE
-    if HISTORY_PATH.exists():
-        try: KNOWN_CACHE = set(json.loads(HISTORY_PATH.read_text("utf-8")).get("known_fingerprints",[]))
-        except: pass
+def fetch_all_news() -> list[dict]:
+    fetchers = {"cls": _fetch_cls, "sina": _fetch_sina, "html": _fetch_html}
+    all_items = []
+    for source in NEWS_SOURCES:
+        items = fetchers[source["kind"]](source)
+        logger.info("Source %s: %d items", source["name"], len(items))
+        all_items.extend(items)
 
-def save_cache(fps):
-    try:
-        HISTORY_PATH.write_text(json.dumps({"known_fingerprints":list(fps),
-            "last_updated":datetime.now().isoformat()}, ensure_ascii=False, indent=2), encoding="utf-8")
-    except: pass
-
-def get_bullish_news():
-    load_cache()
-    all_news = fetch_all()
-    scored = score_all_news(all_news)
-    important = [n for n in scored if n["final_score"] >= NOTIFY_THRESHOLD]
-    save_cache(set(n["fingerprint"] for n in scored))
-    logger.info(f"v3 result: {len(scored)} matched, {len(important)} important")
-    return important, scored
+    seen = set()
+    unique = []
+    for item in all_items:
+        key = re.sub(r"\W+", "", item["title"])[:48]
+        if key in seen:
+            continue
+        seen.add(key)
+        item["fingerprint"] = key
+        item["scan_time"] = datetime.now().isoformat(timespec="seconds")
+        unique.append(item)
+    return unique[:MAX_NEWS_ITEMS]
