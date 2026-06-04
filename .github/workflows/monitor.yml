@@ -29,11 +29,9 @@ jobs:
           PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
         run: python run.py
 
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli
-
       - name: Deploy to Netlify
         run: |
-          netlify deploy --dir=./deploy --prod --message="v4 auto-deploy $(date -u +'%H:%M')"
+          npm install -g netlify-cli
+          npx --yes netlify-cli deploy --dir=./deploy --prod --auth "$NETLIFY_AUTH_TOKEN" --message "v4 auto-deploy $(date -u +'%H:%M')"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
