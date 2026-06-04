@@ -1,4 +1,4 @@
-﻿name: A-Stock Monitor v4
+name: A-Stock Monitor v4
 
 on:
   schedule:
@@ -29,12 +29,11 @@ jobs:
           PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
         run: python run.py
 
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
+
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v3
-        with:
-          publish-dir: ./deploy
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Auto-deploy v4 $(date -u +'%H:%M')"
+        run: |
+          netlify deploy --dir=./deploy --prod --message="v4 auto-deploy $(date -u +'%H:%M')"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
