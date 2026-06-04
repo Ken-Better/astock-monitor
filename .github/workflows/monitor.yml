@@ -1,9 +1,9 @@
-﻿name: A-Stock Monitor
+﻿name: A-Stock Monitor v4
 
 on:
   schedule:
-    # Every 5 minutes, 09:20-15:00 CST (01:20-07:00 UTC), Mon-Fri
-    - cron: '*/5 1-6 * * 1-5'
+    # Every 1 minute, 09:20-15:00 CST (01:20-07:00 UTC), Mon-Fri
+    - cron: '* 1-6 * * 1-5'
   workflow_dispatch:
 
 jobs:
@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
@@ -28,6 +26,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           BARK_KEY: ${{ secrets.BARK_KEY }}
+          PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
         run: python run.py
 
       - name: Deploy to Netlify
@@ -36,6 +35,6 @@ jobs:
           publish-dir: ./deploy
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Auto-deploy from GitHub Actions"
+          deploy-message: "Auto-deploy v4 $(date -u +'%H:%M')"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
