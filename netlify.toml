@@ -1,0 +1,8 @@
+﻿[build]
+  command = "echo 'Build handled by GitHub Actions'"
+  publish = "deploy"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
