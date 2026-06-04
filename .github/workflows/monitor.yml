@@ -40,6 +40,7 @@ jobs:
           BARK_KEY: ${{ secrets.BARK_KEY }}
           BARK_SERVER: ${{ secrets.BARK_SERVER }}
           PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
+          FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python run.py
 
       - name: Deploy to GitHub Pages branch
