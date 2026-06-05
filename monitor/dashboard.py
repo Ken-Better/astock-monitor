@@ -13,149 +13,141 @@ def write_dashboard(data: dict) -> str:
 
 def _html(data: dict) -> str:
     generated = escape(data["summary"]["timestamp"].replace("T", " "))
+    initial_json = json.dumps(data, ensure_ascii=False)
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A股重大利好监控 v5</title>
+<title>A股重大利好监控 v5.2</title>
 <style>
 :root {{
-  --bg:#0b0f14; --panel:#111923; --panel2:#0f1720; --line:#223044;
-  --text:#e7edf5; --muted:#7f8da3; --red:#ff5a66; --green:#27d17f;
-  --amber:#ffc857; --blue:#58a6ff; --cyan:#56d4dd;
+  --bg:#000000; --panel:#090b0d; --panel2:#0d1115; --line:#26313a;
+  --text:#e7edf5; --muted:#7b8794; --green:#00e676; --red:#ff3b30;
+  --amber:#ffb800; --blue:#58a6ff; --soft:#111820;
 }}
-*{{box-sizing:border-box}} body{{margin:0;background:radial-gradient(circle at top left,#182238,#0b0f14 38%,#080b10);color:var(--text);font-family:"Segoe UI","Microsoft YaHei",Arial,sans-serif;font-size:14px;letter-spacing:0}}
-.wrap{{max-width:1120px;margin:0 auto;padding:14px}} .top{{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:14px 0 12px;border-bottom:1px solid var(--line)}}
-.brand{{font-size:22px;font-weight:800;color:var(--red)}} .sub{{color:var(--muted);font-size:12px;margin-top:4px;line-height:1.5}} .stamp{{text-align:right;color:var(--muted);font-size:11px;line-height:1.5}}
-.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}} .metric{{background:linear-gradient(180deg,var(--panel),#0d141c);border:1px solid var(--line);border-radius:8px;padding:10px;min-height:72px}}
-.metric b{{display:block;font-size:22px;color:var(--red)}} .metric span{{font-size:11px;color:var(--muted)}} .band{{background:rgba(88,166,255,.08);border:1px solid rgba(88,166,255,.2);border-radius:8px;padding:10px 12px;margin-bottom:10px;color:#b8d7ff;line-height:1.45}}
-.section{{margin:12px 0}} .title{{font-weight:700;color:#b9c7d8;margin:0 0 8px;font-size:13px}} .cards{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}} .card{{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:8px;padding:10px;min-width:0}}
-.score{{display:inline-block;background:var(--red);color:white;font-weight:800;border-radius:5px;padding:1px 7px;font-size:11px;margin-right:6px}} .pill{{display:inline-block;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);border-radius:999px;padding:2px 7px;margin:2px 3px 2px 0;color:#aab7c8;font-size:10px;line-height:1.6}}
-.headline{{line-height:1.45;margin:7px 0;color:#d9e4ef;word-break:break-word}} .meta{{color:var(--muted);font-size:11px;display:flex;gap:8px;flex-wrap:wrap}} a{{color:var(--blue);text-decoration:none}}
-.rec{{border-left-color:var(--green)}} .rec.buy{{border-left-color:var(--amber)}} .rec.watch{{border-left-color:var(--blue)}} .rec.avoid{{border-left-color:#777}}
-.row{{display:flex;justify-content:space-between;gap:8px;align-items:center}} .stock{{font-size:16px;font-weight:800}} .action{{font-size:12px;color:var(--green);font-weight:700;white-space:nowrap}} .plan{{font-size:11px;color:#9eacbd;line-height:1.55;margin-top:6px}}
-.impact{{display:flex;gap:6px;flex-wrap:wrap}} .impact .pill{{color:#ffd78a;border-color:rgba(255,200,87,.25)}} .empty{{color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:8px;padding:14px;text-align:center}}
-.foot{{color:#536176;text-align:center;font-size:11px;padding:18px 0;line-height:1.6}} @media(max-width:760px){{.grid{{grid-template-columns:repeat(2,1fr)}}.cards{{grid-template-columns:1fr}}.top{{display:block}}.stamp{{text-align:left;margin-top:8px}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--text);font-family:"JetBrains Mono","IBM Plex Mono","Consolas","Microsoft YaHei",monospace;font-size:13px;letter-spacing:0;font-variant-numeric:tabular-nums}}
+a{{color:var(--blue);text-decoration:none}}
+.wrap{{max-width:1280px;margin:0 auto;padding:12px}}
+.top{{display:grid;grid-template-columns:1fr auto;gap:12px;border:1px solid var(--line);background:var(--panel);padding:12px}}
+.brand{{font-size:22px;font-weight:800;color:var(--green)}} .sub{{color:var(--muted);font-size:12px;margin-top:4px;line-height:1.6}}
+.status{{text-align:right;color:var(--muted);font-size:11px;line-height:1.7}}
+.dot{{display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%;margin-right:6px;box-shadow:0 0 10px var(--green)}}
+.grid{{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:8px 0}}
+.metric,.panel,.card{{background:var(--panel);border:1px solid var(--line);border-radius:0}}
+.metric{{padding:10px;min-height:72px}} .metric b{{display:block;font-size:22px;color:var(--green)}} .metric span{{font-size:11px;color:var(--muted)}}
+.layout{{display:grid;grid-template-columns:1.3fr .9fr;gap:8px}} .section{{margin:8px 0}} .title{{font-size:12px;color:#aeb8c4;margin:0;padding:8px 10px;border-bottom:1px solid var(--line);background:var(--soft)}}
+.panelBody{{padding:10px}} .cards{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}} .card{{padding:10px;border-left:3px solid var(--blue);min-width:0}}
+.rec.strong_buy{{border-left-color:var(--green)}} .rec.buy{{border-left-color:var(--amber)}} .rec.watch{{border-left-color:var(--blue)}}
+.row{{display:flex;align-items:center;justify-content:space-between;gap:8px}} .stock{{font-size:15px;font-weight:800}} .action{{font-size:12px;color:var(--green);white-space:nowrap}}
+.pill{{display:inline-block;border:1px solid var(--line);background:#050708;padding:2px 6px;margin:2px 3px 2px 0;font-size:10px;color:#aeb8c4;line-height:1.6}}
+.score{{display:inline-block;background:var(--green);color:#00170a;font-weight:800;padding:1px 6px;margin-right:6px}}
+.headline{{line-height:1.55;margin:7px 0;color:#dbe5ef;word-break:break-word}} .meta,.plan{{font-size:11px;color:var(--muted);line-height:1.6;margin-top:6px}}
+.factor{{display:grid;grid-template-columns:88px 1fr 38px;gap:6px;align-items:center;margin:4px 0;font-size:10px;color:var(--muted)}} .bar{{height:6px;background:#101820;border:1px solid #1d2a32}} .bar i{{display:block;height:100%;background:var(--green);width:0}}
+.table{{width:100%;border-collapse:collapse;font-size:11px}} .table td{{border-bottom:1px solid #172029;padding:6px 4px;color:#b8c2cf}} .table td:last-child{{text-align:right;color:var(--green)}}
+.band{{border:1px solid var(--line);background:#06110a;color:#b7ffd5;padding:10px;margin:8px 0;line-height:1.6}}
+.empty{{color:var(--muted);border:1px dashed var(--line);padding:12px;text-align:center;background:#050708}}
+.foot{{color:#647180;text-align:center;font-size:11px;line-height:1.6;padding:18px 0}}
+@media(max-width:980px){{.layout{{grid-template-columns:1fr}}.grid{{grid-template-columns:repeat(3,1fr)}}.cards{{grid-template-columns:1fr}}.top{{grid-template-columns:1fr}}.status{{text-align:left}}}}
+@media(max-width:560px){{.grid{{grid-template-columns:repeat(2,1fr)}}.wrap{{padding:8px}}.brand{{font-size:18px}}}}
 </style>
 </head>
 <body>
 <main class="wrap">
   <header class="top">
     <div>
-      <div class="brand">A股重大利好监控 <span style="font-size:12px;color:var(--muted)">v5</span></div>
-      <div class="sub">新闻事件评分 / 板块影响 / 人气股交易计划 / 风险约束 / 手机推送</div>
+      <div class="brand">A股重大利好监控 <span style="font-size:12px;color:var(--muted)">v5.2</span></div>
+      <div class="sub">云端自动扫描 / 新闻事件评分 / 板块资金 / 人气股计划 / 风险边界</div>
     </div>
-    <div class="stamp">当前页面生成 {generated}<br>GitHub Pages 自动发布</div>
+    <div class="status"><span class="dot"></span>GitHub Actions 云端运行<br>页面生成 {generated}</div>
   </header>
-  <div id="app">{_render_body(data)}</div>
-  <div class="foot">风险提示：本页是事件监控和交易计划辅助，不构成投资建议。默认单股仓位不超过12%，同一板块集中度需要自行控制。</div>
+  <div id="app"></div>
+  <div class="foot">本页是事件监控和交易计划辅助，不构成投资建议。GitHub 定时任务可能有分钟级延迟；非交易时段不会覆盖最近有效看板。</div>
 </main>
+<script id="initial-data" type="application/json">{escape(initial_json)}</script>
 <script>
+function esc(s) {{ return String(s ?? '').replace(/[&<>"']/g, c => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[c])); }}
+function pct(v) {{ const n = Number(v || 0); return (n > 0 ? '+' : '') + n.toFixed(2) + '%'; }}
+function pills(items) {{ return (items || []).map(x => `<span class="pill">${{esc(x)}}</span>`).join(''); }}
+function section(title, body) {{ return `<section class="section panel"><h2 class="title">${{esc(title)}}</h2><div class="panelBody">${{body}}</div></section>`; }}
+function empty(text) {{ return `<div class="empty">${{esc(text)}}</div>`; }}
+function factor(label, value, max) {{
+  const n = Math.max(0, Math.min(100, Number(value || 0) / max * 100));
+  return `<div class="factor"><span>${{esc(label)}}</span><span class="bar"><i style="width:${{n}}%"></i></span><span>${{esc(value)}}</span></div>`;
+}}
+function render(data) {{
+  const s = data.summary || {{}};
+  const pulse = data.market_pulse || {{}};
+  const auto = data.automation || {{}};
+  const topText = s.top_stock ? `首选观察：${{esc(s.top_stock)}} / ${{esc(s.top_action)}}` : '当前没有达到重大阈值，保持观察。';
+  const metrics = `<section class="grid">
+    <div class="metric"><b>${{esc(s.important_count || 0)}}</b><span>重大利好</span></div>
+    <div class="metric"><b>${{esc(s.matched_count || 0)}}</b><span>匹配信号</span></div>
+    <div class="metric"><b>${{esc(s.sector_count || 0)}}</b><span>影响板块</span></div>
+    <div class="metric"><b>${{esc((s.mood || {{}}).score || 50)}}</b><span>市场情绪：${{esc((s.mood || {{}}).label || '中性')}}</span></div>
+    <div class="metric"><b>${{esc((pulse.northbound || {{}}).net || 0)}}</b><span>北向/指数信号</span></div>
+    <div class="metric"><b>${{pulse.market_open ? 'OPEN' : 'WAIT'}}</b><span>${{esc(auto.runtime || 'GitHub Actions')}}</span></div>
+  </section>`;
+  const band = `<div class="band">${{topText}}<br>更新时间：${{esc((s.timestamp || '').replace('T',' '))}} / 目标频率：${{esc(s.scan_interval || '1分钟')}} / 电脑开机：不需要</div>`;
+  document.getElementById('app').innerHTML = metrics + band + `<div class="layout"><div>${{recommendations(data)}}${{news(data)}}</div><aside>${{pulsePanel(data)}}${{sectorPanel(data)}}${{gainersPanel(data)}}${{keywordPanel(data)}}</aside></div>`;
+}}
+function recommendations(data) {{
+  const cards = (data.recommendations || []).slice(0, 12).map(r => `<article class="card rec ${{esc(r.action)}}">
+    <div class="row"><div class="stock">#${{esc(r.rank)}} ${{esc(r.stock)}}</div><div class="action">${{esc(r.action_label)}} / ${{esc(r.score)}}</div></div>
+    <div>${{pills(r.sectors)}}${{pills(r.events)}}</div>
+    <div class="plan">仓位上限：${{esc(r.position_pct)}}% / 入场：${{esc(r.entry)}}<br>止损：${{esc(r.stop_loss)}} / 止盈：${{esc(r.take_profit)}} / 时间止损：${{esc(r.time_stop)}}</div>
+    <div class="plan">${{esc(r.decision || '')}}</div>
+    ${{factor('新闻热度', (r.factors || {{}}).news_heat, 40)}}${{factor('题材宽度', (r.factors || {{}}).event_breadth, 14)}}${{factor('板块资金', (r.factors || {{}}).sector_flow, 12)}}
+    <div class="plan">${{pills((r.reasons || []).slice(0,2))}}</div>
+  </article>`);
+  return section('人气股交易计划', cards.length ? `<div class="cards">${{cards.join('')}}</div>` : empty('暂无推荐计划'));
+}}
+function news(data) {{
+  const rows = ((data.important_news || []).length ? data.important_news : (data.scored_news || [])).slice(0, 16);
+  const cards = rows.map(n => `<article class="card">
+    <div><span class="score">${{esc(n.score)}}</span><span class="pill">${{esc(n.level)}}</span><span class="pill">${{esc(n.source)}}</span><span class="pill">${{esc(n.event)}}</span></div>
+    <div class="headline">${{esc(n.title)}}</div><div>${{pills((n.sectors || []).slice(0,4))}}</div>
+    <div>${{pills((n.matched_keywords || []).slice(0,6))}}</div>
+    <div class="meta"><span>${{esc(n.duration)}}</span><a href="${{esc(n.url)}}" target="_blank">原文</a></div>
+  </article>`);
+  return section('信号新闻流', cards.length ? `<div class="cards">${{cards.join('')}}</div>` : empty('暂无匹配新闻'));
+}}
+function pulsePanel(data) {{
+  const a = data.automation || {{}};
+  const p = data.market_pulse || {{}};
+  return section('云端运行状态', `<table class="table">
+    <tr><td>运行平台</td><td>${{esc(a.runtime || 'GitHub Actions')}}</td></tr>
+    <tr><td>网站托管</td><td>${{esc(a.hosting || 'GitHub Pages')}}</td></tr>
+    <tr><td>电脑开机</td><td>${{a.computer_required === false ? '不需要' : '未知'}}</td></tr>
+    <tr><td>扫描窗口</td><td>${{esc(a.schedule || '')}}</td></tr>
+    <tr><td>市场状态</td><td>${{p.market_open ? '交易中' : '等待交易'}}</td></tr>
+  </table><div class="meta">${{esc(a.note || '')}}</div>`);
+}}
+function sectorPanel(data) {{
+  const rows = ((data.market_pulse || {{}}).top_sectors || []).slice(0, 10);
+  const html = rows.map(x => `<tr><td>${{esc(x.name)}}</td><td>${{pct(x.change_pct)}}</td></tr>`).join('');
+  return section('板块涨幅', html ? `<table class="table">${{html}}</table>` : empty('暂无板块数据'));
+}}
+function gainersPanel(data) {{
+  const rows = ((data.market_pulse || {{}}).top_gainers || []).slice(0, 10);
+  const html = rows.map(x => `<tr><td>${{esc(x.name)}} <span class="meta">${{esc(x.code)}}</span></td><td>${{pct(x.change_pct)}}</td></tr>`).join('');
+  return section('人气涨幅榜', html ? `<table class="table">${{html}}</table>` : empty('暂无涨幅榜数据'));
+}}
+function keywordPanel(data) {{
+  const rows = ((data.market_pulse || {{}}).hot_keywords || []).slice(0, 12);
+  return section('热点关键词', rows.length ? rows.map(x => `<span class="pill">${{esc(x.word)}} · ${{esc(x.count)}}</span>`).join('') : empty('暂无热点关键词'));
+}}
 async function refreshData() {{
   try {{
     const res = await fetch('data.json?ts=' + Date.now());
     if (!res.ok) return;
-    const data = await res.json();
-    window.__DATA__ = data;
-    render(data);
+    render(await res.json());
   }} catch (e) {{}}
 }}
-function esc(s) {{ return String(s ?? '').replace(/[&<>"']/g, c => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[c])); }}
-function pills(items) {{ return (items || []).map(x => `<span class="pill">${{esc(x)}}</span>`).join(''); }}
-function section(title, cards) {{ return `<section class="section"><h2 class="title">${{esc(title)}}</h2>${{cards.length ? `<div class="cards">${{cards.join('')}}</div>` : '<div class="empty">暂无达到阈值的信号</div>'}}</section>`; }}
-function render(data) {{
-  const s = data.summary || {{}};
-  const topText = s.top_stock ? `当前首选观察：${{esc(s.top_stock)}} / ${{esc(s.top_action)}}` : '当前没有达到阈值的重大信号，系统保持观察。';
-  const recs = (data.recommendations || []).slice(0, 10).map(r => `<article class="card rec ${{esc(r.action)}}">
-    <div class="row"><div class="stock">#${{esc(r.rank)}} ${{esc(r.stock)}}</div><div class="action">${{esc(r.action_label)}} / ${{esc(r.score)}}</div></div>
-    <div>${{pills(r.sectors)}}</div><div class="plan">仓位上限：${{esc(r.position_pct)}}% / 入场：${{esc(r.entry)}}<br>止损：${{esc(r.stop_loss)}} / 止盈：${{esc(r.take_profit)}} / 时间止损：${{esc(r.time_stop)}}</div>
-    <div class="plan">${{pills((r.reasons || []).slice(0, 2))}}</div></article>`);
-  const sectors = (((data.sector_impact || {{}}).sectors) || []).slice(0, 8).map(x => `<article class="card">
-    <div class="row"><div class="stock">${{esc(x.sector)}}</div><div class="action">${{esc(x.score)}}</div></div>
-    <div class="impact">${{pills(x.events)}}</div><div class="plan">关联股票：${{pills(x.stocks)}}</div></article>`);
-  const news = (data.important_news || []).slice(0, 12).map(n => `<article class="card">
-    <div><span class="score">${{esc(n.score)}}</span><span class="pill">${{esc(n.level)}}</span><span class="pill">${{esc(n.source)}}</span><span class="pill">${{esc(n.event)}}</span></div>
-    <div class="headline">${{esc(n.title)}}</div><div>${{pills((n.sectors || []).slice(0, 4))}}</div><div>${{pills((n.matched_keywords || []).slice(0, 5))}}</div>
-    <div class="meta"><span>${{esc(n.duration)}}</span><a href="${{esc(n.url)}}" target="_blank">原文</a></div></article>`);
-  document.getElementById('app').innerHTML = `<section class="grid">
-    <div class="metric"><b>${{esc(s.important_count || 0)}}</b><span>重大利好</span></div>
-    <div class="metric"><b>${{esc(s.matched_count || 0)}}</b><span>匹配信号</span></div>
-    <div class="metric"><b>${{esc(s.sector_count || 0)}}</b><span>影响板块</span></div>
-    <div class="metric"><b>${{esc((s.mood || {{}}).score || 50)}}</b><span>情绪：${{esc((s.mood || {{}}).label || '中性')}}</span></div>
-  </section><div class="band">${{topText}}<br>更新时间：${{esc((s.timestamp || '').replace('T', ' '))}} / 扫描频率：${{esc(s.scan_interval || '1分钟')}}</div>
-  ${{section('人气股交易计划', recs)}}${{section('事件影响板块', sectors)}}${{section('重大利好新闻', news)}}`;
-}}
+try {{ render(JSON.parse(document.getElementById('initial-data').textContent)); }} catch(e) {{}}
 refreshData();
 setInterval(refreshData, 60000);
 </script>
 </body>
 </html>"""
-
-
-def _render_body(data: dict) -> str:
-    summary = data["summary"]
-    hero = f"当前首选观察：{summary['top_stock']} / {summary['top_action']}" if summary["top_stock"] else "当前没有达到阈值的重大信号，系统保持观察。"
-    return f"""
-  <section class="grid">
-    <div class="metric"><b>{summary["important_count"]}</b><span>重大利好</span></div>
-    <div class="metric"><b>{summary["matched_count"]}</b><span>匹配信号</span></div>
-    <div class="metric"><b>{summary["sector_count"]}</b><span>影响板块</span></div>
-    <div class="metric"><b>{summary["mood"]["score"]}</b><span>情绪：{escape(summary["mood"]["label"])}</span></div>
-  </section>
-  <div class="band">{escape(hero)}<br>更新时间：{escape(summary["timestamp"].replace("T", " "))} / 扫描频率：1分钟</div>
-  {_recommendations(data)}
-  {_sector_impacts(data)}
-  {_news(data)}
-"""
-
-
-def _recommendations(data: dict) -> str:
-    cards = []
-    for row in data["recommendations"][:10]:
-        cards.append(
-            f'''<article class="card rec {escape(row["action"])}">
-  <div class="row"><div class="stock">#{row["rank"]} {escape(row["stock"])}</div><div class="action">{escape(row["action_label"])} / {row["score"]}</div></div>
-  <div>{_pills(row["sectors"])}</div>
-  <div class="plan">仓位上限：{row["position_pct"]}% / 入场：{escape(row["entry"])}<br>止损：{escape(row["stop_loss"])} / 止盈：{escape(row["take_profit"])} / 时间止损：{escape(row["time_stop"])}</div>
-  <div class="plan">{_pills(row["reasons"][:2])}</div>
-</article>'''
-        )
-    return _section("人气股交易计划", cards)
-
-
-def _sector_impacts(data: dict) -> str:
-    cards = []
-    for row in data["sector_impact"]["sectors"][:8]:
-        cards.append(
-            f'''<article class="card">
-  <div class="row"><div class="stock">{escape(row["sector"])}</div><div class="action">{row["score"]}</div></div>
-  <div class="impact">{_pills(row["events"])}</div>
-  <div class="plan">关联股票：{_pills(row["stocks"])}</div>
-</article>'''
-        )
-    return _section("事件影响板块", cards)
-
-
-def _news(data: dict) -> str:
-    cards = []
-    for row in data["important_news"][:12]:
-        cards.append(
-            f'''<article class="card">
-  <div><span class="score">{row["score"]}</span><span class="pill">{escape(row["level"])}</span><span class="pill">{escape(row["source"])}</span><span class="pill">{escape(row["event"])}</span></div>
-  <div class="headline">{escape(row["title"])}</div>
-  <div>{_pills(row["sectors"][:4])}</div>
-  <div>{_pills(row["matched_keywords"][:5])}</div>
-  <div class="meta"><span>{escape(row["duration"])}</span><a href="{escape(row["url"])}" target="_blank">原文</a></div>
-</article>'''
-        )
-    return _section("重大利好新闻", cards)
-
-
-def _pills(items: list[str]) -> str:
-    return "".join(f'<span class="pill">{escape(item)}</span>' for item in items)
-
-
-def _section(title: str, cards: list[str]) -> str:
-    body = '<div class="empty">暂无达到阈值的信号</div>' if not cards else f'<div class="cards">{"".join(cards)}</div>'
-    return f'<section class="section"><h2 class="title">{escape(title)}</h2>{body}</section>'

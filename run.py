@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 from monitor.auto_deploy import auto_deploy
 from monitor.config import DATA_PATH, HISTORY_PATH, logger
 from monitor.dashboard import write_dashboard
-from monitor.engine import build_recommendations, build_summary, notification_fingerprint, score_news
+from monitor.engine import build_market_pulse, build_recommendations, build_summary, notification_fingerprint, score_news
 from monitor.market_data import MarketDataEngine
 from monitor.notifier import notify_all, should_notify
 from monitor.scraper import fetch_all_news
@@ -30,6 +30,7 @@ def run_once(force: bool = False) -> dict:
     important, scored, sector_impact = score_news(news_items)
     recommendations = build_recommendations(scored, market_data)
     summary = build_summary(important, scored, recommendations, sector_impact)
+    market_pulse = build_market_pulse(market_data, scored, sector_impact)
     data = {
         "summary": summary,
         "important_news": important,
@@ -37,6 +38,8 @@ def run_once(force: bool = False) -> dict:
         "sector_impact": sector_impact,
         "recommendations": recommendations,
         "market_data": market_data,
+        "market_pulse": market_pulse,
+        "automation": _automation_status(summary),
         "status": "running",
     }
 
@@ -153,7 +156,20 @@ def _load_existing_or_empty(now: datetime, message: str) -> dict:
         "sector_impact": {"sectors": [], "updated_at": now.isoformat(timespec="seconds")},
         "recommendations": [],
         "market_data": {},
+        "market_pulse": {},
+        "automation": _automation_status(summary),
         "status": message,
+    }
+
+
+def _automation_status(summary: dict) -> dict:
+    return {
+        "runtime": "GitHub Actions",
+        "hosting": "GitHub Pages",
+        "computer_required": False,
+        "schedule": "A股交易日 09:20-15:05，北京时间",
+        "target_interval": summary.get("scan_interval", "1分钟"),
+        "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。",
     }
 
 

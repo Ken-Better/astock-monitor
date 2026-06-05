@@ -15,10 +15,10 @@ from .config import (
 )
 
 ACTION_LABELS = {
-    "strong_buy": "强关注",
-    "buy": "关注",
-    "watch": "观察",
-    "avoid": "回避",
+    "strong_buy": "\u5f3a\u5173\u6ce8",
+    "buy": "\u5173\u6ce8",
+    "watch": "\u89c2\u5bdf",
+    "avoid": "\u56de\u907f",
 }
 
 
@@ -98,6 +98,13 @@ def build_recommendations(scored_news: list[dict], market_data: dict | None = No
         risk_penalty = 12 if state["risks"] else 0
         composite = round(min(100, state["score"] + breadth_bonus + popularity_bonus + sector_bonus - risk_penalty), 1)
         action, position, stop, take_profit = _trade_plan(composite, bool(state["risks"]))
+        factors = {
+            "news_heat": round(min(40, state["score"] * 0.45), 1),
+            "event_breadth": round(breadth_bonus, 1),
+            "stock_attention": popularity_bonus,
+            "sector_flow": round(sector_bonus, 1),
+            "risk_penalty": risk_penalty,
+        }
         recommendations.append(
             {
                 "stock": stock,
@@ -108,11 +115,13 @@ def build_recommendations(scored_news: list[dict], market_data: dict | None = No
                 "entry": _entry_rule(action),
                 "stop_loss": stop,
                 "take_profit": take_profit,
-                "time_stop": "3个交易日无放量确认则降级观察",
+                "time_stop": "3\u4e2a\u4ea4\u6613\u65e5\u65e0\u653e\u91cf\u786e\u8ba4\u5219\u964d\u7ea7\u89c2\u5bdf",
                 "sectors": sorted(state["sectors"])[:4],
                 "events": sorted(state["events"])[:4],
                 "reasons": state["reasons"][:3],
                 "risk_flags": sorted(state["risks"]),
+                "factors": factors,
+                "decision": _decision_note(action, composite, factors),
             }
         )
 
@@ -134,7 +143,45 @@ def build_summary(important: list[dict], scored: list[dict], recommendations: li
         "top_stock": top["stock"] if top else "",
         "top_action": top["action_label"] if top else "",
         "version": "v5",
-        "scan_interval": "1分钟",
+        "scan_interval": "1\u5206\u949f",
+    }
+
+
+def build_market_pulse(market_data: dict | None, scored: list[dict], sector_impact: dict) -> dict:
+    market_data = market_data or {}
+    sectors = market_data.get("sectors", []) or []
+    gainers = market_data.get("gainers", []) or []
+    northbound = market_data.get("northbound", {}) or {}
+    main_force = market_data.get("main_force", {}) or {}
+
+    top_event_sectors = sector_impact.get("sectors", [])[:6]
+    hot_keywords = _hot_keywords(scored)
+    return {
+        "market_open": bool(market_data.get("market_open")),
+        "northbound": {
+            "net": northbound.get("total_net", 0),
+            "status": northbound.get("status", "unknown"),
+        },
+        "top_sectors": [
+            {
+                "name": row.get("name", ""),
+                "change_pct": _to_float(row.get("change_pct")),
+                "main_flow_yuan": _to_float(row.get("main_flow_yuan")),
+            }
+            for row in sectors[:10]
+        ],
+        "top_gainers": [
+            {
+                "code": row.get("code", ""),
+                "name": row.get("name", ""),
+                "change_pct": _to_float(row.get("change_pct")),
+                "price": row.get("price", ""),
+            }
+            for row in gainers[:10]
+        ],
+        "main_force_inflow": main_force.get("inflow_sectors", [])[:5],
+        "event_sectors": top_event_sectors,
+        "hot_keywords": hot_keywords,
     }
 
 
@@ -164,14 +211,14 @@ def _specificity_bonus(title: str) -> int:
 
 def _level(score: float, risk: str) -> str:
     if risk == "high":
-        return "风险信号"
+        return "\u98ce\u9669\u4fe1\u53f7"
     if score >= 88:
-        return "重大利好"
+        return "\u91cd\u5927\u5229\u597d"
     if score >= 76:
-        return "强利好"
+        return "\u5f3a\u5229\u597d"
     if score >= 62:
-        return "关注"
-    return "普通"
+        return "\u5173\u6ce8"
+    return "\u666e\u901a"
 
 
 def _format_sector_impact(raw: dict) -> dict:
@@ -206,35 +253,59 @@ def _trade_plan(score: float, has_risk: bool) -> tuple[str, int, str, str]:
     if has_risk:
         return "avoid", 0, "-", "-"
     if score >= 86:
-        return "strong_buy", 12, "-6%", "+12%至+18%分批"
+        return "strong_buy", 12, "-6%", "+12%\u81f3+18%\u5206\u6279"
     if score >= 74:
-        return "buy", 8, "-5%", "+8%至+12%分批"
+        return "buy", 8, "-5%", "+8%\u81f3+12%\u5206\u6279"
     if score >= 58:
-        return "watch", 3, "-4%", "+6%先观察"
+        return "watch", 3, "-4%", "+6%\u5148\u89c2\u5bdf"
     return "watch", 0, "-", "-"
+
+
+def _decision_note(action: str, score: float, factors: dict) -> str:
+    if action == "strong_buy":
+        return "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。"
+    if action == "buy":
+        return "事件分数达标但需要盘面确认，适合小仓观察而不是追高。"
+    if action == "watch":
+        return "有题材映射但强度不足，优先等板块持续性和成交量。"
+    return "风险或负面词较多，不进入买入观察池。"
+
+
+def _hot_keywords(scored: list[dict]) -> list[dict]:
+    counts = defaultdict(lambda: {"count": 0, "score": 0.0})
+    for row in scored[:80]:
+        for word in row.get("matched_keywords", []):
+            counts[word]["count"] += 1
+            counts[word]["score"] += row.get("score", 0)
+    hot = [
+        {"word": word, "count": data["count"], "score": round(data["score"], 1)}
+        for word, data in counts.items()
+    ]
+    hot.sort(key=lambda item: (item["score"], item["count"]), reverse=True)
+    return hot[:12]
 
 
 def _entry_rule(action: str) -> str:
     if action == "strong_buy":
-        return "开盘后量能确认且高开不超过6%再考虑"
+        return "\u5f00\u76d8\u540e\u91cf\u80fd\u786e\u8ba4\u4e14\u9ad8\u5f00\u4e0d\u8d85\u8fc76%\u518d\u8003\u8651"
     if action == "buy":
-        return "回踩5日线或分时放量突破时小仓试探"
+        return "\u56de\u8e295\u65e5\u7ebf\u6216\u5206\u65f6\u653e\u91cf\u7a81\u7834\u65f6\u5c0f\u4ed3\u8bd5\u63a2"
     if action == "watch":
-        return "等待板块持续性和成交量确认"
-    return "不参与"
+        return "\u7b49\u5f85\u677f\u5757\u6301\u7eed\u6027\u548c\u6210\u4ea4\u91cf\u786e\u8ba4"
+    return "\u4e0d\u53c2\u4e0e"
 
 
 def _market_mood(scored: list[dict]) -> dict:
     if not scored:
-        return {"label": "中性", "score": 50, "class": "neutral"}
+        return {"label": "\u4e2d\u6027", "score": 50, "class": "neutral"}
     avg = sum(row["score"] for row in scored[:12]) / min(len(scored), 12)
     if avg >= 82:
-        return {"label": "进攻", "score": round(avg, 1), "class": "positive"}
+        return {"label": "\u8fdb\u653b", "score": round(avg, 1), "class": "positive"}
     if avg >= 68:
-        return {"label": "偏暖", "score": round(avg, 1), "class": "warm"}
+        return {"label": "\u504f\u6696", "score": round(avg, 1), "class": "warm"}
     if avg >= 52:
-        return {"label": "中性", "score": round(avg, 1), "class": "neutral"}
-    return {"label": "谨慎", "score": round(avg, 1), "class": "cautious"}
+        return {"label": "\u4e2d\u6027", "score": round(avg, 1), "class": "neutral"}
+    return {"label": "\u8c28\u614e", "score": round(avg, 1), "class": "cautious"}
 
 
 def _to_float(value) -> float:

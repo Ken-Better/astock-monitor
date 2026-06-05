@@ -1,12 +1,12 @@
 {
   "summary": {
-    "timestamp": "2026-06-05T21:40:39",
+    "timestamp": "2026-06-05T21:48:19",
     "important_count": 0,
-    "matched_count": 19,
+    "matched_count": 21,
     "sector_count": 12,
     "mood": {
       "label": "谨慎",
-      "score": 36.6,
+      "score": 38.1,
       "class": "cautious"
     },
     "top_stock": "科大讯飞",
@@ -17,45 +17,45 @@
   "important_news": [],
   "scored_news": [
     {
+      "title": "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqm1522059.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780667047",
+      "fingerprint": "国家经济委员会主任哈塞特低通胀环境下美联储有降息空间",
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 50.3,
+      "level": "普通",
+      "event": "政策/流动性",
+      "matched_keywords": [
+        "降息"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "证券",
+        "银行",
+        "保险",
+        "央企改革"
+      ],
+      "stocks": [
+        "东方财富",
+        "中信证券",
+        "华泰证券",
+        "招商银行",
+        "中国平安"
+      ],
+      "duration": "1-4周",
+      "risk": "medium"
+    },
+    {
       "title": "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqi9444610.shtml",
       "source": "新浪财经",
       "source_weight": 0.95,
       "published_at": "1780665716",
       "fingerprint": "印度AI基建热潮催生470亿美元市值增长Sterlite股价飙升500",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 41.3,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "博通聚焦AI目标千亿销售 并购战略退居次席",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqn8287907.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780665365",
-      "fingerprint": "博通聚焦AI目标千亿销售并购战略退居次席",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 40.0,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 41.0,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -85,12 +85,43 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "A股三大指数收跌创业板指跌超3机器人概念股逆市大涨",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 39.9,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
         "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "博通聚焦AI目标千亿销售 并购战略退居次席",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqn8287907.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780665365",
+      "fingerprint": "博通聚焦AI目标千亿销售并购战略退居次席",
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 39.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
       ],
       "negative_keywords": [],
       "sectors": [
@@ -116,7 +147,7 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "AI算力重塑行业需求光纤概念延续强势14股业绩有望倍增名单",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 36.7,
       "level": "普通",
       "event": "AI/算力",
@@ -148,7 +179,38 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "光芯片新突破规模料两年暴增7倍附股",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 36.7,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+      "url": "https://finance.eastmoney.com/a/202606053762241414.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "纳指跌幅超过1芯片股普跌现货黄金跌破4400美元",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 36.7,
       "level": "普通",
       "event": "半导体/国产替代",
@@ -179,8 +241,8 @@
       "source_weight": 0.95,
       "published_at": "1780666267",
       "fingerprint": "开盘美股周五开盘涨跌不一芯片股持续遭抛售",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 36.5,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 36.3,
       "level": "普通",
       "event": "半导体/国产替代",
       "matched_keywords": [
@@ -210,7 +272,7 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "全球AI竞赛进入中美争霸外交部AI不应滑向竞争对抗",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 35.9,
       "level": "普通",
       "event": "AI/算力",
@@ -241,8 +303,8 @@
       "source_weight": 0.95,
       "published_at": "1780665872",
       "fingerprint": "Salesforce成为FIFA官方合作伙伴用AI重塑世界杯观赛体验",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 35.2,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 35.0,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -272,8 +334,8 @@
       "source_weight": 0.95,
       "published_at": "1780662638",
       "fingerprint": "盘前AI交易降温纳指期货跌11",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 35.1,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 34.8,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -303,8 +365,8 @@
       "source_weight": 0.95,
       "published_at": "1780665640",
       "fingerprint": "CrowdStrike股价回调CEO回应投资者AI安全需求正在爆发",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 34.7,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 34.5,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -334,8 +396,8 @@
       "source_weight": 0.95,
       "published_at": "1780665214",
       "fingerprint": "Meta押注AI健康赛道重塑消费者战略",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 33.6,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 33.4,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -365,8 +427,8 @@
       "source_weight": 0.95,
       "published_at": "1780664738",
       "fingerprint": "芯片出口激增韩国4月经常项目顺差达283亿美元创历史第二高",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 33.2,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 33.0,
       "level": "普通",
       "event": "半导体/国产替代",
       "matched_keywords": [
@@ -396,8 +458,8 @@
       "source_weight": 0.95,
       "published_at": "1780664661",
       "fingerprint": "摩根大通三倍上调特斯拉目标价估值框架转向机器人及自动驾驶",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 31.9,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 31.8,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -427,8 +489,8 @@
       "source_weight": 0.95,
       "published_at": "1780664038",
       "fingerprint": "芯片股延续跌势博通财报引发板块重挫",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 31.9,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 31.7,
       "level": "普通",
       "event": "半导体/国产替代",
       "matched_keywords": [
@@ -458,8 +520,8 @@
       "source_weight": 0.95,
       "published_at": "1780662249",
       "fingerprint": "OpenAI表态将遵守特朗普行政令AI模型上线前需接受审查",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 28.9,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 28.7,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -489,8 +551,8 @@
       "source_weight": 0.95,
       "published_at": "1780662095",
       "fingerprint": "鸿海5月销售额增速超预期AI热潮持续提振需求",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 28.7,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 28.5,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -520,7 +582,7 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "投资能到80岁揭秘实战派博主的锂电池慢牛逻辑对话琳子话",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 27.9,
       "level": "普通",
       "event": "新能源/汽车",
@@ -551,7 +613,7 @@
       "source_weight": 0.95,
       "published_at": "1780661326",
       "fingerprint": "欧盟公布云与人工智能发展法案谋求技术主权陷入双向掣肘",
-      "scan_time": "2026-06-05T21:40:39",
+      "scan_time": "2026-06-05T21:48:19",
       "score": 27.4,
       "level": "普通",
       "event": "AI/算力",
@@ -582,8 +644,8 @@
       "source_weight": 0.95,
       "published_at": "1780665584",
       "fingerprint": "Strategy减持比特币打破永不出售信仰资金加速涌向AI基建",
-      "scan_time": "2026-06-05T21:40:39",
-      "score": 16.5,
+      "scan_time": "2026-06-05T21:48:19",
+      "score": 16.3,
       "level": "风险信号",
       "event": "AI/算力",
       "matched_keywords": [
@@ -613,7 +675,7 @@
     "sectors": [
       {
         "sector": "AI应用",
-        "score": 116.4,
+        "score": 115.9,
         "events": [
           "AI/算力"
         ],
@@ -632,7 +694,7 @@
       },
       {
         "sector": "算力",
-        "score": 116.4,
+        "score": 115.9,
         "events": [
           "AI/算力"
         ],
@@ -651,7 +713,7 @@
       },
       {
         "sector": "传媒游戏",
-        "score": 116.4,
+        "score": 115.9,
         "events": [
           "AI/算力"
         ],
@@ -670,7 +732,7 @@
       },
       {
         "sector": "机器人",
-        "score": 116.4,
+        "score": 115.9,
         "events": [
           "AI/算力"
         ],
@@ -689,7 +751,7 @@
       },
       {
         "sector": "半导体",
-        "score": 34.6,
+        "score": 43.6,
         "events": [
           "半导体/国产替代"
         ],
@@ -708,7 +770,7 @@
       },
       {
         "sector": "芯片设备",
-        "score": 34.6,
+        "score": 43.6,
         "events": [
           "半导体/国产替代"
         ],
@@ -727,7 +789,7 @@
       },
       {
         "sector": "先进封装",
-        "score": 34.6,
+        "score": 43.6,
         "events": [
           "半导体/国产替代"
         ],
@@ -746,7 +808,7 @@
       },
       {
         "sector": "信创",
-        "score": 34.6,
+        "score": 43.6,
         "events": [
           "半导体/国产替代"
         ],
@@ -764,75 +826,75 @@
         ]
       },
       {
-        "sector": "新能源汽车",
-        "score": 7.0,
+        "sector": "证券",
+        "score": 12.6,
         "events": [
-          "新能源/汽车"
+          "政策/流动性"
         ],
         "stocks": [
-          "亿纬锂能",
-          "宁德时代",
-          "德赛西威",
-          "比亚迪",
-          "阳光电源"
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
         ],
         "news": [
-          "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
         ]
       },
       {
-        "sector": "锂电池",
-        "score": 7.0,
+        "sector": "银行",
+        "score": 12.6,
         "events": [
-          "新能源/汽车"
+          "政策/流动性"
         ],
         "stocks": [
-          "亿纬锂能",
-          "宁德时代",
-          "德赛西威",
-          "比亚迪",
-          "阳光电源"
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
         ],
         "news": [
-          "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
         ]
       },
       {
-        "sector": "储能",
-        "score": 7.0,
+        "sector": "保险",
+        "score": 12.6,
         "events": [
-          "新能源/汽车"
+          "政策/流动性"
         ],
         "stocks": [
-          "亿纬锂能",
-          "宁德时代",
-          "德赛西威",
-          "比亚迪",
-          "阳光电源"
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
         ],
         "news": [
-          "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
         ]
       },
       {
-        "sector": "智能驾驶",
-        "score": 7.0,
+        "sector": "央企改革",
+        "score": 12.6,
         "events": [
-          "新能源/汽车"
+          "政策/流动性"
         ],
         "stocks": [
-          "亿纬锂能",
-          "宁德时代",
-          "德赛西威",
-          "比亚迪",
-          "阳光电源"
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
         ],
         "news": [
-          "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
+          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
         ]
       }
     ],
-    "updated_at": "2026-06-05T21:40:39"
+    "updated_at": "2026-06-05T21:48:19"
   },
   "recommendations": [
     {
@@ -856,10 +918,18 @@
       ],
       "reasons": [
         "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "博通聚焦AI目标千亿销售 并购战略退居次席",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨"
+        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
+        "博通聚焦AI目标千亿销售 并购战略退居次席"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 1
     },
     {
@@ -883,10 +953,18 @@
       ],
       "reasons": [
         "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "博通聚焦AI目标千亿销售 并购战略退居次席",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨"
+        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
+        "博通聚焦AI目标千亿销售 并购战略退居次席"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 2
     },
     {
@@ -910,10 +988,18 @@
       ],
       "reasons": [
         "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "博通聚焦AI目标千亿销售 并购战略退居次席",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨"
+        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
+        "博通聚焦AI目标千亿销售 并购战略退居次席"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 3
     },
     {
@@ -937,10 +1023,18 @@
       ],
       "reasons": [
         "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "博通聚焦AI目标千亿销售 并购战略退居次席",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨"
+        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
+        "博通聚焦AI目标千亿销售 并购战略退居次席"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 4
     },
     {
@@ -964,21 +1058,29 @@
       ],
       "reasons": [
         "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "博通聚焦AI目标千亿销售 并购战略退居次席",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨"
+        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
+        "博通聚焦AI目标千亿销售 并购战略退居次席"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 5
     },
     {
       "stock": "中芯国际",
-      "score": 80.6,
-      "action": "buy",
-      "action_label": "关注",
-      "position_pct": 8,
-      "entry": "回踩5日线或分时放量突破时小仓试探",
-      "stop_loss": "-5%",
-      "take_profit": "+8%至+12%分批",
+      "score": 97.2,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -991,21 +1093,29 @@
       ],
       "reasons": [
         "光芯片新突破！规模料两年暴增7倍(附股)",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-        "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高"
+        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 36.1,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 6
     },
     {
       "stock": "北方华创",
-      "score": 80.6,
-      "action": "buy",
-      "action_label": "关注",
-      "position_pct": 8,
-      "entry": "回踩5日线或分时放量突破时小仓试探",
-      "stop_loss": "-5%",
-      "take_profit": "+8%至+12%分批",
+      "score": 97.2,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1018,21 +1128,29 @@
       ],
       "reasons": [
         "光芯片新突破！规模料两年暴增7倍(附股)",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-        "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高"
+        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 36.1,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 7
     },
     {
       "stock": "中微公司",
-      "score": 80.6,
-      "action": "buy",
-      "action_label": "关注",
-      "position_pct": 8,
-      "entry": "回踩5日线或分时放量突破时小仓试探",
-      "stop_loss": "-5%",
-      "take_profit": "+8%至+12%分批",
+      "score": 97.2,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1045,21 +1163,29 @@
       ],
       "reasons": [
         "光芯片新突破！规模料两年暴增7倍(附股)",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-        "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高"
+        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 36.1,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 8
     },
     {
       "stock": "寒武纪",
-      "score": 80.6,
-      "action": "buy",
-      "action_label": "关注",
-      "position_pct": 8,
-      "entry": "回踩5日线或分时放量突破时小仓试探",
-      "stop_loss": "-5%",
-      "take_profit": "+8%至+12%分批",
+      "score": 97.2,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1072,21 +1198,29 @@
       ],
       "reasons": [
         "光芯片新突破！规模料两年暴增7倍(附股)",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-        "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高"
+        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 36.1,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 9
     },
     {
       "stock": "海光信息",
-      "score": 80.6,
-      "action": "buy",
-      "action_label": "关注",
-      "position_pct": 8,
-      "entry": "回踩5日线或分时放量突破时小仓试探",
-      "stop_loss": "-5%",
-      "take_profit": "+8%至+12%分批",
+      "score": 97.2,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1099,11 +1233,184 @@
       ],
       "reasons": [
         "光芯片新突破！规模料两年暴增7倍(附股)",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-        "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高"
+        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
+        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
       ],
       "risk_flags": [],
+      "factors": {
+        "news_heat": 36.1,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
       "rank": 10
+    },
+    {
+      "stock": "东方财富",
+      "score": 40.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 10.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 11
+    },
+    {
+      "stock": "中信证券",
+      "score": 40.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 10.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 12
+    },
+    {
+      "stock": "华泰证券",
+      "score": 40.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 10.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 13
+    },
+    {
+      "stock": "招商银行",
+      "score": 40.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 10.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 14
+    },
+    {
+      "stock": "中国平安",
+      "score": 40.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 10.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 15
     },
     {
       "stock": "比亚迪",
@@ -1128,7 +1435,15 @@
         "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
       ],
       "risk_flags": [],
-      "rank": 11
+      "factors": {
+        "news_heat": 5.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 16
     },
     {
       "stock": "宁德时代",
@@ -1153,7 +1468,15 @@
         "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
       ],
       "risk_flags": [],
-      "rank": 12
+      "factors": {
+        "news_heat": 5.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 17
     },
     {
       "stock": "亿纬锂能",
@@ -1178,61 +1501,19 @@
         "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
       ],
       "risk_flags": [],
-      "rank": 13
-    },
-    {
-      "stock": "阳光电源",
-      "score": 29.8,
-      "action": "watch",
-      "action_label": "观察",
-      "position_pct": 0,
-      "entry": "等待板块持续性和成交量确认",
-      "stop_loss": "-",
-      "take_profit": "-",
-      "time_stop": "3个交易日无放量确认则降级观察",
-      "sectors": [
-        "储能",
-        "新能源汽车",
-        "智能驾驶",
-        "锂电池"
-      ],
-      "events": [
-        "新能源/汽车"
-      ],
-      "reasons": [
-        "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
-      ],
-      "risk_flags": [],
-      "rank": 14
-    },
-    {
-      "stock": "德赛西威",
-      "score": 29.8,
-      "action": "watch",
-      "action_label": "观察",
-      "position_pct": 0,
-      "entry": "等待板块持续性和成交量确认",
-      "stop_loss": "-",
-      "take_profit": "-",
-      "time_stop": "3个交易日无放量确认则降级观察",
-      "sectors": [
-        "储能",
-        "新能源汽车",
-        "智能驾驶",
-        "锂电池"
-      ],
-      "events": [
-        "新能源/汽车"
-      ],
-      "reasons": [
-        "投资能到80岁？揭秘实战派博主的锂电池“慢牛”逻辑 | 对话琳子话"
-      ],
-      "risk_flags": [],
-      "rank": 15
+      "factors": {
+        "news_heat": 5.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 18
     }
   ],
   "market_data": {
-    "timestamp": "2026-06-05T21:40:36.986422",
+    "timestamp": "2026-06-05T21:48:12.595686",
     "market_open": false,
     "sectors": [
       {
@@ -1973,126 +2254,294 @@
       "updated": "2026-06-05T21:40:38.245996"
     },
     "main_force": {
-      "inflow_sectors": [
-        {
-          "name": "物流",
-          "code": "BK0422",
-          "main_flow_yuan": 115,
-          "change_pct": 100,
-          "turnover_yuan": 54787695.0
-        }
-      ],
-      "outflow_sectors": [
-        {
-          "name": "航空机场",
-          "code": "BK0420",
-          "main_flow_yuan": -19,
-          "change_pct": 61,
-          "turnover_yuan": -8119872.0
-        },
-        {
-          "name": "铁路公路",
-          "code": "BK0421",
-          "main_flow_yuan": -92,
-          "change_pct": 15,
-          "turnover_yuan": -34240912.0
-        },
-        {
-          "name": "食品饮料",
-          "code": "BK0438",
-          "main_flow_yuan": -114,
-          "change_pct": 36,
-          "turnover_yuan": -340203392.0
-        },
-        {
-          "name": "纺织服饰",
-          "code": "BK0436",
-          "main_flow_yuan": -132,
-          "change_pct": 53,
-          "turnover_yuan": -133634432.0
-        },
-        {
-          "name": "水泥",
-          "code": "BK0424",
-          "main_flow_yuan": -139,
-          "change_pct": 83,
-          "turnover_yuan": -38075782.0
-        }
-      ],
-      "top_flow": [
-        {
-          "name": "物流",
-          "code": "BK0422",
-          "main_flow_yuan": 115,
-          "change_pct": 100,
-          "turnover_yuan": 54787695.0
-        },
-        {
-          "name": "航空机场",
-          "code": "BK0420",
-          "main_flow_yuan": -19,
-          "change_pct": 61,
-          "turnover_yuan": -8119872.0
-        },
-        {
-          "name": "铁路公路",
-          "code": "BK0421",
-          "main_flow_yuan": -92,
-          "change_pct": 15,
-          "turnover_yuan": -34240912.0
-        },
-        {
-          "name": "食品饮料",
-          "code": "BK0438",
-          "main_flow_yuan": -114,
-          "change_pct": 36,
-          "turnover_yuan": -340203392.0
-        },
-        {
-          "name": "纺织服饰",
-          "code": "BK0436",
-          "main_flow_yuan": -132,
-          "change_pct": 53,
-          "turnover_yuan": -133634432.0
-        },
-        {
-          "name": "水泥",
-          "code": "BK0424",
-          "main_flow_yuan": -139,
-          "change_pct": 83,
-          "turnover_yuan": -38075782.0
-        },
-        {
-          "name": "农林牧渔",
-          "code": "BK0433",
-          "main_flow_yuan": -445,
-          "change_pct": -4,
-          "turnover_yuan": -596924944.0
-        },
-        {
-          "name": "煤炭",
-          "code": "BK0437",
-          "main_flow_yuan": -555,
-          "change_pct": -125,
-          "turnover_yuan": -1405045616.0
-        },
-        {
-          "name": "公用事业",
-          "code": "BK0427",
-          "main_flow_yuan": -1098,
-          "change_pct": -356,
-          "turnover_yuan": -12022316032.0
-        },
-        {
-          "name": "电力",
-          "code": "BK0428",
-          "main_flow_yuan": -1132,
-          "change_pct": -431,
-          "turnover_yuan": -11889728256.0
-        }
-      ],
-      "updated": "2026-06-05T21:40:38.421230"
+      "inflow_sectors": [],
+      "outflow_sectors": [],
+      "top_flow": [],
+      "updated": "2026-06-05T21:48:18.141664"
     }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": -30.15,
+      "status": "outflow"
+    },
+    "top_sectors": [
+      {
+        "name": "玻璃玻纤",
+        "change_pct": 315.0,
+        "main_flow_yuan": -159.0
+      },
+      {
+        "name": "仪器仪表",
+        "change_pct": 277.0,
+        "main_flow_yuan": 220.0
+      },
+      {
+        "name": "非金属材料Ⅱ",
+        "change_pct": 259.0,
+        "main_flow_yuan": -335.0
+      },
+      {
+        "name": "工程机械",
+        "change_pct": 216.0,
+        "main_flow_yuan": 140.0
+      },
+      {
+        "name": "通用设备",
+        "change_pct": 206.0,
+        "main_flow_yuan": 77.0
+      },
+      {
+        "name": "化学纤维",
+        "change_pct": 176.0,
+        "main_flow_yuan": 901.0
+      },
+      {
+        "name": "一般零售",
+        "change_pct": 151.0,
+        "main_flow_yuan": 984.0
+      },
+      {
+        "name": "家居用品",
+        "change_pct": 138.0,
+        "main_flow_yuan": 76.0
+      },
+      {
+        "name": "专用设备",
+        "change_pct": 124.0,
+        "main_flow_yuan": -103.0
+      },
+      {
+        "name": "传媒",
+        "change_pct": 121.0,
+        "main_flow_yuan": -13.0
+      }
+    ],
+    "top_gainers": [
+      {
+        "code": "000010",
+        "name": "*ST美丽",
+        "change_pct": 5.12,
+        "price": 2.26
+      },
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "change_pct": 4.99,
+        "price": 7.58
+      },
+      {
+        "code": "000012",
+        "name": "南  玻Ａ",
+        "change_pct": 4.29,
+        "price": 4.38
+      },
+      {
+        "code": "000014",
+        "name": "沙河股份",
+        "change_pct": 1.91,
+        "price": 10.67
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "change_pct": 1.48,
+        "price": 10.98
+      },
+      {
+        "code": "000009",
+        "name": "中国宝安",
+        "change_pct": 1.41,
+        "price": 7.19
+      },
+      {
+        "code": "000017",
+        "name": "深中华A",
+        "change_pct": 1.33,
+        "price": 5.32
+      },
+      {
+        "code": "000006",
+        "name": "深振业Ａ",
+        "change_pct": 1.31,
+        "price": 8.51
+      },
+      {
+        "code": "000002",
+        "name": "万  科Ａ",
+        "change_pct": 1.25,
+        "price": 3.25
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "change_pct": 0.89,
+        "price": 12.46
+      }
+    ],
+    "main_force_inflow": [],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 115.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
+          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
+          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 115.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
+          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
+          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 115.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
+          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
+          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 115.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
+          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
+          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 43.6,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
+          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
+          "芯片股延续跌势 博通财报引发板块重挫"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 43.6,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
+          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
+          "芯片股延续跌势 博通财报引发板块重挫"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 11,
+        "score": 364.6
+      },
+      {
+        "word": "芯片",
+        "count": 5,
+        "score": 174.4
+      },
+      {
+        "word": "机器人",
+        "count": 2,
+        "score": 71.7
+      },
+      {
+        "word": "降息",
+        "count": 1,
+        "score": 50.3
+      },
+      {
+        "word": "算力",
+        "count": 1,
+        "score": 36.7
+      },
+      {
+        "word": "锂电池",
+        "count": 1,
+        "score": 27.9
+      },
+      {
+        "word": "人工智能",
+        "count": 1,
+        "score": 27.4
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
   },
   "status": "running"
 }
