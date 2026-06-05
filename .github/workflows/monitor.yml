@@ -33,6 +33,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run monitor
+        id: monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -44,6 +45,7 @@ jobs:
         run: python run.py
 
       - name: Deploy to GitHub Pages branch
+        if: steps.monitor.outputs.should_deploy == 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

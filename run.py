@@ -2,6 +2,7 @@
 import json
 import os
 from datetime import datetime, time
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from monitor.auto_deploy import auto_deploy
@@ -21,11 +22,8 @@ def run_once(force: bool = False) -> dict:
     logger.info("A-stock monitor v5 scan starting at %s", now.isoformat(timespec="seconds"))
 
     if not force and not _should_scan_market_window(now):
-        data = _load_existing_or_empty(now, "非交易监控时段，等待下一次开盘窗口。")
-        write_dashboard(data)
-        auto_deploy()
-        logger.info("Skipped outside market window.")
-        return {"skipped": True, "dashboard": True}
+        logger.info("Skipped outside market window; keep the published dashboard unchanged.")
+        return {"skipped": True, "dashboard": False, "reason": "outside_market_window"}
 
     market_data = _fetch_market_data()
     news_items = fetch_all_news()
@@ -161,4 +159,10 @@ def _load_existing_or_empty(now: datetime, message: str) -> dict:
 
 if __name__ == "__main__":
     result = run_once(force=os.environ.get("FORCE_SCAN", "0") == "1")
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        Path(github_output).write_text(
+            f"should_deploy={'false' if result.get('skipped') else 'true'}\n",
+            encoding="utf-8",
+        )
     print(json.dumps(result, ensure_ascii=False, indent=2))
