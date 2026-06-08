@@ -185,6 +185,78 @@ def build_market_pulse(market_data: dict | None, scored: list[dict], sector_impa
     }
 
 
+def build_candidate_pool(recommendations: list[dict], market_pulse: dict) -> list[dict]:
+    candidates = []
+    for row in recommendations:
+        if len(candidates) >= 5:
+            break
+        evidence = []
+        evidence.extend(row.get("reasons", [])[:2])
+        if row.get("sectors"):
+            evidence.append("题材映射: " + "、".join(row["sectors"][:2]))
+        if row.get("events"):
+            evidence.append("事件类型: " + "、".join(row["events"][:2]))
+        if not evidence:
+            continue
+        action = "focus" if row.get("action") == "strong_buy" else "watch"
+        candidates.append(
+            {
+                "rank": len(candidates) + 1,
+                "code": "",
+                "name": row["stock"],
+                "score": row["score"],
+                "action": action,
+                "position_pct": row.get("position_pct", 0),
+                "entry": row.get("entry", ""),
+                "stop_loss": row.get("stop_loss", ""),
+                "take_profit": row.get("take_profit", ""),
+                "evidence": evidence[:4],
+                "risk_flags": row.get("risk_flags", []),
+                "factors": {
+                    "trend": row.get("factors", {}).get("news_heat", 0),
+                    "flow": row.get("factors", {}).get("sector_flow", 0),
+                    "event": row.get("factors", {}).get("event_breadth", 0),
+                    "sector": row.get("factors", {}).get("stock_attention", 0),
+                    "risk": row.get("factors", {}).get("risk_penalty", 0),
+                },
+            }
+        )
+    return candidates
+
+
+def build_alarm_schedule() -> list[dict]:
+    return [
+        {
+            "name": "盘前候选检查",
+            "trigger_time": "09:20",
+            "weekdays": [1, 2, 3, 4, 5],
+            "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+            "enabled": True,
+        },
+        {
+            "name": "盘中热点扫描",
+            "trigger_time": "10:30",
+            "weekdays": [1, 2, 3, 4, 5],
+            "task": "检查突发利好、板块扩散和候选池变化。",
+            "enabled": True,
+        },
+        {
+            "name": "午后风险复核",
+            "trigger_time": "13:10",
+            "weekdays": [1, 2, 3, 4, 5],
+            "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+            "enabled": True,
+        },
+        {
+            "name": "收盘后复盘",
+            "trigger_time": "15:05",
+            "weekdays": [1, 2, 3, 4, 5],
+            "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+            "enabled": True,
+        },
+    ]
+
+
 def notification_fingerprint(important: list[dict], recommendations: list[dict]) -> str:
     payload = "|".join([row["title"][:60] for row in important[:4]])
     payload += "|" + "|".join([row["stock"] + str(row["score"]) for row in recommendations[:4]])

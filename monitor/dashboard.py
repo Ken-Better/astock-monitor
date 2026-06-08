@@ -90,7 +90,17 @@ function render(data) {{
     <div class="metric"><b>${{pulse.market_open ? 'OPEN' : 'WAIT'}}</b><span>${{esc(auto.runtime || 'GitHub Actions')}}</span></div>
   </section>`;
   const band = `<div class="band">${{topText}}<br>更新时间：${{esc((s.timestamp || '').replace('T',' '))}} / 目标频率：${{esc(s.scan_interval || '1分钟')}} / 电脑开机：不需要</div>`;
-  document.getElementById('app').innerHTML = metrics + band + `<div class="layout"><div>${{recommendations(data)}}${{news(data)}}</div><aside>${{pulsePanel(data)}}${{sectorPanel(data)}}${{gainersPanel(data)}}${{keywordPanel(data)}}</aside></div>`;
+  document.getElementById('app').innerHTML = metrics + band + `<div class="layout"><div>${{candidatePool(data)}}${{recommendations(data)}}${{news(data)}}</div><aside>${{pulsePanel(data)}}${{skillPanel(data)}}${{alarmPanel(data)}}${{sectorPanel(data)}}${{gainersPanel(data)}}${{keywordPanel(data)}}</aside></div>`;
+}}
+function candidatePool(data) {{
+  const rows = (data.candidate_pool || []).slice(0, 5);
+  const cards = rows.map(r => `<article class="card rec ${{r.action === 'focus' ? 'strong_buy' : 'watch'}}">
+    <div class="row"><div class="stock">候选 #${{esc(r.rank)}} ${{esc(r.name)}}</div><div class="action">${{esc(r.action)}} / ${{esc(r.score)}}</div></div>
+    <div class="plan">仓位上限：${{esc(r.position_pct)}}% / 入场：${{esc(r.entry)}}<br>止损：${{esc(r.stop_loss)}} / 止盈：${{esc(r.take_profit)}}</div>
+    <div>${{pills(r.evidence)}}${{pills(r.risk_flags)}}</div>
+    ${{factor('趋势/热度', (r.factors || {{}}).trend, 40)}}${{factor('事件', (r.factors || {{}}).event, 14)}}${{factor('风险扣分', (r.factors || {{}}).risk, 12)}}
+  </article>`);
+  return section('AstraTrade 候选池 Top 5', cards.length ? `<div class="cards">${{cards.join('')}}</div>` : empty('暂无高质量候选'));
 }}
 function recommendations(data) {{
   const cards = (data.recommendations || []).slice(0, 12).map(r => `<article class="card rec ${{esc(r.action)}}">
@@ -123,6 +133,15 @@ function pulsePanel(data) {{
     <tr><td>扫描窗口</td><td>${{esc(a.schedule || '')}}</td></tr>
     <tr><td>市场状态</td><td>${{p.market_open ? '交易中' : '等待交易'}}</td></tr>
   </table><div class="meta">${{esc(a.note || '')}}</div>`);
+}}
+function skillPanel(data) {{
+  const skills = data.skills_applied || [];
+  return section('已应用技能', skills.length ? skills.map(x => `<span class="pill">${{esc(x)}}</span>`).join('') : empty('暂无技能记录'));
+}}
+function alarmPanel(data) {{
+  const rows = (data.alarm_schedule || []).slice(0, 8);
+  const html = rows.map(x => `<tr><td>${{esc(x.trigger_time)}} ${{esc(x.name)}}</td><td>${{x.enabled ? '启用' : '停用'}}</td></tr>`).join('');
+  return section('AstraTrade 调度', html ? `<table class="table">${{html}}</table><div class="meta">这些任务由 GitHub Actions 时间窗近似执行，非本地常驻进程。</div>` : empty('暂无调度'));
 }}
 function sectorPanel(data) {{
   const rows = ((data.market_pulse || {{}}).top_sectors || []).slice(0, 10);

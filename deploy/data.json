@@ -1,12 +1,12 @@
 {
   "summary": {
-    "timestamp": "2026-06-05T21:48:19",
+    "timestamp": "2026-06-08T21:53:41",
     "important_count": 0,
-    "matched_count": 21,
+    "matched_count": 19,
     "sector_count": 12,
     "mood": {
       "label": "谨慎",
-      "score": 38.1,
+      "score": 36.0,
       "class": "cautious"
     },
     "top_stock": "科大讯飞",
@@ -17,75 +17,13 @@
   "important_news": [],
   "scored_news": [
     {
-      "title": "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqm1522059.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780667047",
-      "fingerprint": "国家经济委员会主任哈塞特低通胀环境下美联储有降息空间",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 50.3,
-      "level": "普通",
-      "event": "政策/流动性",
-      "matched_keywords": [
-        "降息"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "证券",
-        "银行",
-        "保险",
-        "央企改革"
-      ],
-      "stocks": [
-        "东方财富",
-        "中信证券",
-        "华泰证券",
-        "招商银行",
-        "中国平安"
-      ],
-      "duration": "1-4周",
-      "risk": "medium"
-    },
-    {
-      "title": "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqi9444610.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780665716",
-      "fingerprint": "印度AI基建热潮催生470亿美元市值增长Sterlite股价飙升500",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 41.0,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-      "url": "https://finance.eastmoney.com/a/202606053761914040.html",
+      "title": "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+      "url": "https://finance.eastmoney.com/a/202606083763524058.html",
       "source": "东方财富",
       "source_weight": 1.05,
       "published_at": "",
-      "fingerprint": "A股三大指数收跌创业板指跌超3机器人概念股逆市大涨",
-      "scan_time": "2026-06-05T21:48:19",
+      "fingerprint": "沪指跌17创业板指跌369机器人概念股逆市大涨",
+      "scan_time": "2026-06-08T21:53:41",
       "score": 39.9,
       "level": "普通",
       "event": "AI/算力",
@@ -110,14 +48,232 @@
       "risk": "medium"
     },
     {
-      "title": "博通聚焦AI目标千亿销售 并购战略退居次席",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqn8287907.shtml",
+      "title": "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+      "url": "https://finance.eastmoney.com/a/202606083763188696.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "刚刚30涨停黄仁勋彻底点爆机器人逆市爆发",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 39.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatath8620524.shtml",
       "source": "新浪财经",
       "source_weight": 0.95,
-      "published_at": "1780665365",
-      "fingerprint": "博通聚焦AI目标千亿销售并购战略退居次席",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 39.8,
+      "published_at": "1780923082",
+      "fingerprint": "礼来新药Retatrutide三期临床成功40周减重15降糖效果显著",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 39.4,
+      "level": "普通",
+      "event": "医药创新",
+      "matched_keywords": [
+        "临床"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "创新药",
+        "医疗器械",
+        "CXO",
+        "生物医药"
+      ],
+      "stocks": [
+        "恒瑞医药",
+        "迈瑞医疗",
+        "药明康德",
+        "百济神州",
+        "爱尔眼科"
+      ],
+      "duration": "1-7天",
+      "risk": "medium"
+    },
+    {
+      "title": "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatk5396137.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780923016",
+      "fingerprint": "英伟达与LG集团共建AI工厂深化机器人及自动驾驶合作",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 37.6,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "开盘：美股周一高开 芯片股从暴跌中反弹",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniathzk6925301.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780925455",
+      "fingerprint": "开盘美股周一高开芯片股从暴跌中反弹",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 36.7,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "事关数据赋能人工智能发展 国家层面首次系统部署",
+      "url": "https://finance.eastmoney.com/a/202606083763705763.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "事关数据赋能人工智能发展国家层面首次系统部署",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 35.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "人工智能"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniathzn3699385.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780924932",
+      "fingerprint": "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 35.8,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "盘前：纳指期货涨1.42% 芯片、太空股反弹",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatn7031058.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780921805",
+      "fingerprint": "盘前纳指期货涨142芯片太空股反弹",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 35.2,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatk5404045.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780924200",
+      "fingerprint": "SK电讯与英伟达合作建设吉瓦级AI基础设施首座AI工厂2027年投运",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 34.1,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -141,18 +297,172 @@
       "risk": "medium"
     },
     {
-      "title": "AI算力重塑行业需求 光纤概念延续强势 14股业绩有望倍增(名单)",
-      "url": "https://finance.eastmoney.com/a/202606053761716646.html",
-      "source": "东方财富",
-      "source_weight": 1.05,
-      "published_at": "",
-      "fingerprint": "AI算力重塑行业需求光纤概念延续强势14股业绩有望倍增名单",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 36.7,
+      "title": "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatk5402029.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780923843",
+      "fingerprint": "投资者严阵以待AI巨头IPO与通胀数据即将引爆市场波动",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 33.2,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
-        "AI",
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatk5401073.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780923741",
+      "fingerprint": "华尔街面临三重威胁伊战风险AI估值泡沫与美联储加息预期",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 33.0,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "花旗上调标普500年终目标至8100点，看好AI驱动盈利增长",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatq3815683.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780922960",
+      "fingerprint": "花旗上调标普500年终目标至8100点看好AI驱动盈利增长",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "美股期货走势分化，芯片股试图反弹",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatq3810348.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780922401",
+      "fingerprint": "美股期货走势分化芯片股试图反弹",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.9,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "Wavestone首席执行官：AI恐慌交易将令IT股继续承压一年",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatath8616850.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1780922608",
+      "fingerprint": "Wavestone首席执行官AI恐慌交易将令IT股继续承压一年",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "“预制算力中心底座”来了！机构称算电协同+迎峰度夏或催化板块行情(附股)",
+      "url": "https://finance.eastmoney.com/a/202606083762797623.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "预制算力中心底座来了机构称算电协同迎峰度夏或催化板块行情附股",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
         "算力"
       ],
       "negative_keywords": [],
@@ -173,107 +483,14 @@
       "risk": "medium"
     },
     {
-      "title": "光芯片新突破！规模料两年暴增7倍(附股)",
-      "url": "https://finance.eastmoney.com/a/202606053761730714.html",
+      "title": "十大券商策略：海峡通航是“换副牌”时刻！非AI板块或迎转机临界点",
+      "url": "https://finance.eastmoney.com/a/202606073762718872.html",
       "source": "东方财富",
       "source_weight": 1.05,
       "published_at": "",
-      "fingerprint": "光芯片新突破规模料两年暴增7倍附股",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 36.7,
-      "level": "普通",
-      "event": "半导体/国产替代",
-      "matched_keywords": [
-        "芯片"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "半导体",
-        "芯片设备",
-        "先进封装",
-        "信创"
-      ],
-      "stocks": [
-        "中芯国际",
-        "北方华创",
-        "中微公司",
-        "寒武纪",
-        "海光信息"
-      ],
-      "duration": "3-15天",
-      "risk": "medium"
-    },
-    {
-      "title": "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-      "url": "https://finance.eastmoney.com/a/202606053762241414.html",
-      "source": "东方财富",
-      "source_weight": 1.05,
-      "published_at": "",
-      "fingerprint": "纳指跌幅超过1芯片股普跌现货黄金跌破4400美元",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 36.7,
-      "level": "普通",
-      "event": "半导体/国产替代",
-      "matched_keywords": [
-        "芯片"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "半导体",
-        "芯片设备",
-        "先进封装",
-        "信创"
-      ],
-      "stocks": [
-        "中芯国际",
-        "北方华创",
-        "中微公司",
-        "寒武纪",
-        "海光信息"
-      ],
-      "duration": "3-15天",
-      "risk": "medium"
-    },
-    {
-      "title": "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqm1516843.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780666267",
-      "fingerprint": "开盘美股周五开盘涨跌不一芯片股持续遭抛售",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 36.3,
-      "level": "普通",
-      "event": "半导体/国产替代",
-      "matched_keywords": [
-        "芯片"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "半导体",
-        "芯片设备",
-        "先进封装",
-        "信创"
-      ],
-      "stocks": [
-        "中芯国际",
-        "北方华创",
-        "中微公司",
-        "寒武纪",
-        "海光信息"
-      ],
-      "duration": "3-15天",
-      "risk": "medium"
-    },
-    {
-      "title": "全球AI竞赛进入“中美争霸”？外交部：AI不应滑向竞争对抗",
-      "url": "https://finance.eastmoney.com/a/202606053761926152.html",
-      "source": "东方财富",
-      "source_weight": 1.05,
-      "published_at": "",
-      "fingerprint": "全球AI竞赛进入中美争霸外交部AI不应滑向竞争对抗",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 35.9,
+      "fingerprint": "十大券商策略海峡通航是换副牌时刻非AI板块或迎转机临界点",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.3,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -297,262 +514,45 @@
       "risk": "medium"
     },
     {
-      "title": "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqh2668414.shtml",
+      "title": "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatn7016992.shtml",
       "source": "新浪财经",
       "source_weight": 0.95,
-      "published_at": "1780665872",
-      "fingerprint": "Salesforce成为FIFA官方合作伙伴用AI重塑世界杯观赛体验",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 35.0,
+      "published_at": "1780920113",
+      "fingerprint": "减肥药企业公布全新安全性数据引发投资者恐慌泽兰制药暴跌25",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 30.0,
       "level": "普通",
-      "event": "AI/算力",
+      "event": "医药创新",
       "matched_keywords": [
-        "AI"
+        "减肥药"
       ],
       "negative_keywords": [],
       "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
+        "创新药",
+        "医疗器械",
+        "CXO",
+        "生物医药"
       ],
       "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
+        "恒瑞医药",
+        "迈瑞医疗",
+        "药明康德",
+        "百济神州",
+        "爱尔眼科"
       ],
-      "duration": "3-10天",
+      "duration": "1-7天",
       "risk": "medium"
     },
     {
-      "title": "盘前：AI交易降温 纳指期货跌1.1%",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqn8275891.shtml",
+      "title": "英伟达与SK海力士达成多年技术合作，共推AI工厂下一代内存",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-08/doc-iniatatq3802558.shtml",
       "source": "新浪财经",
       "source_weight": 0.95,
-      "published_at": "1780662638",
-      "fingerprint": "盘前AI交易降温纳指期货跌11",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 34.8,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqh2666803.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780665640",
-      "fingerprint": "CrowdStrike股价回调CEO回应投资者AI安全需求正在爆发",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 34.5,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "Meta押注AI健康赛道 重塑消费者战略",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqi9440893.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780665214",
-      "fingerprint": "Meta押注AI健康赛道重塑消费者战略",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 33.4,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqh2659373.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780664738",
-      "fingerprint": "芯片出口激增韩国4月经常项目顺差达283亿美元创历史第二高",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 33.0,
-      "level": "普通",
-      "event": "半导体/国产替代",
-      "matched_keywords": [
-        "芯片"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "半导体",
-        "芯片设备",
-        "先进封装",
-        "信创"
-      ],
-      "stocks": [
-        "中芯国际",
-        "北方华创",
-        "中微公司",
-        "寒武纪",
-        "海光信息"
-      ],
-      "duration": "3-15天",
-      "risk": "medium"
-    },
-    {
-      "title": "摩根大通三倍上调特斯拉目标价 估值框架转向机器人及自动驾驶",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqm1506449.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780664661",
-      "fingerprint": "摩根大通三倍上调特斯拉目标价估值框架转向机器人及自动驾驶",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 31.8,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "机器人"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "芯片股延续跌势 博通财报引发板块重挫",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqh2654151.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780664038",
-      "fingerprint": "芯片股延续跌势博通财报引发板块重挫",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 31.7,
-      "level": "普通",
-      "event": "半导体/国产替代",
-      "matched_keywords": [
-        "芯片"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "半导体",
-        "芯片设备",
-        "先进封装",
-        "信创"
-      ],
-      "stocks": [
-        "中芯国际",
-        "北方华创",
-        "中微公司",
-        "寒武纪",
-        "海光信息"
-      ],
-      "duration": "3-15天",
-      "risk": "medium"
-    },
-    {
-      "title": "OpenAI表态将遵守特朗普行政令：AI模型上线前需接受审查",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakfhm9542664.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780662249",
-      "fingerprint": "OpenAI表态将遵守特朗普行政令AI模型上线前需接受审查",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 28.7,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "鸿海5月销售额增速超预期 AI热潮持续提振需求",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakfhp1618857.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780662095",
-      "fingerprint": "鸿海5月销售额增速超预期AI热潮持续提振需求",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 28.5,
+      "published_at": "1780921391",
+      "fingerprint": "英伟达与SK海力士达成多年技术合作共推AI工厂下一代内存",
+      "scan_time": "2026-06-08T21:53:41",
+      "score": 28.3,
       "level": "普通",
       "event": "AI/算力",
       "matched_keywords": [
@@ -582,7 +582,7 @@
       "source_weight": 1.05,
       "published_at": "",
       "fingerprint": "投资能到80岁揭秘实战派博主的锂电池慢牛逻辑对话琳子话",
-      "scan_time": "2026-06-05T21:48:19",
+      "scan_time": "2026-06-08T21:53:41",
       "score": 27.9,
       "level": "普通",
       "event": "新能源/汽车",
@@ -605,77 +605,13 @@
       ],
       "duration": "2-10天",
       "risk": "medium"
-    },
-    {
-      "title": "欧盟公布《云与人工智能发展法案》 谋求“技术主权”陷入双向掣肘",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakfhm9536402.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780661326",
-      "fingerprint": "欧盟公布云与人工智能发展法案谋求技术主权陷入双向掣肘",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 27.4,
-      "level": "普通",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "人工智能"
-      ],
-      "negative_keywords": [],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "medium"
-    },
-    {
-      "title": "Strategy减持比特币打破“永不出售”信仰 资金加速涌向AI基建",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-05/doc-iniakmqh2666351.shtml",
-      "source": "新浪财经",
-      "source_weight": 0.95,
-      "published_at": "1780665584",
-      "fingerprint": "Strategy减持比特币打破永不出售信仰资金加速涌向AI基建",
-      "scan_time": "2026-06-05T21:48:19",
-      "score": 16.3,
-      "level": "风险信号",
-      "event": "AI/算力",
-      "matched_keywords": [
-        "AI"
-      ],
-      "negative_keywords": [
-        "减持"
-      ],
-      "sectors": [
-        "AI应用",
-        "算力",
-        "传媒游戏",
-        "机器人"
-      ],
-      "stocks": [
-        "科大讯飞",
-        "中科曙光",
-        "浪潮信息",
-        "金山办公",
-        "拓尔思"
-      ],
-      "duration": "3-10天",
-      "risk": "high"
     }
   ],
   "sector_impact": {
     "sectors": [
       {
         "sector": "AI应用",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -687,14 +623,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "算力",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -706,14 +642,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "传媒游戏",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -725,14 +661,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "机器人",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -744,14 +680,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "半导体",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -763,14 +699,14 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       },
       {
         "sector": "芯片设备",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -782,14 +718,14 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       },
       {
         "sector": "先进封装",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -801,14 +737,14 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       },
       {
         "sector": "信创",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -820,81 +756,85 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       },
       {
-        "sector": "证券",
-        "score": 12.6,
+        "sector": "创新药",
+        "score": 17.4,
         "events": [
-          "政策/流动性"
+          "医药创新"
         ],
         "stocks": [
-          "东方财富",
-          "中信证券",
-          "中国平安",
-          "华泰证券",
-          "招商银行"
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
         ],
         "news": [
-          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+          "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+          "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
         ]
       },
       {
-        "sector": "银行",
-        "score": 12.6,
+        "sector": "医疗器械",
+        "score": 17.4,
         "events": [
-          "政策/流动性"
+          "医药创新"
         ],
         "stocks": [
-          "东方财富",
-          "中信证券",
-          "中国平安",
-          "华泰证券",
-          "招商银行"
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
         ],
         "news": [
-          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+          "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+          "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
         ]
       },
       {
-        "sector": "保险",
-        "score": 12.6,
+        "sector": "CXO",
+        "score": 17.4,
         "events": [
-          "政策/流动性"
+          "医药创新"
         ],
         "stocks": [
-          "东方财富",
-          "中信证券",
-          "中国平安",
-          "华泰证券",
-          "招商银行"
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
         ],
         "news": [
-          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+          "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+          "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
         ]
       },
       {
-        "sector": "央企改革",
-        "score": 12.6,
+        "sector": "生物医药",
+        "score": 17.4,
         "events": [
-          "政策/流动性"
+          "医药创新"
         ],
         "stocks": [
-          "东方财富",
-          "中信证券",
-          "中国平安",
-          "华泰证券",
-          "招商银行"
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
         ],
         "news": [
-          "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+          "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+          "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
         ]
       }
     ],
-    "updated_at": "2026-06-05T21:48:19"
+    "updated_at": "2026-06-08T21:53:41"
   },
   "recommendations": [
     {
@@ -917,9 +857,9 @@
         "AI/算力"
       ],
       "reasons": [
-        "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-        "博通聚焦AI目标千亿销售 并购战略退居次席"
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作"
       ],
       "risk_flags": [],
       "factors": {
@@ -952,9 +892,9 @@
         "AI/算力"
       ],
       "reasons": [
-        "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-        "博通聚焦AI目标千亿销售 并购战略退居次席"
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作"
       ],
       "risk_flags": [],
       "factors": {
@@ -987,9 +927,9 @@
         "AI/算力"
       ],
       "reasons": [
-        "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-        "博通聚焦AI目标千亿销售 并购战略退居次席"
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作"
       ],
       "risk_flags": [],
       "factors": {
@@ -1022,9 +962,9 @@
         "AI/算力"
       ],
       "reasons": [
-        "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-        "博通聚焦AI目标千亿销售 并购战略退居次席"
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作"
       ],
       "risk_flags": [],
       "factors": {
@@ -1057,9 +997,9 @@
         "AI/算力"
       ],
       "reasons": [
-        "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-        "A股三大指数收跌 创业板指跌超3% 机器人概念股逆市大涨",
-        "博通聚焦AI目标千亿销售 并购战略退居次席"
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "英伟达与LG集团共建AI工厂，深化机器人及自动驾驶合作"
       ],
       "risk_flags": [],
       "factors": {
@@ -1074,13 +1014,13 @@
     },
     {
       "stock": "中芯国际",
-      "score": 97.2,
-      "action": "strong_buy",
-      "action_label": "强关注",
-      "position_pct": 12,
-      "entry": "开盘后量能确认且高开不超过6%再考虑",
-      "stop_loss": "-6%",
-      "take_profit": "+12%至+18%分批",
+      "score": 80.8,
+      "action": "buy",
+      "action_label": "关注",
+      "position_pct": 8,
+      "entry": "回踩5日线或分时放量突破时小仓试探",
+      "stop_loss": "-5%",
+      "take_profit": "+8%至+12%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1092,30 +1032,30 @@
         "半导体/国产替代"
       ],
       "reasons": [
-        "光芯片新突破！规模料两年暴增7倍(附股)",
-        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
+        "开盘：美股周一高开 芯片股从暴跌中反弹",
+        "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+        "盘前：纳指期货涨1.42% 芯片、太空股反弹"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 36.1,
+        "news_heat": 28.7,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
         "risk_penalty": 0
       },
-      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "decision": "事件分数达标但需要盘面确认，适合小仓观察而不是追高。",
       "rank": 6
     },
     {
       "stock": "北方华创",
-      "score": 97.2,
-      "action": "strong_buy",
-      "action_label": "强关注",
-      "position_pct": 12,
-      "entry": "开盘后量能确认且高开不超过6%再考虑",
-      "stop_loss": "-6%",
-      "take_profit": "+12%至+18%分批",
+      "score": 80.8,
+      "action": "buy",
+      "action_label": "关注",
+      "position_pct": 8,
+      "entry": "回踩5日线或分时放量突破时小仓试探",
+      "stop_loss": "-5%",
+      "take_profit": "+8%至+12%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1127,30 +1067,30 @@
         "半导体/国产替代"
       ],
       "reasons": [
-        "光芯片新突破！规模料两年暴增7倍(附股)",
-        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
+        "开盘：美股周一高开 芯片股从暴跌中反弹",
+        "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+        "盘前：纳指期货涨1.42% 芯片、太空股反弹"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 36.1,
+        "news_heat": 28.7,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
         "risk_penalty": 0
       },
-      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "decision": "事件分数达标但需要盘面确认，适合小仓观察而不是追高。",
       "rank": 7
     },
     {
       "stock": "中微公司",
-      "score": 97.2,
-      "action": "strong_buy",
-      "action_label": "强关注",
-      "position_pct": 12,
-      "entry": "开盘后量能确认且高开不超过6%再考虑",
-      "stop_loss": "-6%",
-      "take_profit": "+12%至+18%分批",
+      "score": 80.8,
+      "action": "buy",
+      "action_label": "关注",
+      "position_pct": 8,
+      "entry": "回踩5日线或分时放量突破时小仓试探",
+      "stop_loss": "-5%",
+      "take_profit": "+8%至+12%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1162,30 +1102,30 @@
         "半导体/国产替代"
       ],
       "reasons": [
-        "光芯片新突破！规模料两年暴增7倍(附股)",
-        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
+        "开盘：美股周一高开 芯片股从暴跌中反弹",
+        "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+        "盘前：纳指期货涨1.42% 芯片、太空股反弹"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 36.1,
+        "news_heat": 28.7,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
         "risk_penalty": 0
       },
-      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "decision": "事件分数达标但需要盘面确认，适合小仓观察而不是追高。",
       "rank": 8
     },
     {
       "stock": "寒武纪",
-      "score": 97.2,
-      "action": "strong_buy",
-      "action_label": "强关注",
-      "position_pct": 12,
-      "entry": "开盘后量能确认且高开不超过6%再考虑",
-      "stop_loss": "-6%",
-      "take_profit": "+12%至+18%分批",
+      "score": 80.8,
+      "action": "buy",
+      "action_label": "关注",
+      "position_pct": 8,
+      "entry": "回踩5日线或分时放量突破时小仓试探",
+      "stop_loss": "-5%",
+      "take_profit": "+8%至+12%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1197,30 +1137,30 @@
         "半导体/国产替代"
       ],
       "reasons": [
-        "光芯片新突破！规模料两年暴增7倍(附股)",
-        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
+        "开盘：美股周一高开 芯片股从暴跌中反弹",
+        "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+        "盘前：纳指期货涨1.42% 芯片、太空股反弹"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 36.1,
+        "news_heat": 28.7,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
         "risk_penalty": 0
       },
-      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "decision": "事件分数达标但需要盘面确认，适合小仓观察而不是追高。",
       "rank": 9
     },
     {
       "stock": "海光信息",
-      "score": 97.2,
-      "action": "strong_buy",
-      "action_label": "强关注",
-      "position_pct": 12,
-      "entry": "开盘后量能确认且高开不超过6%再考虑",
-      "stop_loss": "-6%",
-      "take_profit": "+12%至+18%分批",
+      "score": 80.8,
+      "action": "buy",
+      "action_label": "关注",
+      "position_pct": 8,
+      "entry": "回踩5日线或分时放量突破时小仓试探",
+      "stop_loss": "-5%",
+      "take_profit": "+8%至+12%分批",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
         "信创",
@@ -1232,24 +1172,24 @@
         "半导体/国产替代"
       ],
       "reasons": [
-        "光芯片新突破！规模料两年暴增7倍(附股)",
-        "纳指跌幅超过1% 芯片股普跌 现货黄金跌破4400美元",
-        "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售"
+        "开盘：美股周一高开 芯片股从暴跌中反弹",
+        "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+        "盘前：纳指期货涨1.42% 芯片、太空股反弹"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 36.1,
+        "news_heat": 28.7,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
         "risk_penalty": 0
       },
-      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "decision": "事件分数达标但需要盘面确认，适合小仓观察而不是追高。",
       "rank": 10
     },
     {
-      "stock": "东方财富",
-      "score": 40.1,
+      "stock": "恒瑞医药",
+      "score": 48.9,
       "action": "watch",
       "action_label": "观察",
       "position_pct": 0,
@@ -1258,20 +1198,21 @@
       "take_profit": "-",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
-        "保险",
-        "央企改革",
-        "证券",
-        "银行"
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
       ],
       "events": [
-        "政策/流动性"
+        "医药创新"
       ],
       "reasons": [
-        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+        "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+        "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 10.4,
+        "news_heat": 14.4,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
@@ -1281,8 +1222,8 @@
       "rank": 11
     },
     {
-      "stock": "中信证券",
-      "score": 40.1,
+      "stock": "迈瑞医疗",
+      "score": 48.9,
       "action": "watch",
       "action_label": "观察",
       "position_pct": 0,
@@ -1291,20 +1232,21 @@
       "take_profit": "-",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
-        "保险",
-        "央企改革",
-        "证券",
-        "银行"
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
       ],
       "events": [
-        "政策/流动性"
+        "医药创新"
       ],
       "reasons": [
-        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+        "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+        "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 10.4,
+        "news_heat": 14.4,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
@@ -1314,8 +1256,8 @@
       "rank": 12
     },
     {
-      "stock": "华泰证券",
-      "score": 40.1,
+      "stock": "药明康德",
+      "score": 48.9,
       "action": "watch",
       "action_label": "观察",
       "position_pct": 0,
@@ -1324,20 +1266,21 @@
       "take_profit": "-",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
-        "保险",
-        "央企改革",
-        "证券",
-        "银行"
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
       ],
       "events": [
-        "政策/流动性"
+        "医药创新"
       ],
       "reasons": [
-        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+        "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+        "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 10.4,
+        "news_heat": 14.4,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
@@ -1347,8 +1290,8 @@
       "rank": 13
     },
     {
-      "stock": "招商银行",
-      "score": 40.1,
+      "stock": "百济神州",
+      "score": 48.9,
       "action": "watch",
       "action_label": "观察",
       "position_pct": 0,
@@ -1357,20 +1300,21 @@
       "take_profit": "-",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
-        "保险",
-        "央企改革",
-        "证券",
-        "银行"
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
       ],
       "events": [
-        "政策/流动性"
+        "医药创新"
       ],
       "reasons": [
-        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+        "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+        "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 10.4,
+        "news_heat": 14.4,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
@@ -1380,8 +1324,8 @@
       "rank": 14
     },
     {
-      "stock": "中国平安",
-      "score": 40.1,
+      "stock": "爱尔眼科",
+      "score": 48.9,
       "action": "watch",
       "action_label": "观察",
       "position_pct": 0,
@@ -1390,20 +1334,21 @@
       "take_profit": "-",
       "time_stop": "3个交易日无放量确认则降级观察",
       "sectors": [
-        "保险",
-        "央企改革",
-        "证券",
-        "银行"
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
       ],
       "events": [
-        "政策/流动性"
+        "医药创新"
       ],
       "reasons": [
-        "国家经济委员会主任哈塞特：低通胀环境下美联储有降息空间"
+        "礼来新药Retatrutide三期临床成功：40周减重15%，降糖效果显著",
+        "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%"
       ],
       "risk_flags": [],
       "factors": {
-        "news_heat": 10.4,
+        "news_heat": 14.4,
         "event_breadth": 12,
         "stock_attention": 5,
         "sector_flow": 0,
@@ -1512,879 +1457,1035 @@
       "rank": 18
     }
   ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "沪指跌1.7%创业板指跌3.69% 机器人概念股逆市大涨",
+        "刚刚30%涨停！黄仁勋彻底“点爆”！机器人逆市爆发！",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
   "market_data": {
-    "timestamp": "2026-06-05T21:48:12.595686",
+    "timestamp": "2026-06-08T21:53:39.058252",
     "market_open": false,
     "sectors": [
       {
-        "name": "玻璃玻纤",
-        "code": "BK0546",
-        "change_pct": 315,
-        "turnover_yuan": -377534016.0,
-        "main_flow_yuan": -159,
-        "market_cap_yuan": 634696384000,
-        "pe_ratio": 12,
-        "up_count": 675,
-        "down_count": 7491425
-      },
-      {
-        "name": "仪器仪表",
-        "code": "BK0458",
-        "change_pct": 277,
-        "turnover_yuan": 515666368.0,
-        "main_flow_yuan": 220,
-        "market_cap_yuan": 681117376000,
-        "pe_ratio": 46,
-        "up_count": 445,
-        "down_count": 2294591
-      },
-      {
-        "name": "非金属材料Ⅱ",
-        "code": "BK1020",
-        "change_pct": 259,
-        "turnover_yuan": -257794512.0,
-        "main_flow_yuan": -335,
-        "market_cap_yuan": 141985487000,
-        "pe_ratio": 8,
-        "up_count": 483,
-        "down_count": 235548
-      },
-      {
         "name": "工程机械",
         "code": "BK0739",
-        "change_pct": 216,
-        "turnover_yuan": 150461328.0,
-        "main_flow_yuan": 140,
-        "market_cap_yuan": 795801744000,
-        "pe_ratio": 29,
-        "up_count": 161,
-        "down_count": 234077
-      },
-      {
-        "name": "通用设备",
-        "code": "BK0545",
-        "change_pct": 206,
-        "turnover_yuan": 794041088.0,
-        "main_flow_yuan": 77,
-        "market_cap_yuan": 2497814048000,
-        "pe_ratio": 181,
-        "up_count": 489,
-        "down_count": 5484666
-      },
-      {
-        "name": "化学纤维",
-        "code": "BK0471",
-        "change_pct": 176,
-        "turnover_yuan": 814062512.0,
-        "main_flow_yuan": 901,
-        "market_cap_yuan": 296097056000,
-        "pe_ratio": 21,
-        "up_count": 355,
-        "down_count": 1853240
-      },
-      {
-        "name": "一般零售",
-        "code": "BK0482",
-        "change_pct": 151,
-        "turnover_yuan": 1183290160.0,
-        "main_flow_yuan": 984,
-        "market_cap_yuan": 460355792000,
-        "pe_ratio": 48,
-        "up_count": 273,
-        "down_count": 1712777
-      },
-      {
-        "name": "家居用品",
-        "code": "BK0440",
-        "change_pct": 138,
-        "turnover_yuan": 55302384.0,
-        "main_flow_yuan": 76,
-        "market_cap_yuan": 493641216000,
-        "pe_ratio": 49,
-        "up_count": 205,
-        "down_count": 4984754
-      },
-      {
-        "name": "专用设备",
-        "code": "BK0910",
-        "change_pct": 124,
-        "turnover_yuan": -625363712.0,
-        "main_flow_yuan": -103,
-        "market_cap_yuan": 1836386048000,
-        "pe_ratio": 144,
-        "up_count": 265,
-        "down_count": 370066
-      },
-      {
-        "name": "传媒",
-        "code": "BK0486",
-        "change_pct": 121,
-        "turnover_yuan": -62803968.0,
-        "main_flow_yuan": -13,
-        "market_cap_yuan": 1505744672000,
-        "pe_ratio": 93,
-        "up_count": 274,
-        "down_count": 1001646
-      },
-      {
-        "name": "通信设备",
-        "code": "BK0448",
-        "change_pct": 116,
-        "turnover_yuan": -10875609088.0,
-        "main_flow_yuan": -341,
-        "market_cap_yuan": 5192528128000,
-        "pe_ratio": 59,
-        "up_count": 769,
-        "down_count": 2702705
+        "change_pct": 79,
+        "turnover_yuan": 477535456.0,
+        "main_flow_yuan": 299,
+        "market_cap_yuan": 812784592000,
+        "pe_ratio": 17,
+        "up_count": 238,
+        "down_count": 237734
       },
       {
         "name": "银行Ⅱ",
         "code": "BK0475",
-        "change_pct": 113,
-        "turnover_yuan": 1061623808.0,
-        "main_flow_yuan": 413,
-        "market_cap_yuan": 15016298240000,
-        "pe_ratio": 41,
-        "up_count": 25,
-        "down_count": 409240
-      },
-      {
-        "name": "汽车服务",
-        "code": "BK1016",
-        "change_pct": 106,
-        "turnover_yuan": -23519575.0,
-        "main_flow_yuan": -257,
-        "market_cap_yuan": 42596774000,
-        "pe_ratio": 8,
-        "up_count": 144,
-        "down_count": 94720
-      },
-      {
-        "name": "橡胶",
-        "code": "BK1018",
-        "change_pct": 101,
-        "turnover_yuan": -12109024.0,
-        "main_flow_yuan": -31,
-        "market_cap_yuan": 129447366000,
-        "pe_ratio": 15,
-        "up_count": 319,
-        "down_count": 160465
-      },
-      {
-        "name": "物流",
-        "code": "BK0422",
-        "change_pct": 100,
-        "turnover_yuan": 54787695.0,
-        "main_flow_yuan": 115,
-        "market_cap_yuan": 645616192000,
-        "pe_ratio": 34,
-        "up_count": 108,
-        "down_count": 708895
-      },
-      {
-        "name": "家用电器",
-        "code": "BK0456",
-        "change_pct": 99,
-        "turnover_yuan": 334867072.0,
-        "main_flow_yuan": 101,
-        "market_cap_yuan": 2070828080000,
-        "pe_ratio": 72,
-        "up_count": 195,
-        "down_count": 2467247
-      },
-      {
-        "name": "汽车零部件",
-        "code": "BK0481",
-        "change_pct": 96,
-        "turnover_yuan": 81267456.0,
-        "main_flow_yuan": 10,
-        "market_cap_yuan": 2907091328000,
-        "pe_ratio": 179,
-        "up_count": 277,
-        "down_count": 4951137
-      },
-      {
-        "name": "化学原料",
-        "code": "BK1019",
-        "change_pct": 94,
-        "turnover_yuan": -250242112.0,
-        "main_flow_yuan": -122,
-        "market_cap_yuan": 827448400000,
-        "pe_ratio": 48,
-        "up_count": 173,
-        "down_count": 104975
-      },
-      {
-        "name": "化学制品",
-        "code": "BK0538",
-        "change_pct": 92,
-        "turnover_yuan": 152288256.0,
-        "main_flow_yuan": 30,
-        "market_cap_yuan": 1782267776000,
-        "pe_ratio": 122,
-        "up_count": 289,
-        "down_count": 3341594
-      },
-      {
-        "name": "航运港口",
-        "code": "BK0450",
-        "change_pct": 91,
-        "turnover_yuan": 527332720.0,
-        "main_flow_yuan": 469,
-        "market_cap_yuan": 1162134432000,
-        "pe_ratio": 26,
-        "up_count": 96,
-        "down_count": 1193891
-      },
-      {
-        "name": "装修建材",
-        "code": "BK0476",
-        "change_pct": 87,
-        "turnover_yuan": -44725344.0,
-        "main_flow_yuan": -67,
-        "market_cap_yuan": 275315232000,
-        "pe_ratio": 24,
-        "up_count": 294,
-        "down_count": 1723961
-      },
-      {
-        "name": "水泥",
-        "code": "BK0424",
-        "change_pct": 83,
-        "turnover_yuan": -38075782.0,
-        "main_flow_yuan": -139,
-        "market_cap_yuan": 292688080000,
-        "pe_ratio": 20,
-        "up_count": 97,
-        "down_count": 2749977
-      },
-      {
-        "name": "塑料",
-        "code": "BK0454",
-        "change_pct": 82,
-        "turnover_yuan": -141112576.0,
-        "main_flow_yuan": -38,
-        "market_cap_yuan": 762244224000,
-        "pe_ratio": 53,
-        "up_count": 635,
-        "down_count": 2326327
-      },
-      {
-        "name": "教育",
-        "code": "BK0740",
-        "change_pct": 82,
-        "turnover_yuan": -130236890.0,
-        "main_flow_yuan": -731,
-        "market_cap_yuan": 73696150000,
-        "pe_ratio": 12,
-        "up_count": 220,
-        "down_count": 57169
-      },
-      {
-        "name": "工程咨询服务Ⅱ",
-        "code": "BK0726",
-        "change_pct": 72,
-        "turnover_yuan": -652044096.0,
-        "main_flow_yuan": -613,
-        "market_cap_yuan": 222398213000,
-        "pe_ratio": 32,
-        "up_count": 445,
-        "down_count": 84386
-      },
-      {
-        "name": "综合Ⅱ",
-        "code": "BK0539",
-        "change_pct": 70,
-        "turnover_yuan": -205739504.0,
-        "main_flow_yuan": -444,
-        "market_cap_yuan": 200275628000,
-        "pe_ratio": 14,
-        "up_count": 241,
-        "down_count": 1205088
-      },
-      {
-        "name": "航空机场",
-        "code": "BK0420",
-        "change_pct": 61,
-        "turnover_yuan": -8119872.0,
-        "main_flow_yuan": -19,
-        "market_cap_yuan": 583781616000,
-        "pe_ratio": 10,
-        "up_count": 97,
-        "down_count": 433028
-      },
-      {
-        "name": "计算机设备",
-        "code": "BK0735",
-        "change_pct": 56,
-        "turnover_yuan": -871415808.0,
-        "main_flow_yuan": -214,
-        "market_cap_yuan": 1632516592000,
-        "pe_ratio": 57,
-        "up_count": 256,
-        "down_count": 171246
-      },
-      {
-        "name": "环保",
-        "code": "BK0728",
-        "change_pct": 54,
-        "turnover_yuan": -1015284768.0,
-        "main_flow_yuan": -450,
-        "market_cap_yuan": 950315376000,
-        "pe_ratio": 78,
-        "up_count": 227,
-        "down_count": 58417
-      },
-      {
-        "name": "纺织服饰",
-        "code": "BK0436",
-        "change_pct": 53,
-        "turnover_yuan": -133634432.0,
-        "main_flow_yuan": -132,
-        "market_cap_yuan": 623597488000,
-        "pe_ratio": 73,
-        "up_count": 174,
-        "down_count": 1386276
-      },
-      {
-        "name": "房地产开发",
-        "code": "BK0451",
-        "change_pct": 51,
-        "turnover_yuan": -633380400.0,
-        "main_flow_yuan": -290,
-        "market_cap_yuan": 937997536000,
-        "pe_ratio": 48,
-        "up_count": 215,
-        "down_count": 1441840
-      },
-      {
-        "name": "农化制品",
-        "code": "BK0731",
-        "change_pct": 49,
-        "turnover_yuan": -446935472.0,
-        "main_flow_yuan": -261,
-        "market_cap_yuan": 942654736000,
-        "pe_ratio": 36,
-        "up_count": 199,
-        "down_count": 168036
-      },
-      {
-        "name": "贸易Ⅱ",
-        "code": "BK0484",
-        "change_pct": 47,
-        "turnover_yuan": 165742162.0,
-        "main_flow_yuan": 527,
-        "market_cap_yuan": 160569569000,
-        "pe_ratio": 9,
-        "up_count": 234,
-        "down_count": 1087646
-      },
-      {
-        "name": "石油石化",
-        "code": "BK0464",
-        "change_pct": 43,
-        "turnover_yuan": -300402016.0,
-        "main_flow_yuan": -168,
-        "market_cap_yuan": 5080537088000,
-        "pe_ratio": 25,
-        "up_count": 73,
-        "down_count": 672284
+        "change_pct": 42,
+        "turnover_yuan": 1601113344.0,
+        "main_flow_yuan": 510,
+        "market_cap_yuan": 15230236928000,
+        "pe_ratio": 22,
+        "up_count": 31,
+        "down_count": 411054
       },
       {
         "name": "保险Ⅱ",
         "code": "BK0474",
-        "change_pct": 43,
-        "turnover_yuan": 258505360.0,
-        "main_flow_yuan": 234,
-        "market_cap_yuan": 2661093984000,
-        "pe_ratio": 4,
-        "up_count": 42,
-        "down_count": 125828
+        "change_pct": -28,
+        "turnover_yuan": -281542576.0,
+        "main_flow_yuan": -335,
+        "market_cap_yuan": 2661174976000,
+        "pe_ratio": 2,
+        "up_count": 32,
+        "down_count": 123697
+      },
+      {
+        "name": "非金属材料Ⅱ",
+        "code": "BK1020",
+        "change_pct": -94,
+        "turnover_yuan": -65536576.0,
+        "main_flow_yuan": -89,
+        "market_cap_yuan": 140185630000,
+        "pe_ratio": 5,
+        "up_count": 501,
+        "down_count": 233424
       },
       {
         "name": "软件开发",
         "code": "BK0737",
-        "change_pct": 43,
-        "turnover_yuan": -1994046208.0,
-        "main_flow_yuan": -429,
-        "market_cap_yuan": 1632970752000,
-        "pe_ratio": 81,
-        "up_count": 259,
-        "down_count": 111920
+        "change_pct": -122,
+        "turnover_yuan": -1476659456.0,
+        "main_flow_yuan": -323,
+        "market_cap_yuan": 1593483136000,
+        "pe_ratio": 28,
+        "up_count": 274,
+        "down_count": 111043
       },
       {
-        "name": "钢铁",
-        "code": "BK0479",
-        "change_pct": 42,
-        "turnover_yuan": 407901184.0,
-        "main_flow_yuan": 410,
-        "market_cap_yuan": 885477856000,
-        "pe_ratio": 23,
-        "up_count": 103,
-        "down_count": 839017
-      },
-      {
-        "name": "食品饮料",
-        "code": "BK0438",
-        "change_pct": 36,
-        "turnover_yuan": -340203392.0,
-        "main_flow_yuan": -114,
-        "market_cap_yuan": 3850513136000,
-        "pe_ratio": 88,
-        "up_count": 191,
-        "down_count": 2671372
-      },
-      {
-        "name": "饰品",
-        "code": "BK0734",
-        "change_pct": 24,
-        "turnover_yuan": -4053867.0,
-        "main_flow_yuan": -25,
-        "market_cap_yuan": 109197740000,
-        "pe_ratio": 12,
-        "up_count": 216,
-        "down_count": 40036
-      },
-      {
-        "name": "装修装饰Ⅱ",
-        "code": "BK0725",
-        "change_pct": 18,
-        "turnover_yuan": -124562540.0,
-        "main_flow_yuan": -332,
-        "market_cap_yuan": 115281383000,
-        "pe_ratio": 13,
-        "up_count": 333,
-        "down_count": 91138
-      },
-      {
-        "name": "铁路公路",
-        "code": "BK0421",
-        "change_pct": 15,
-        "turnover_yuan": -34240912.0,
-        "main_flow_yuan": -92,
-        "market_cap_yuan": 798670528000,
-        "pe_ratio": 21,
-        "up_count": 50,
-        "down_count": 854452
-      },
-      {
-        "name": "化学制药",
-        "code": "BK0465",
-        "change_pct": 14,
-        "turnover_yuan": -498484384.0,
-        "main_flow_yuan": -165,
-        "market_cap_yuan": 2139545744000,
-        "pe_ratio": 102,
-        "up_count": 167,
-        "down_count": 3368404
-      },
-      {
-        "name": "电网设备",
-        "code": "BK0457",
-        "change_pct": 0,
-        "turnover_yuan": -1985856768.0,
-        "main_flow_yuan": -317,
-        "market_cap_yuan": 1907362144000,
-        "pe_ratio": 63,
-        "up_count": 342,
-        "down_count": 4195253
-      },
-      {
-        "name": "农林牧渔",
-        "code": "BK0433",
-        "change_pct": -4,
-        "turnover_yuan": -596924944.0,
-        "main_flow_yuan": -445,
-        "market_cap_yuan": 1172340832000,
-        "pe_ratio": 54,
-        "up_count": 168,
-        "down_count": 1379077
-      },
-      {
-        "name": "能源金属",
-        "code": "BK1015",
-        "change_pct": -14,
-        "turnover_yuan": -799933792.0,
-        "main_flow_yuan": -407,
-        "market_cap_yuan": 523561632000,
-        "pe_ratio": 4,
-        "up_count": 504,
-        "down_count": 101057
-      },
-      {
-        "name": "有色金属",
-        "code": "BK0478",
-        "change_pct": -19,
-        "turnover_yuan": -6737073920.0,
-        "main_flow_yuan": -409,
-        "market_cap_yuan": 5802224896000,
-        "pe_ratio": 61,
-        "up_count": 318,
-        "down_count": 3012487
-      },
-      {
-        "name": "通信服务",
-        "code": "BK0736",
-        "change_pct": -21,
-        "turnover_yuan": -463952608.0,
-        "main_flow_yuan": -259,
-        "market_cap_yuan": 3196039488000,
-        "pe_ratio": 19,
-        "up_count": 97,
-        "down_count": 119005
-      },
-      {
-        "name": "医疗服务",
-        "code": "BK0727",
-        "change_pct": -38,
-        "turnover_yuan": 42464368.0,
-        "main_flow_yuan": 31,
-        "market_cap_yuan": 865596048000,
-        "pe_ratio": 25,
-        "up_count": 171,
-        "down_count": 117877
-      },
-      {
-        "name": "多元金融",
-        "code": "BK0738",
-        "change_pct": -47,
-        "turnover_yuan": -244695408.0,
-        "main_flow_yuan": -484,
-        "market_cap_yuan": 514968480000,
-        "pe_ratio": 10,
-        "up_count": 90,
-        "down_count": 58720
-      },
-      {
-        "name": "证券Ⅱ",
-        "code": "BK0473",
-        "change_pct": -75,
-        "turnover_yuan": -1209554352.0,
-        "main_flow_yuan": -436,
-        "market_cap_yuan": 3338157344000,
-        "pe_ratio": 11,
-        "up_count": 90,
-        "down_count": 13245339
+        "name": "汽车服务",
+        "code": "BK1016",
+        "change_pct": -128,
+        "turnover_yuan": -11174019.0,
+        "main_flow_yuan": -87,
+        "market_cap_yuan": 42015817000,
+        "pe_ratio": 2,
+        "up_count": 189,
+        "down_count": 94525
       },
       {
         "name": "煤炭",
         "code": "BK0437",
-        "change_pct": -125,
-        "turnover_yuan": -1405045616.0,
-        "main_flow_yuan": -555,
-        "market_cap_yuan": 2502503712000,
-        "pe_ratio": 9,
-        "up_count": 254,
-        "down_count": 1523873
+        "change_pct": -145,
+        "turnover_yuan": -650056880.0,
+        "main_flow_yuan": -264,
+        "market_cap_yuan": 2551445168000,
+        "pe_ratio": 8,
+        "up_count": 229,
+        "down_count": 1514246
+      },
+      {
+        "name": "房地产开发",
+        "code": "BK0451",
+        "change_pct": -148,
+        "turnover_yuan": 121310848.0,
+        "main_flow_yuan": 59,
+        "market_cap_yuan": 918312512000,
+        "pe_ratio": 14,
+        "up_count": 233,
+        "down_count": 1428802
+      },
+      {
+        "name": "通用设备",
+        "code": "BK0545",
+        "change_pct": -151,
+        "turnover_yuan": 523466240.0,
+        "main_flow_yuan": 51,
+        "market_cap_yuan": 2477224032000,
+        "pe_ratio": 79,
+        "up_count": 501,
+        "down_count": 5448442
+      },
+      {
+        "name": "一般零售",
+        "code": "BK0482",
+        "change_pct": -160,
+        "turnover_yuan": -307487424.0,
+        "main_flow_yuan": -259,
+        "market_cap_yuan": 450312384000,
+        "pe_ratio": 5,
+        "up_count": 280,
+        "down_count": 1698254
+      },
+      {
+        "name": "农林牧渔",
+        "code": "BK0433",
+        "change_pct": -162,
+        "turnover_yuan": -565572080.0,
+        "main_flow_yuan": -362,
+        "market_cap_yuan": 1149786032000,
+        "pe_ratio": 21,
+        "up_count": 194,
+        "down_count": 1379753
+      },
+      {
+        "name": "汽车零部件",
+        "code": "BK0481",
+        "change_pct": -170,
+        "turnover_yuan": -1120326144.0,
+        "main_flow_yuan": -148,
+        "market_cap_yuan": 2854946704000,
+        "pe_ratio": 67,
+        "up_count": 267,
+        "down_count": 4895367
+      },
+      {
+        "name": "铁路公路",
+        "code": "BK0421",
+        "change_pct": -172,
+        "turnover_yuan": -48124400.0,
+        "main_flow_yuan": -115,
+        "market_cap_yuan": 792117152000,
+        "pe_ratio": 5,
+        "up_count": 61,
+        "down_count": 843607
+      },
+      {
+        "name": "传媒",
+        "code": "BK0486",
+        "change_pct": -185,
+        "turnover_yuan": -1405955536.0,
+        "main_flow_yuan": -304,
+        "market_cap_yuan": 1472205680000,
+        "pe_ratio": 19,
+        "up_count": 278,
+        "down_count": 1001554
+      },
+      {
+        "name": "装修装饰Ⅱ",
+        "code": "BK0725",
+        "change_pct": -185,
+        "turnover_yuan": -190218389.0,
+        "main_flow_yuan": -545,
+        "market_cap_yuan": 111544616000,
+        "pe_ratio": 5,
+        "up_count": 392,
+        "down_count": 90229
+      },
+      {
+        "name": "装修建材",
+        "code": "BK0476",
+        "change_pct": -187,
+        "turnover_yuan": -64400304.0,
+        "main_flow_yuan": -84,
+        "market_cap_yuan": 267390271000,
+        "pe_ratio": 13,
+        "up_count": 355,
+        "down_count": 1714509
+      },
+      {
+        "name": "证券Ⅱ",
+        "code": "BK0473",
+        "change_pct": -189,
+        "turnover_yuan": -1697470976.0,
+        "main_flow_yuan": -527,
+        "market_cap_yuan": 3292749824000,
+        "pe_ratio": 4,
+        "up_count": 105,
+        "down_count": 13017531
+      },
+      {
+        "name": "水泥",
+        "code": "BK0424",
+        "change_pct": -196,
+        "turnover_yuan": -125993188.0,
+        "main_flow_yuan": -435,
+        "market_cap_yuan": 285344576000,
+        "pe_ratio": 4,
+        "up_count": 107,
+        "down_count": 2726710
+      },
+      {
+        "name": "石油石化",
+        "code": "BK0464",
+        "change_pct": -199,
+        "turnover_yuan": 224825376.0,
+        "main_flow_yuan": 110,
+        "market_cap_yuan": 5191275008000,
+        "pe_ratio": 13,
+        "up_count": 73,
+        "down_count": 669496
+      },
+      {
+        "name": "工程咨询服务Ⅱ",
+        "code": "BK0726",
+        "change_pct": -199,
+        "turnover_yuan": -303050784.0,
+        "main_flow_yuan": -366,
+        "market_cap_yuan": 216299394000,
+        "pe_ratio": 11,
+        "up_count": 374,
+        "down_count": 83749
+      },
+      {
+        "name": "纺织服饰",
+        "code": "BK0436",
+        "change_pct": -202,
+        "turnover_yuan": -256924960.0,
+        "main_flow_yuan": -237,
+        "market_cap_yuan": 611314528000,
+        "pe_ratio": 13,
+        "up_count": 185,
+        "down_count": 1373351
+      },
+      {
+        "name": "食品饮料",
+        "code": "BK0438",
+        "change_pct": -205,
+        "turnover_yuan": -1262481392.0,
+        "main_flow_yuan": -421,
+        "market_cap_yuan": 3803160976000,
+        "pe_ratio": 19,
+        "up_count": 187,
+        "down_count": 2648009
+      },
+      {
+        "name": "专用设备",
+        "code": "BK0910",
+        "change_pct": -213,
+        "turnover_yuan": -1438968576.0,
+        "main_flow_yuan": -250,
+        "market_cap_yuan": 1789705344000,
+        "pe_ratio": 42,
+        "up_count": 271,
+        "down_count": 366058
+      },
+      {
+        "name": "教育",
+        "code": "BK0740",
+        "change_pct": -215,
+        "turnover_yuan": -121472041.0,
+        "main_flow_yuan": -758,
+        "market_cap_yuan": 71909223000,
+        "pe_ratio": 1,
+        "up_count": 234,
+        "down_count": 56597
+      },
+      {
+        "name": "综合Ⅱ",
+        "code": "BK0539",
+        "change_pct": -217,
+        "turnover_yuan": -74304768.0,
+        "main_flow_yuan": -197,
+        "market_cap_yuan": 194264847000,
+        "pe_ratio": 3,
+        "up_count": 243,
+        "down_count": 1196772
+      },
+      {
+        "name": "玻璃玻纤",
+        "code": "BK0546",
+        "change_pct": -231,
+        "turnover_yuan": -1212989088.0,
+        "main_flow_yuan": -617,
+        "market_cap_yuan": 612839408000,
+        "pe_ratio": 3,
+        "up_count": 617,
+        "down_count": 7344255
+      },
+      {
+        "name": "仪器仪表",
+        "code": "BK0458",
+        "change_pct": -235,
+        "turnover_yuan": -78389776.0,
+        "main_flow_yuan": -35,
+        "market_cap_yuan": 683764096000,
+        "pe_ratio": 18,
+        "up_count": 406,
+        "down_count": 2266217
+      },
+      {
+        "name": "化学制药",
+        "code": "BK0465",
+        "change_pct": -248,
+        "turnover_yuan": -1209470832.0,
+        "main_flow_yuan": -445,
+        "market_cap_yuan": 2082911200000,
+        "pe_ratio": 17,
+        "up_count": 173,
+        "down_count": 3339699
+      },
+      {
+        "name": "环保",
+        "code": "BK0728",
+        "change_pct": -249,
+        "turnover_yuan": -652305616.0,
+        "main_flow_yuan": -300,
+        "market_cap_yuan": 929728896000,
+        "pe_ratio": 19,
+        "up_count": 228,
+        "down_count": 57817
+      },
+      {
+        "name": "家用电器",
+        "code": "BK0456",
+        "change_pct": -254,
+        "turnover_yuan": -707209328.0,
+        "main_flow_yuan": -228,
+        "market_cap_yuan": 2054391568000,
+        "pe_ratio": 13,
+        "up_count": 185,
+        "down_count": 2433273
+      },
+      {
+        "name": "家居用品",
+        "code": "BK0440",
+        "change_pct": -257,
+        "turnover_yuan": 87621104.0,
+        "main_flow_yuan": 119,
+        "market_cap_yuan": 480501808000,
+        "pe_ratio": 12,
+        "up_count": 223,
+        "down_count": 4925321
+      },
+      {
+        "name": "物流",
+        "code": "BK0422",
+        "change_pct": -258,
+        "turnover_yuan": -250891014.0,
+        "main_flow_yuan": -524,
+        "market_cap_yuan": 633297104000,
+        "pe_ratio": 2,
+        "up_count": 113,
+        "down_count": 701080
+      },
+      {
+        "name": "计算机设备",
+        "code": "BK0735",
+        "change_pct": -259,
+        "turnover_yuan": -2772007696.0,
+        "main_flow_yuan": -709,
+        "market_cap_yuan": 1574808480000,
+        "pe_ratio": 15,
+        "up_count": 273,
+        "down_count": 168512
+      },
+      {
+        "name": "通信服务",
+        "code": "BK0736",
+        "change_pct": -264,
+        "turnover_yuan": -1218344736.0,
+        "main_flow_yuan": -697,
+        "market_cap_yuan": 3170718400000,
+        "pe_ratio": 7,
+        "up_count": 100,
+        "down_count": 116441
+      },
+      {
+        "name": "钢铁",
+        "code": "BK0479",
+        "change_pct": -273,
+        "turnover_yuan": -478893904.0,
+        "main_flow_yuan": -405,
+        "market_cap_yuan": 864285296000,
+        "pe_ratio": 7,
+        "up_count": 133,
+        "down_count": 825285
+      },
+      {
+        "name": "饰品",
+        "code": "BK0734",
+        "change_pct": -273,
+        "turnover_yuan": -70069481.0,
+        "main_flow_yuan": -460,
+        "market_cap_yuan": 105798111000,
+        "pe_ratio": 1,
+        "up_count": 192,
+        "down_count": 39367
+      },
+      {
+        "name": "化学原料",
+        "code": "BK1019",
+        "change_pct": -273,
+        "turnover_yuan": -317785008.0,
+        "main_flow_yuan": -149,
+        "market_cap_yuan": 811194896000,
+        "pe_ratio": 10,
+        "up_count": 194,
+        "down_count": 103554
+      },
+      {
+        "name": "航运港口",
+        "code": "BK0450",
+        "change_pct": -289,
+        "turnover_yuan": -716058688.0,
+        "main_flow_yuan": -627,
+        "market_cap_yuan": 1130652688000,
+        "pe_ratio": 3,
+        "up_count": 109,
+        "down_count": 1177444
+      },
+      {
+        "name": "橡胶",
+        "code": "BK1018",
+        "change_pct": -298,
+        "turnover_yuan": -218824568.0,
+        "main_flow_yuan": -657,
+        "market_cap_yuan": 124342399000,
+        "pe_ratio": 4,
+        "up_count": 293,
+        "down_count": 157582
+      },
+      {
+        "name": "航空机场",
+        "code": "BK0420",
+        "change_pct": -303,
+        "turnover_yuan": -360934672.0,
+        "main_flow_yuan": -625,
+        "market_cap_yuan": 561416528000,
+        "pe_ratio": 1,
+        "up_count": 121,
+        "down_count": 424849
+      },
+      {
+        "name": "塑料",
+        "code": "BK0454",
+        "change_pct": -304,
+        "turnover_yuan": -325924864.0,
+        "main_flow_yuan": -96,
+        "market_cap_yuan": 734106560000,
+        "pe_ratio": 13,
+        "up_count": 574,
+        "down_count": 2292698
+      },
+      {
+        "name": "化学纤维",
+        "code": "BK0471",
+        "change_pct": -312,
+        "turnover_yuan": -115060768.0,
+        "main_flow_yuan": -147,
+        "market_cap_yuan": 287019008000,
+        "pe_ratio": 4,
+        "up_count": 317,
+        "down_count": 1824043
+      },
+      {
+        "name": "医疗服务",
+        "code": "BK0727",
+        "change_pct": -323,
+        "turnover_yuan": -990026720.0,
+        "main_flow_yuan": -695,
+        "market_cap_yuan": 843116928000,
+        "pe_ratio": 2,
+        "up_count": 191,
+        "down_count": 116062
+      },
+      {
+        "name": "农化制品",
+        "code": "BK0731",
+        "change_pct": -324,
+        "turnover_yuan": -962638944.0,
+        "main_flow_yuan": -560,
+        "market_cap_yuan": 906054624000,
+        "pe_ratio": 5,
+        "up_count": 224,
+        "down_count": 165651
+      },
+      {
+        "name": "多元金融",
+        "code": "BK0738",
+        "change_pct": -327,
+        "turnover_yuan": -332540794.0,
+        "main_flow_yuan": -670,
+        "market_cap_yuan": 500397696000,
+        "pe_ratio": 0,
+        "up_count": 95,
+        "down_count": 57935
+      },
+      {
+        "name": "化学制品",
+        "code": "BK0538",
+        "change_pct": -329,
+        "turnover_yuan": -477553408.0,
+        "main_flow_yuan": -94,
+        "market_cap_yuan": 1733057392000,
+        "pe_ratio": 24,
+        "up_count": 293,
+        "down_count": 3290332
       },
       {
         "name": "元件",
         "code": "BK0459",
-        "change_pct": -146,
-        "turnover_yuan": -8495872000.0,
-        "main_flow_yuan": -456,
-        "market_cap_yuan": 3448938336000,
-        "pe_ratio": 20,
-        "up_count": 849,
-        "down_count": 6403630
-      },
-      {
-        "name": "小金属",
-        "code": "BK1027",
-        "change_pct": -149,
-        "turnover_yuan": -1264727808.0,
-        "main_flow_yuan": -239,
-        "market_cap_yuan": 1192855424000,
-        "pe_ratio": 9,
-        "up_count": 514,
-        "down_count": 426016
-      },
-      {
-        "name": "贵金属",
-        "code": "BK0732",
-        "change_pct": -183,
-        "turnover_yuan": -710526688.0,
-        "main_flow_yuan": -677,
-        "market_cap_yuan": 596550480000,
-        "pe_ratio": 1,
-        "up_count": 192,
-        "down_count": 229444
+        "change_pct": -338,
+        "turnover_yuan": -4803402240.0,
+        "main_flow_yuan": -275,
+        "market_cap_yuan": 3353632896000,
+        "pe_ratio": 13,
+        "up_count": 769,
+        "down_count": 6195145
       },
       {
         "name": "公用事业",
         "code": "BK0427",
-        "change_pct": -356,
-        "turnover_yuan": -12022316032.0,
-        "main_flow_yuan": -1098,
-        "market_cap_yuan": 4542888960000,
-        "pe_ratio": 17,
-        "up_count": 297,
-        "down_count": 1113519
+        "change_pct": -342,
+        "turnover_yuan": -3285412864.0,
+        "main_flow_yuan": -388,
+        "market_cap_yuan": 4434409472000,
+        "pe_ratio": 18,
+        "up_count": 239,
+        "down_count": 1061278
       },
       {
         "name": "电力",
         "code": "BK0428",
-        "change_pct": -431,
-        "turnover_yuan": -11889728256.0,
-        "main_flow_yuan": -1132,
-        "market_cap_yuan": 4257824032000,
+        "change_pct": -396,
+        "turnover_yuan": -3229213952.0,
+        "main_flow_yuan": -403,
+        "market_cap_yuan": 4154372464000,
+        "pe_ratio": 12,
+        "up_count": 242,
+        "down_count": 2233772
+      },
+      {
+        "name": "贸易Ⅱ",
+        "code": "BK0484",
+        "change_pct": -404,
+        "turnover_yuan": -225082467.0,
+        "main_flow_yuan": -728,
+        "market_cap_yuan": 151892985000,
+        "pe_ratio": 0,
+        "up_count": 271,
+        "down_count": 1074994
+      },
+      {
+        "name": "电网设备",
+        "code": "BK0457",
+        "change_pct": -405,
+        "turnover_yuan": -4021648384.0,
+        "main_flow_yuan": -664,
+        "market_cap_yuan": 1828291632000,
+        "pe_ratio": 15,
+        "up_count": 351,
+        "down_count": 4089145
+      },
+      {
+        "name": "通信设备",
+        "code": "BK0448",
+        "change_pct": -411,
+        "turnover_yuan": -9835161088.0,
+        "main_flow_yuan": -388,
+        "market_cap_yuan": 5012726016000,
+        "pe_ratio": 14,
+        "up_count": 698,
+        "down_count": 2602969
+      },
+      {
+        "name": "能源金属",
+        "code": "BK1015",
+        "change_pct": -477,
+        "turnover_yuan": -1273217456.0,
+        "main_flow_yuan": -700,
+        "market_cap_yuan": 497366656000,
+        "pe_ratio": 0,
+        "up_count": 467,
+        "down_count": 98495
+      },
+      {
+        "name": "有色金属",
+        "code": "BK0478",
+        "change_pct": -479,
+        "turnover_yuan": -10824037120.0,
+        "main_flow_yuan": -674,
+        "market_cap_yuan": 5480948480000,
         "pe_ratio": 10,
-        "up_count": 305,
-        "down_count": 2370012
+        "up_count": 330,
+        "down_count": 2901831
+      },
+      {
+        "name": "小金属",
+        "code": "BK1027",
+        "change_pct": -484,
+        "turnover_yuan": -2853210368.0,
+        "main_flow_yuan": -618,
+        "market_cap_yuan": 1134858672000,
+        "pe_ratio": 2,
+        "up_count": 475,
+        "down_count": 412923
+      },
+      {
+        "name": "贵金属",
+        "code": "BK0732",
+        "change_pct": -659,
+        "turnover_yuan": -1555249072.0,
+        "main_flow_yuan": -1081,
+        "market_cap_yuan": 557608912000,
+        "pe_ratio": 0,
+        "up_count": 278,
+        "down_count": 216910
       }
     ],
     "gainers": [
       {
         "code": "000010",
         "name": "*ST美丽",
-        "price": 2.26,
-        "change_pct": 5.12,
-        "volume": 227961,
-        "turnover_yuan": 13735804.0,
-        "main_flow_yuan": 27.13
-      },
-      {
-        "code": "000011",
-        "name": "深物业A",
-        "price": 7.58,
-        "change_pct": 4.99,
-        "volume": 63618,
-        "turnover_yuan": 1800751.0,
-        "main_flow_yuan": 3.82
-      },
-      {
-        "code": "000012",
-        "name": "南  玻Ａ",
-        "price": 4.38,
-        "change_pct": 4.29,
-        "volume": 1282677,
-        "turnover_yuan": 38078156.0,
-        "main_flow_yuan": 6.82
-      },
-      {
-        "code": "000014",
-        "name": "沙河股份",
-        "price": 10.67,
-        "change_pct": 1.91,
-        "volume": 56923,
-        "turnover_yuan": -6892077.0,
-        "main_flow_yuan": -11.4
+        "price": 2.31,
+        "change_pct": 2.21,
+        "volume": 564837,
+        "turnover_yuan": 6328084.0,
+        "main_flow_yuan": 4.81
       },
       {
         "code": "000001",
         "name": "平安银行",
-        "price": 10.98,
-        "change_pct": 1.48,
-        "volume": 1003503,
-        "turnover_yuan": 33017043.0,
-        "main_flow_yuan": 2.99
-      },
-      {
-        "code": "000009",
-        "name": "中国宝安",
-        "price": 7.19,
-        "change_pct": 1.41,
-        "volume": 256012,
-        "turnover_yuan": 10195724.0,
-        "main_flow_yuan": 5.55
-      },
-      {
-        "code": "000017",
-        "name": "深中华A",
-        "price": 5.32,
-        "change_pct": 1.33,
-        "volume": 92131,
-        "turnover_yuan": -2132718.0,
-        "main_flow_yuan": -4.34
-      },
-      {
-        "code": "000006",
-        "name": "深振业Ａ",
-        "price": 8.51,
-        "change_pct": 1.31,
-        "volume": 347372,
-        "turnover_yuan": 40854315.0,
-        "main_flow_yuan": 13.85
-      },
-      {
-        "code": "000002",
-        "name": "万  科Ａ",
-        "price": 3.25,
-        "change_pct": 1.25,
-        "volume": 1644371,
-        "turnover_yuan": 12884246.0,
-        "main_flow_yuan": 2.39
-      },
-      {
-        "code": "000020",
-        "name": "深华发Ａ",
-        "price": 12.46,
-        "change_pct": 0.89,
-        "volume": 39953,
-        "turnover_yuan": -929094.0,
-        "main_flow_yuan": -1.88
-      },
-      {
-        "code": "000008",
-        "name": "神州高铁",
-        "price": 2.59,
-        "change_pct": 0.78,
-        "volume": 213548,
-        "turnover_yuan": 6829915.0,
-        "main_flow_yuan": 12.39
-      },
-      {
-        "code": "000019",
-        "name": "深粮控股",
-        "price": 6.42,
-        "change_pct": 0.63,
-        "volume": 80900,
-        "turnover_yuan": 2241100.0,
-        "main_flow_yuan": 4.32
+        "price": 11.03,
+        "change_pct": 0.46,
+        "volume": 1090926,
+        "turnover_yuan": 32116003.0,
+        "main_flow_yuan": 2.67
       }
     ],
     "northbound": {
-      "sh_net": -30.04,
-      "sz_net": -0.106,
-      "total_net": -30.15,
+      "sh_net": -68.4,
+      "sz_net": -0.11,
+      "total_net": -68.51,
       "sh_accum": 0,
       "sz_accum": 0,
-      "total_accum": -30.15,
+      "total_accum": -68.51,
       "status": "outflow",
-      "updated": "2026-06-05T21:40:38.245996"
+      "updated": "2026-06-08T21:53:40.706714"
     },
     "main_force": {
       "inflow_sectors": [],
-      "outflow_sectors": [],
-      "top_flow": [],
-      "updated": "2026-06-05T21:48:18.141664"
+      "outflow_sectors": [
+        {
+          "name": "铁路公路",
+          "code": "BK0421",
+          "main_flow_yuan": -115,
+          "change_pct": -172,
+          "turnover_yuan": -48124400.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -237,
+          "change_pct": -202,
+          "turnover_yuan": -256924960.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -264,
+          "change_pct": -145,
+          "turnover_yuan": -650056880.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": -362,
+          "change_pct": -162,
+          "turnover_yuan": -565572080.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": -388,
+          "change_pct": -342,
+          "turnover_yuan": -3285412864.0
+        }
+      ],
+      "top_flow": [
+        {
+          "name": "铁路公路",
+          "code": "BK0421",
+          "main_flow_yuan": -115,
+          "change_pct": -172,
+          "turnover_yuan": -48124400.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -237,
+          "change_pct": -202,
+          "turnover_yuan": -256924960.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -264,
+          "change_pct": -145,
+          "turnover_yuan": -650056880.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": -362,
+          "change_pct": -162,
+          "turnover_yuan": -565572080.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": -388,
+          "change_pct": -342,
+          "turnover_yuan": -3285412864.0
+        },
+        {
+          "name": "电力",
+          "code": "BK0428",
+          "main_flow_yuan": -403,
+          "change_pct": -396,
+          "turnover_yuan": -3229213952.0
+        },
+        {
+          "name": "食品饮料",
+          "code": "BK0438",
+          "main_flow_yuan": -421,
+          "change_pct": -205,
+          "turnover_yuan": -1262481392.0
+        },
+        {
+          "name": "水泥",
+          "code": "BK0424",
+          "main_flow_yuan": -435,
+          "change_pct": -196,
+          "turnover_yuan": -125993188.0
+        },
+        {
+          "name": "物流",
+          "code": "BK0422",
+          "main_flow_yuan": -524,
+          "change_pct": -258,
+          "turnover_yuan": -250891014.0
+        },
+        {
+          "name": "航空机场",
+          "code": "BK0420",
+          "main_flow_yuan": -625,
+          "change_pct": -303,
+          "turnover_yuan": -360934672.0
+        }
+      ],
+      "updated": "2026-06-08T21:53:40.901060"
     }
   },
   "market_pulse": {
     "market_open": false,
     "northbound": {
-      "net": -30.15,
+      "net": -68.51,
       "status": "outflow"
     },
     "top_sectors": [
       {
-        "name": "玻璃玻纤",
-        "change_pct": 315.0,
-        "main_flow_yuan": -159.0
+        "name": "工程机械",
+        "change_pct": 79.0,
+        "main_flow_yuan": 299.0
       },
       {
-        "name": "仪器仪表",
-        "change_pct": 277.0,
-        "main_flow_yuan": 220.0
+        "name": "银行Ⅱ",
+        "change_pct": 42.0,
+        "main_flow_yuan": 510.0
       },
       {
-        "name": "非金属材料Ⅱ",
-        "change_pct": 259.0,
+        "name": "保险Ⅱ",
+        "change_pct": -28.0,
         "main_flow_yuan": -335.0
       },
       {
-        "name": "工程机械",
-        "change_pct": 216.0,
-        "main_flow_yuan": 140.0
+        "name": "非金属材料Ⅱ",
+        "change_pct": -94.0,
+        "main_flow_yuan": -89.0
+      },
+      {
+        "name": "软件开发",
+        "change_pct": -122.0,
+        "main_flow_yuan": -323.0
+      },
+      {
+        "name": "汽车服务",
+        "change_pct": -128.0,
+        "main_flow_yuan": -87.0
+      },
+      {
+        "name": "煤炭",
+        "change_pct": -145.0,
+        "main_flow_yuan": -264.0
+      },
+      {
+        "name": "房地产开发",
+        "change_pct": -148.0,
+        "main_flow_yuan": 59.0
       },
       {
         "name": "通用设备",
-        "change_pct": 206.0,
-        "main_flow_yuan": 77.0
-      },
-      {
-        "name": "化学纤维",
-        "change_pct": 176.0,
-        "main_flow_yuan": 901.0
+        "change_pct": -151.0,
+        "main_flow_yuan": 51.0
       },
       {
         "name": "一般零售",
-        "change_pct": 151.0,
-        "main_flow_yuan": 984.0
-      },
-      {
-        "name": "家居用品",
-        "change_pct": 138.0,
-        "main_flow_yuan": 76.0
-      },
-      {
-        "name": "专用设备",
-        "change_pct": 124.0,
-        "main_flow_yuan": -103.0
-      },
-      {
-        "name": "传媒",
-        "change_pct": 121.0,
-        "main_flow_yuan": -13.0
+        "change_pct": -160.0,
+        "main_flow_yuan": -259.0
       }
     ],
     "top_gainers": [
       {
         "code": "000010",
         "name": "*ST美丽",
-        "change_pct": 5.12,
-        "price": 2.26
-      },
-      {
-        "code": "000011",
-        "name": "深物业A",
-        "change_pct": 4.99,
-        "price": 7.58
-      },
-      {
-        "code": "000012",
-        "name": "南  玻Ａ",
-        "change_pct": 4.29,
-        "price": 4.38
-      },
-      {
-        "code": "000014",
-        "name": "沙河股份",
-        "change_pct": 1.91,
-        "price": 10.67
+        "change_pct": 2.21,
+        "price": 2.31
       },
       {
         "code": "000001",
         "name": "平安银行",
-        "change_pct": 1.48,
-        "price": 10.98
-      },
-      {
-        "code": "000009",
-        "name": "中国宝安",
-        "change_pct": 1.41,
-        "price": 7.19
-      },
-      {
-        "code": "000017",
-        "name": "深中华A",
-        "change_pct": 1.33,
-        "price": 5.32
-      },
-      {
-        "code": "000006",
-        "name": "深振业Ａ",
-        "change_pct": 1.31,
-        "price": 8.51
-      },
-      {
-        "code": "000002",
-        "name": "万  科Ａ",
-        "change_pct": 1.25,
-        "price": 3.25
-      },
-      {
-        "code": "000020",
-        "name": "深华发Ａ",
-        "change_pct": 0.89,
-        "price": 12.46
+        "change_pct": 0.46,
+        "price": 11.03
       }
     ],
     "main_force_inflow": [],
     "event_sectors": [
       {
         "sector": "AI应用",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -2396,14 +2497,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "算力",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -2415,14 +2516,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "传媒游戏",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -2434,14 +2535,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "机器人",
-        "score": 115.9,
+        "score": 100.9,
         "events": [
           "AI/算力"
         ],
@@ -2453,14 +2554,14 @@
           "金山办公"
         ],
         "news": [
-          "Salesforce成为FIFA官方合作伙伴 用AI重塑世界杯观赛体验",
-          "印度AI基建热潮催生470亿美元市值增长 Sterlite股价飙升500%",
-          "CrowdStrike股价回调 CEO回应投资者：AI安全需求正在爆发"
+          "SK电讯与英伟达合作建设吉瓦级AI基础设施，首座AI工厂2027年投运",
+          "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+          "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期"
         ]
       },
       {
         "sector": "半导体",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -2472,14 +2573,14 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       },
       {
         "sector": "芯片设备",
-        "score": 43.6,
+        "score": 34.7,
         "events": [
           "半导体/国产替代"
         ],
@@ -2491,47 +2592,52 @@
           "海光信息"
         ],
         "news": [
-          "开盘：美股周五开盘涨跌不一 芯片股持续遭抛售",
-          "芯片出口激增 韩国4月经常项目顺差达283亿美元创历史第二高",
-          "芯片股延续跌势 博通财报引发板块重挫"
+          "开盘：美股周一高开 芯片股从暴跌中反弹",
+          "谷歌与英伟达考虑将英特尔列为备用芯片代工厂",
+          "美股期货走势分化，芯片股试图反弹"
         ]
       }
     ],
     "hot_keywords": [
       {
         "word": "AI",
-        "count": 11,
-        "score": 364.6
+        "count": 8,
+        "score": 257.7
       },
       {
         "word": "芯片",
-        "count": 5,
-        "score": 174.4
+        "count": 4,
+        "score": 138.6
       },
       {
         "word": "机器人",
-        "count": 2,
-        "score": 71.7
+        "count": 3,
+        "score": 117.4
       },
       {
-        "word": "降息",
+        "word": "临床",
         "count": 1,
-        "score": 50.3
+        "score": 39.4
+      },
+      {
+        "word": "人工智能",
+        "count": 1,
+        "score": 35.9
       },
       {
         "word": "算力",
         "count": 1,
-        "score": 36.7
+        "score": 30.3
+      },
+      {
+        "word": "减肥药",
+        "count": 1,
+        "score": 30.0
       },
       {
         "word": "锂电池",
         "count": 1,
         "score": 27.9
-      },
-      {
-        "word": "人工智能",
-        "count": 1,
-        "score": 27.4
       }
     ]
   },

@@ -8,7 +8,15 @@ from zoneinfo import ZoneInfo
 from monitor.auto_deploy import auto_deploy
 from monitor.config import DATA_PATH, HISTORY_PATH, logger
 from monitor.dashboard import write_dashboard
-from monitor.engine import build_market_pulse, build_recommendations, build_summary, notification_fingerprint, score_news
+from monitor.engine import (
+    build_alarm_schedule,
+    build_candidate_pool,
+    build_market_pulse,
+    build_recommendations,
+    build_summary,
+    notification_fingerprint,
+    score_news,
+)
 from monitor.market_data import MarketDataEngine
 from monitor.notifier import notify_all, should_notify
 from monitor.scraper import fetch_all_news
@@ -31,12 +39,16 @@ def run_once(force: bool = False) -> dict:
     recommendations = build_recommendations(scored, market_data)
     summary = build_summary(important, scored, recommendations, sector_impact)
     market_pulse = build_market_pulse(market_data, scored, sector_impact)
+    candidate_pool = build_candidate_pool(recommendations, market_pulse)
     data = {
         "summary": summary,
         "important_news": important,
         "scored_news": scored[:80],
         "sector_impact": sector_impact,
         "recommendations": recommendations,
+        "candidate_pool": candidate_pool,
+        "alarm_schedule": build_alarm_schedule(),
+        "skills_applied": ["a-stock-data", "AstraTrade: stock-ranker", "AstraTrade: astra-trade-schema", "AstraTrade: astra-trade-alarm"],
         "market_data": market_data,
         "market_pulse": market_pulse,
         "automation": _automation_status(summary),
@@ -155,6 +167,9 @@ def _load_existing_or_empty(now: datetime, message: str) -> dict:
         "scored_news": [],
         "sector_impact": {"sectors": [], "updated_at": now.isoformat(timespec="seconds")},
         "recommendations": [],
+        "candidate_pool": [],
+        "alarm_schedule": build_alarm_schedule(),
+        "skills_applied": ["a-stock-data", "AstraTrade-compatible scheduler"],
         "market_data": {},
         "market_pulse": {},
         "automation": _automation_status(summary),
