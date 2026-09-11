@@ -1,0 +1,2157 @@
+{
+  "summary": {
+    "timestamp": "2026-09-11T06:57:07",
+    "important_count": 0,
+    "matched_count": 8,
+    "sector_count": 12,
+    "mood": {
+      "label": "谨慎",
+      "score": 35.5,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "强关注",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnc5466158.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789099802",
+      "fingerprint": "克里姆林宫据悉准许俄罗斯央行暂停降息利率料将维持在14不变",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 44.3,
+      "level": "普通",
+      "event": "政策/流动性",
+      "matched_keywords": [
+        "降息"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "证券",
+        "银行",
+        "保险",
+        "央企改革"
+      ],
+      "stocks": [
+        "东方财富",
+        "中信证券",
+        "华泰证券",
+        "招商银行",
+        "中国平安"
+      ],
+      "duration": "1-4周",
+      "risk": "medium"
+    },
+    {
+      "title": "韩国KOSPI指数收跌1.8% 芯片股回落",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmvzx5327790.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789109531",
+      "fingerprint": "韩国KOSPI指数收跌18芯片股回落",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 43.5,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+      "url": "https://finance.sina.com.cn/world/2026-09-11/doc-inirmvzx5307969.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789108249",
+      "fingerprint": "英国7月GDP意外增长04服务业与AI相关活动提供支撑",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 39.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-11/doc-inirmvzz2327306.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789108377",
+      "fingerprint": "中信建投网龙组织重塑与AI提效兑现维持买入评级",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 34.1,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmrtz5429808.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789107510",
+      "fingerprint": "OpenAI将暂停新的Pro订阅服务称因Astra需求激增",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 32.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "Y Combinator首席执行官：AI灭绝人类是科幻小说，网络安全才是迫在眉睫的风险",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmruc2160960.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789104241",
+      "fingerprint": "YCombinator首席执行官AI灭绝人类是科幻小说网络安全才是迫在眉睫的风险",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 30.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-11/doc-inirmrtz5371065.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789102836",
+      "fingerprint": "大和小米集团W为国产半导体技术广泛应用重要一步给予买入评级",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 30.0,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "半导体"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "花旗：对京东集团-SW物理AI策略持乐观态度 维持“买入”评级",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-11/doc-inirmrtz5370045.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789102760",
+      "fingerprint": "花旗对京东集团SW物理AI策略持乐观态度维持买入评级",
+      "scan_time": "2026-09-11T06:57:07",
+      "score": 28.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      },
+      {
+        "sector": "先进封装",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      },
+      {
+        "sector": "信创",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      },
+      {
+        "sector": "证券",
+        "score": 11.1,
+        "events": [
+          "政策/流动性"
+        ],
+        "stocks": [
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
+        ],
+        "news": [
+          "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+        ]
+      },
+      {
+        "sector": "银行",
+        "score": 11.1,
+        "events": [
+          "政策/流动性"
+        ],
+        "stocks": [
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
+        ],
+        "news": [
+          "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+        ]
+      },
+      {
+        "sector": "保险",
+        "score": 11.1,
+        "events": [
+          "政策/流动性"
+        ],
+        "stocks": [
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
+        ],
+        "news": [
+          "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+        ]
+      },
+      {
+        "sector": "央企改革",
+        "score": 11.1,
+        "events": [
+          "政策/流动性"
+        ],
+        "stocks": [
+          "东方财富",
+          "中信证券",
+          "中国平安",
+          "华泰证券",
+          "招商银行"
+        ],
+        "news": [
+          "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+        ]
+      }
+    ],
+    "updated_at": "2026-09-11T06:57:07"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 93.3,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.3,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 93.3,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.3,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 93.3,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.3,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 93.3,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.3,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 93.3,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.3,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 5
+    },
+    {
+      "stock": "中芯国际",
+      "score": 50.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "韩国KOSPI指数收跌1.8% 芯片股回落",
+        "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 15.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 6
+    },
+    {
+      "stock": "北方华创",
+      "score": 50.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "韩国KOSPI指数收跌1.8% 芯片股回落",
+        "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 15.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 7
+    },
+    {
+      "stock": "中微公司",
+      "score": 50.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "韩国KOSPI指数收跌1.8% 芯片股回落",
+        "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 15.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 8
+    },
+    {
+      "stock": "寒武纪",
+      "score": 50.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "韩国KOSPI指数收跌1.8% 芯片股回落",
+        "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 15.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 9
+    },
+    {
+      "stock": "海光信息",
+      "score": 50.8,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "韩国KOSPI指数收跌1.8% 芯片股回落",
+        "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 15.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 10
+    },
+    {
+      "stock": "东方财富",
+      "score": 37.4,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 9.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 11
+    },
+    {
+      "stock": "中信证券",
+      "score": 37.4,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 9.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 12
+    },
+    {
+      "stock": "华泰证券",
+      "score": 37.4,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 9.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 13
+    },
+    {
+      "stock": "招商银行",
+      "score": 37.4,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 9.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 14
+    },
+    {
+      "stock": "中国平安",
+      "score": 37.4,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "保险",
+        "央企改革",
+        "证券",
+        "银行"
+      ],
+      "events": [
+        "政策/流动性"
+      ],
+      "reasons": [
+        "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 9.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 15
+    }
+  ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 93.3,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 34.3,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 93.3,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 34.3,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 93.3,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 34.3,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 93.3,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 34.3,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 93.3,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+        "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 34.3,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
+  "market_data": {
+    "timestamp": "2026-09-11T06:56:52.467322",
+    "market_open": false,
+    "sectors": [
+      {
+        "name": "玻璃玻纤",
+        "code": "BK0546",
+        "change_pct": 297,
+        "turnover_yuan": 261768064.0,
+        "main_flow_yuan": 96,
+        "market_cap_yuan": 606635696000,
+        "pe_ratio": 12,
+        "up_count": 540,
+        "down_count": 6911228
+      },
+      {
+        "name": "元件",
+        "code": "BK0459",
+        "change_pct": 295,
+        "turnover_yuan": 3773755136.0,
+        "main_flow_yuan": 258,
+        "market_cap_yuan": 3415709072000,
+        "pe_ratio": 49,
+        "up_count": 783,
+        "down_count": 6324047
+      },
+      {
+        "name": "通信设备",
+        "code": "BK0448",
+        "change_pct": 46,
+        "turnover_yuan": 4708968448.0,
+        "main_flow_yuan": 269,
+        "market_cap_yuan": 4430653440000,
+        "pe_ratio": 38,
+        "up_count": 575,
+        "down_count": 2435069
+      },
+      {
+        "name": "电力",
+        "code": "BK0428",
+        "change_pct": -48,
+        "turnover_yuan": -86129152.0,
+        "main_flow_yuan": -17,
+        "market_cap_yuan": 3963818048000,
+        "pe_ratio": 33,
+        "up_count": 159,
+        "down_count": 1979564
+      },
+      {
+        "name": "传媒",
+        "code": "BK0486",
+        "change_pct": -79,
+        "turnover_yuan": -78964016.0,
+        "main_flow_yuan": -19,
+        "market_cap_yuan": 1443352944000,
+        "pe_ratio": 23,
+        "up_count": 286,
+        "down_count": 987712
+      },
+      {
+        "name": "公用事业",
+        "code": "BK0427",
+        "change_pct": -98,
+        "turnover_yuan": -451725824.0,
+        "main_flow_yuan": -81,
+        "market_cap_yuan": 4233581136000,
+        "pe_ratio": 35,
+        "up_count": 165,
+        "down_count": 972694
+      },
+      {
+        "name": "银行Ⅱ",
+        "code": "BK0475",
+        "change_pct": -116,
+        "turnover_yuan": -394237184.0,
+        "main_flow_yuan": -130,
+        "market_cap_yuan": 16258179328000,
+        "pe_ratio": 6,
+        "up_count": 31,
+        "down_count": 445333
+      },
+      {
+        "name": "通信服务",
+        "code": "BK0736",
+        "change_pct": -136,
+        "turnover_yuan": -310165232.0,
+        "main_flow_yuan": -308,
+        "market_cap_yuan": 3144919360000,
+        "pe_ratio": 4,
+        "up_count": 85,
+        "down_count": 104887
+      },
+      {
+        "name": "电网设备",
+        "code": "BK0457",
+        "change_pct": -146,
+        "turnover_yuan": -573130416.0,
+        "main_flow_yuan": -140,
+        "market_cap_yuan": 1607552752000,
+        "pe_ratio": 22,
+        "up_count": 289,
+        "down_count": 3573011
+      },
+      {
+        "name": "教育",
+        "code": "BK0740",
+        "change_pct": -146,
+        "turnover_yuan": -163777086.0,
+        "main_flow_yuan": -470,
+        "market_cap_yuan": 86699389000,
+        "pe_ratio": 3,
+        "up_count": 435,
+        "down_count": 63432
+      },
+      {
+        "name": "铁路公路",
+        "code": "BK0421",
+        "change_pct": -159,
+        "turnover_yuan": -120283759.0,
+        "main_flow_yuan": -313,
+        "market_cap_yuan": 772251952000,
+        "pe_ratio": 4,
+        "up_count": 54,
+        "down_count": 861276
+      },
+      {
+        "name": "保险Ⅱ",
+        "code": "BK0474",
+        "change_pct": -160,
+        "turnover_yuan": -666793824.0,
+        "main_flow_yuan": -944,
+        "market_cap_yuan": 2911076848000,
+        "pe_ratio": 0,
+        "up_count": 28,
+        "down_count": 139598
+      },
+      {
+        "name": "塑料",
+        "code": "BK0454",
+        "change_pct": -170,
+        "turnover_yuan": -235717440.0,
+        "main_flow_yuan": -129,
+        "market_cap_yuan": 655970784000,
+        "pe_ratio": 12,
+        "up_count": 339,
+        "down_count": 2104986
+      },
+      {
+        "name": "航空机场",
+        "code": "BK0420",
+        "change_pct": -178,
+        "turnover_yuan": -174680288.0,
+        "main_flow_yuan": -448,
+        "market_cap_yuan": 549921760000,
+        "pe_ratio": 0,
+        "up_count": 89,
+        "down_count": 404364
+      },
+      {
+        "name": "家用电器",
+        "code": "BK0456",
+        "change_pct": -180,
+        "turnover_yuan": -309564880.0,
+        "main_flow_yuan": -160,
+        "market_cap_yuan": 1963574480000,
+        "pe_ratio": 16,
+        "up_count": 162,
+        "down_count": 2330969
+      },
+      {
+        "name": "计算机设备",
+        "code": "BK0735",
+        "change_pct": -184,
+        "turnover_yuan": -1301120624.0,
+        "main_flow_yuan": -652,
+        "market_cap_yuan": 1359788288000,
+        "pe_ratio": 12,
+        "up_count": 178,
+        "down_count": 155640
+      },
+      {
+        "name": "仪器仪表",
+        "code": "BK0458",
+        "change_pct": -187,
+        "turnover_yuan": -408277328.0,
+        "main_flow_yuan": -291,
+        "market_cap_yuan": 735457200000,
+        "pe_ratio": 8,
+        "up_count": 247,
+        "down_count": 2112776
+      },
+      {
+        "name": "橡胶",
+        "code": "BK1018",
+        "change_pct": -194,
+        "turnover_yuan": -70324861.0,
+        "main_flow_yuan": -185,
+        "market_cap_yuan": 123057513000,
+        "pe_ratio": 3,
+        "up_count": 358,
+        "down_count": 147332
+      },
+      {
+        "name": "装修装饰Ⅱ",
+        "code": "BK0725",
+        "change_pct": -196,
+        "turnover_yuan": -118315495.0,
+        "main_flow_yuan": -387,
+        "market_cap_yuan": 109799904000,
+        "pe_ratio": 3,
+        "up_count": 291,
+        "down_count": 91807
+      },
+      {
+        "name": "汽车零部件",
+        "code": "BK0481",
+        "change_pct": -199,
+        "turnover_yuan": -1012874512.0,
+        "main_flow_yuan": -257,
+        "market_cap_yuan": 2471682736000,
+        "pe_ratio": 26,
+        "up_count": 214,
+        "down_count": 4260058
+      },
+      {
+        "name": "环保",
+        "code": "BK0728",
+        "change_pct": -199,
+        "turnover_yuan": -355865104.0,
+        "main_flow_yuan": -252,
+        "market_cap_yuan": 823451168000,
+        "pe_ratio": 14,
+        "up_count": 165,
+        "down_count": 54735
+      },
+      {
+        "name": "工程机械",
+        "code": "BK0739",
+        "change_pct": -204,
+        "turnover_yuan": -151853978.0,
+        "main_flow_yuan": -339,
+        "market_cap_yuan": 729923584000,
+        "pe_ratio": 2,
+        "up_count": 96,
+        "down_count": 210976
+      },
+      {
+        "name": "非金属材料Ⅱ",
+        "code": "BK1020",
+        "change_pct": -205,
+        "turnover_yuan": -343410544.0,
+        "main_flow_yuan": -623,
+        "market_cap_yuan": 133516388000,
+        "pe_ratio": 0,
+        "up_count": 307,
+        "down_count": 194307
+      },
+      {
+        "name": "贸易Ⅱ",
+        "code": "BK0484",
+        "change_pct": -217,
+        "turnover_yuan": -281140.0,
+        "main_flow_yuan": -2,
+        "market_cap_yuan": 142114555000,
+        "pe_ratio": 2,
+        "up_count": 131,
+        "down_count": 996248
+      },
+      {
+        "name": "专用设备",
+        "code": "BK0910",
+        "change_pct": -218,
+        "turnover_yuan": -1783100480.0,
+        "main_flow_yuan": -502,
+        "market_cap_yuan": 1611372688000,
+        "pe_ratio": 19,
+        "up_count": 207,
+        "down_count": 335673
+      },
+      {
+        "name": "汽车服务",
+        "code": "BK1016",
+        "change_pct": -221,
+        "turnover_yuan": -3270987.0,
+        "main_flow_yuan": -46,
+        "market_cap_yuan": 34740479000,
+        "pe_ratio": 0,
+        "up_count": 136,
+        "down_count": 96723
+      },
+      {
+        "name": "家居用品",
+        "code": "BK0440",
+        "change_pct": -227,
+        "turnover_yuan": -191155680.0,
+        "main_flow_yuan": -272,
+        "market_cap_yuan": 448925344000,
+        "pe_ratio": 11,
+        "up_count": 247,
+        "down_count": 4822876
+      },
+      {
+        "name": "通用设备",
+        "code": "BK0545",
+        "change_pct": -227,
+        "turnover_yuan": -2498863872.0,
+        "main_flow_yuan": -459,
+        "market_cap_yuan": 2355267968000,
+        "pe_ratio": 19,
+        "up_count": 298,
+        "down_count": 4907060
+      },
+      {
+        "name": "综合Ⅱ",
+        "code": "BK0539",
+        "change_pct": -228,
+        "turnover_yuan": -278269584.0,
+        "main_flow_yuan": -532,
+        "market_cap_yuan": 209262946000,
+        "pe_ratio": 1,
+        "up_count": 404,
+        "down_count": 1248284
+      },
+      {
+        "name": "装修建材",
+        "code": "BK0476",
+        "change_pct": -231,
+        "turnover_yuan": -256859540.0,
+        "main_flow_yuan": -654,
+        "market_cap_yuan": 224918021000,
+        "pe_ratio": 2,
+        "up_count": 202,
+        "down_count": 1563100
+      },
+      {
+        "name": "水泥",
+        "code": "BK0424",
+        "change_pct": -232,
+        "turnover_yuan": -148599077.0,
+        "main_flow_yuan": -577,
+        "market_cap_yuan": 277283152000,
+        "pe_ratio": 2,
+        "up_count": 102,
+        "down_count": 2634031
+      },
+      {
+        "name": "物流",
+        "code": "BK0422",
+        "change_pct": -235,
+        "turnover_yuan": -162567266.0,
+        "main_flow_yuan": -292,
+        "market_cap_yuan": 627592928000,
+        "pe_ratio": 4,
+        "up_count": 137,
+        "down_count": 720669
+      },
+      {
+        "name": "纺织服饰",
+        "code": "BK0436",
+        "change_pct": -236,
+        "turnover_yuan": -198253424.0,
+        "main_flow_yuan": -196,
+        "market_cap_yuan": 599980256000,
+        "pe_ratio": 7,
+        "up_count": 187,
+        "down_count": 1346411
+      },
+      {
+        "name": "化学制药",
+        "code": "BK0465",
+        "change_pct": -238,
+        "turnover_yuan": -1570279504.0,
+        "main_flow_yuan": -543,
+        "market_cap_yuan": 2200445680000,
+        "pe_ratio": 7,
+        "up_count": 242,
+        "down_count": 3502872
+      },
+      {
+        "name": "钢铁",
+        "code": "BK0479",
+        "change_pct": -251,
+        "turnover_yuan": -214743232.0,
+        "main_flow_yuan": -260,
+        "market_cap_yuan": 838058144000,
+        "pe_ratio": 2,
+        "up_count": 102,
+        "down_count": 806070
+      },
+      {
+        "name": "航运港口",
+        "code": "BK0450",
+        "change_pct": -252,
+        "turnover_yuan": -65235088.0,
+        "main_flow_yuan": -44,
+        "market_cap_yuan": 1272992608000,
+        "pe_ratio": 2,
+        "up_count": 106,
+        "down_count": 1297129
+      },
+      {
+        "name": "化学制品",
+        "code": "BK0538",
+        "change_pct": -255,
+        "turnover_yuan": -2110754288.0,
+        "main_flow_yuan": -604,
+        "market_cap_yuan": 1651866448000,
+        "pe_ratio": 11,
+        "up_count": 249,
+        "down_count": 3118338
+      },
+      {
+        "name": "工程咨询服务Ⅱ",
+        "code": "BK0726",
+        "change_pct": -259,
+        "turnover_yuan": -775665008.0,
+        "main_flow_yuan": -803,
+        "market_cap_yuan": 217303078000,
+        "pe_ratio": 3,
+        "up_count": 399,
+        "down_count": 81842
+      },
+      {
+        "name": "软件开发",
+        "code": "BK0737",
+        "change_pct": -260,
+        "turnover_yuan": -1778689808.0,
+        "main_flow_yuan": -535,
+        "market_cap_yuan": 1505371472000,
+        "pe_ratio": 14,
+        "up_count": 244,
+        "down_count": 105292
+      },
+      {
+        "name": "食品饮料",
+        "code": "BK0438",
+        "change_pct": -263,
+        "turnover_yuan": -778026528.0,
+        "main_flow_yuan": -304,
+        "market_cap_yuan": 3710834320000,
+        "pe_ratio": 10,
+        "up_count": 169,
+        "down_count": 2633820
+      },
+      {
+        "name": "房地产开发",
+        "code": "BK0451",
+        "change_pct": -266,
+        "turnover_yuan": -419267024.0,
+        "main_flow_yuan": -372,
+        "market_cap_yuan": 847381344000,
+        "pe_ratio": 3,
+        "up_count": 150,
+        "down_count": 1385664
+      },
+      {
+        "name": "医疗服务",
+        "code": "BK0727",
+        "change_pct": -273,
+        "turnover_yuan": -1700505216.0,
+        "main_flow_yuan": -867,
+        "market_cap_yuan": 1134642608000,
+        "pe_ratio": 1,
+        "up_count": 253,
+        "down_count": 137070
+      },
+      {
+        "name": "小金属",
+        "code": "BK1027",
+        "change_pct": -279,
+        "turnover_yuan": -1838781424.0,
+        "main_flow_yuan": -902,
+        "market_cap_yuan": 1051051136000,
+        "pe_ratio": 1,
+        "up_count": 238,
+        "down_count": 372164
+      },
+      {
+        "name": "化学原料",
+        "code": "BK1019",
+        "change_pct": -288,
+        "turnover_yuan": -201300768.0,
+        "main_flow_yuan": -103,
+        "market_cap_yuan": 816588992000,
+        "pe_ratio": 3,
+        "up_count": 215,
+        "down_count": 105816
+      },
+      {
+        "name": "煤炭",
+        "code": "BK0437",
+        "change_pct": -305,
+        "turnover_yuan": -393064656.0,
+        "main_flow_yuan": -250,
+        "market_cap_yuan": 2367382208000,
+        "pe_ratio": 1,
+        "up_count": 176,
+        "down_count": 1485336
+      },
+      {
+        "name": "化学纤维",
+        "code": "BK0471",
+        "change_pct": -306,
+        "turnover_yuan": -69207899.0,
+        "main_flow_yuan": -179,
+        "market_cap_yuan": 253027546000,
+        "pe_ratio": 0,
+        "up_count": 185,
+        "down_count": 1666172
+      },
+      {
+        "name": "有色金属",
+        "code": "BK0478",
+        "change_pct": -312,
+        "turnover_yuan": -7950358784.0,
+        "main_flow_yuan": -647,
+        "market_cap_yuan": 5469085696000,
+        "pe_ratio": 9,
+        "up_count": 289,
+        "down_count": 2710012
+      },
+      {
+        "name": "农林牧渔",
+        "code": "BK0433",
+        "change_pct": -315,
+        "turnover_yuan": -761031584.0,
+        "main_flow_yuan": -179,
+        "market_cap_yuan": 1297377120000,
+        "pe_ratio": 7,
+        "up_count": 509,
+        "down_count": 1578328
+      },
+      {
+        "name": "饰品",
+        "code": "BK0734",
+        "change_pct": -319,
+        "turnover_yuan": -136992140.0,
+        "main_flow_yuan": -531,
+        "market_cap_yuan": 102482240000,
+        "pe_ratio": 0,
+        "up_count": 307,
+        "down_count": 37289
+      },
+      {
+        "name": "贵金属",
+        "code": "BK0732",
+        "change_pct": -321,
+        "turnover_yuan": -650706544.0,
+        "main_flow_yuan": -305,
+        "market_cap_yuan": 690340560000,
+        "pe_ratio": 1,
+        "up_count": 368,
+        "down_count": 266652
+      },
+      {
+        "name": "石油石化",
+        "code": "BK0464",
+        "change_pct": -330,
+        "turnover_yuan": -407207120.0,
+        "main_flow_yuan": -178,
+        "market_cap_yuan": 5242405120000,
+        "pe_ratio": 1,
+        "up_count": 67,
+        "down_count": 697319
+      },
+      {
+        "name": "一般零售",
+        "code": "BK0482",
+        "change_pct": -341,
+        "turnover_yuan": -569603920.0,
+        "main_flow_yuan": -349,
+        "market_cap_yuan": 448624176000,
+        "pe_ratio": 1,
+        "up_count": 308,
+        "down_count": 1793396
+      },
+      {
+        "name": "证券Ⅱ",
+        "code": "BK0473",
+        "change_pct": -362,
+        "turnover_yuan": -4094616352.0,
+        "main_flow_yuan": -1295,
+        "market_cap_yuan": 3445353920000,
+        "pe_ratio": 0,
+        "up_count": 119,
+        "down_count": 14112732
+      },
+      {
+        "name": "农化制品",
+        "code": "BK0731",
+        "change_pct": -378,
+        "turnover_yuan": -1358628992.0,
+        "main_flow_yuan": -643,
+        "market_cap_yuan": 890330672000,
+        "pe_ratio": 3,
+        "up_count": 372,
+        "down_count": 174006
+      },
+      {
+        "name": "能源金属",
+        "code": "BK1015",
+        "change_pct": -422,
+        "turnover_yuan": -1241697328.0,
+        "main_flow_yuan": -1238,
+        "market_cap_yuan": 378519744000,
+        "pe_ratio": 0,
+        "up_count": 325,
+        "down_count": 75155
+      },
+      {
+        "name": "多元金融",
+        "code": "BK0738",
+        "change_pct": -455,
+        "turnover_yuan": -622719216.0,
+        "main_flow_yuan": -764,
+        "market_cap_yuan": 502000464000,
+        "pe_ratio": 0,
+        "up_count": 153,
+        "down_count": 59369
+      }
+    ],
+    "gainers": [
+      {
+        "code": "000012",
+        "name": "南  玻Ａ",
+        "price": 3.82,
+        "change_pct": 1.06,
+        "volume": 359136,
+        "turnover_yuan": 4170186.0,
+        "main_flow_yuan": 3.08
+      }
+    ],
+    "northbound": {
+      "sh_net": -47.61,
+      "sz_net": -0.019,
+      "total_net": -47.63,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": -47.63,
+      "status": "outflow",
+      "updated": "2026-09-11T06:56:59.756178"
+    },
+    "main_force": {
+      "inflow_sectors": [],
+      "outflow_sectors": [
+        {
+          "name": "电力",
+          "code": "BK0428",
+          "main_flow_yuan": -18,
+          "change_pct": -47,
+          "turnover_yuan": -87102208.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": -81,
+          "change_pct": -98,
+          "turnover_yuan": -452668160.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": -178,
+          "change_pct": -312,
+          "turnover_yuan": -758079824.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -196,
+          "change_pct": -237,
+          "turnover_yuan": -198182288.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -250,
+          "change_pct": -302,
+          "turnover_yuan": -393112800.0
+        }
+      ],
+      "top_flow": [
+        {
+          "name": "电力",
+          "code": "BK0428",
+          "main_flow_yuan": -18,
+          "change_pct": -47,
+          "turnover_yuan": -87102208.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": -81,
+          "change_pct": -98,
+          "turnover_yuan": -452668160.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": -178,
+          "change_pct": -312,
+          "turnover_yuan": -758079824.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -196,
+          "change_pct": -237,
+          "turnover_yuan": -198182288.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -250,
+          "change_pct": -302,
+          "turnover_yuan": -393112800.0
+        },
+        {
+          "name": "物流",
+          "code": "BK0422",
+          "main_flow_yuan": -292,
+          "change_pct": -233,
+          "turnover_yuan": -162848042.0
+        },
+        {
+          "name": "食品饮料",
+          "code": "BK0438",
+          "main_flow_yuan": -304,
+          "change_pct": -263,
+          "turnover_yuan": -778024672.0
+        },
+        {
+          "name": "铁路公路",
+          "code": "BK0421",
+          "main_flow_yuan": -313,
+          "change_pct": -158,
+          "turnover_yuan": -120378847.0
+        },
+        {
+          "name": "航空机场",
+          "code": "BK0420",
+          "main_flow_yuan": -448,
+          "change_pct": -179,
+          "turnover_yuan": -174684960.0
+        },
+        {
+          "name": "水泥",
+          "code": "BK0424",
+          "main_flow_yuan": -577,
+          "change_pct": -231,
+          "turnover_yuan": -148905755.0
+        }
+      ],
+      "updated": "2026-09-11T06:57:02.073644"
+    }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": -47.63,
+      "status": "outflow"
+    },
+    "top_sectors": [
+      {
+        "name": "玻璃玻纤",
+        "change_pct": 297.0,
+        "main_flow_yuan": 96.0
+      },
+      {
+        "name": "元件",
+        "change_pct": 295.0,
+        "main_flow_yuan": 258.0
+      },
+      {
+        "name": "通信设备",
+        "change_pct": 46.0,
+        "main_flow_yuan": 269.0
+      },
+      {
+        "name": "电力",
+        "change_pct": -48.0,
+        "main_flow_yuan": -17.0
+      },
+      {
+        "name": "传媒",
+        "change_pct": -79.0,
+        "main_flow_yuan": -19.0
+      },
+      {
+        "name": "公用事业",
+        "change_pct": -98.0,
+        "main_flow_yuan": -81.0
+      },
+      {
+        "name": "银行Ⅱ",
+        "change_pct": -116.0,
+        "main_flow_yuan": -130.0
+      },
+      {
+        "name": "通信服务",
+        "change_pct": -136.0,
+        "main_flow_yuan": -308.0
+      },
+      {
+        "name": "电网设备",
+        "change_pct": -146.0,
+        "main_flow_yuan": -140.0
+      },
+      {
+        "name": "教育",
+        "change_pct": -146.0,
+        "main_flow_yuan": -470.0
+      }
+    ],
+    "top_gainers": [
+      {
+        "code": "000012",
+        "name": "南  玻Ａ",
+        "change_pct": 1.06,
+        "price": 3.82
+      }
+    ],
+    "main_force_inflow": [],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 41.5,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "中信建投：网龙组织重塑与AI提效兑现 维持“买入”评级",
+          "英国7月GDP意外增长0.4%，服务业与AI相关活动提供支撑",
+          "OpenAI将暂停新的Pro订阅服务，称因Astra需求激增"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 18.4,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "韩国KOSPI指数收跌1.8% 芯片股回落",
+          "大和：小米集团-W为国产半导体技术广泛应用重要一步 给予“买入”评级"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 5,
+        "score": 165.9
+      },
+      {
+        "word": "降息",
+        "count": 1,
+        "score": 44.3
+      },
+      {
+        "word": "芯片",
+        "count": 1,
+        "score": 43.5
+      },
+      {
+        "word": "半导体",
+        "count": 1,
+        "score": 30.0
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
+  },
+  "status": "running"
+}
