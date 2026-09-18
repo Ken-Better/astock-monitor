@@ -1,0 +1,1542 @@
+{
+  "summary": {
+    "timestamp": "2026-09-18T06:59:07",
+    "important_count": 0,
+    "matched_count": 13,
+    "sector_count": 12,
+    "mood": {
+      "label": "谨慎",
+      "score": 33.1,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "强关注",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfprc3509540.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789713529",
+      "fingerprint": "OpenAI推迟上市抬高软银500亿美元数据中心IPO项目的风险",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 41.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "数据中心"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "“供应短缺”！全球半导体设备景气周期确认(附股)",
+      "url": "https://finance.eastmoney.com/a/202609183878456544.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "供应短缺全球半导体设备景气周期确认附股",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 36.7,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "半导体"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfprf0288734.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789713914",
+      "fingerprint": "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 36.1,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "研究人员利用Anthropic模型入侵OpenAI系统",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfprc3496133.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789712588",
+      "fingerprint": "研究人员利用Anthropic模型入侵OpenAI系统",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 33.6,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%",
+      "url": "https://finance.eastmoney.com/a/202609183878036657.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "医药工业发展十五五规划发布创新药产业规模年均增速将超20",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 32.7,
+      "level": "普通",
+      "event": "医药创新",
+      "matched_keywords": [
+        "创新药"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "创新药",
+        "医疗器械",
+        "CXO",
+        "生物医药"
+      ],
+      "stocks": [
+        "恒瑞医药",
+        "迈瑞医疗",
+        "药明康德",
+        "百济神州",
+        "爱尔眼科"
+      ],
+      "duration": "1-7天",
+      "risk": "medium"
+    },
+    {
+      "title": "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfpqz3382590.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1789711671",
+      "fingerprint": "OpenAI据悉接近破解又一个千禧年大奖难题霍奇猜想",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 31.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "华为新款AI芯片提前推出！相关概念股梳理",
+      "url": "https://finance.eastmoney.com/a/202609173877410881.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "华为新款AI芯片提前推出相关概念股梳理",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 31.1,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "英伟达CEO黄仁勋：明年公司芯片销量将翻倍",
+      "url": "https://topic.eastmoney.com/detail/ywdmnxpxl.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "英伟达CEO黄仁勋明年公司芯片销量将翻倍",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 31.1,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "华为大动作+黄仁勋喊话 AI芯片彻底沸腾！最新高增长潜力股名单出炉",
+      "url": "https://finance.eastmoney.com/a/202609183878452543.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "华为大动作黄仁勋喊话AI芯片彻底沸腾最新高增长潜力股名单出炉",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 31.1,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "GPU租赁价格再上调！算力供需缺口持续扩大 融资客提前埋伏这8股",
+      "url": "https://finance.eastmoney.com/a/202609183877839523.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "GPU租赁价格再上调算力供需缺口持续扩大融资客提前埋伏这8股",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "算力"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "20年前没人懂量化，他成为千禧年第一个本科生；如今AI重塑量化玩法，他又是如何做投资的？｜对话涵德投资顾小军",
+      "url": "https://finance.eastmoney.com/a/202607173811266130.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "20年前没人懂量化他成为千禧年第一个本科生如今AI重塑量化玩法他又是如何做投资的对话涵德投资顾小",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "字节系AI制药公司首轮融资 医药行业迎来新叙事？",
+      "url": "https://topic.eastmoney.com/detail/zjxaizyrz.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "字节系AI制药公司首轮融资医药行业迎来新叙事",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "中信证券：下半年互联网板块行情仍将围绕AI进展及主业业绩确定性演绎",
+      "url": "https://finance.eastmoney.com/a/202609183877940825.html",
+      "source": "东方财富",
+      "source_weight": 1.05,
+      "published_at": "",
+      "fingerprint": "中信证券下半年互联网板块行情仍将围绕AI进展及主业业绩确定性演绎",
+      "scan_time": "2026-09-18T06:59:07",
+      "score": 30.3,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      },
+      {
+        "sector": "先进封装",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      },
+      {
+        "sector": "信创",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      },
+      {
+        "sector": "创新药",
+        "score": 8.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+        ]
+      },
+      {
+        "sector": "医疗器械",
+        "score": 8.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+        ]
+      },
+      {
+        "sector": "CXO",
+        "score": 8.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+        ]
+      },
+      {
+        "sector": "生物医药",
+        "score": 8.2,
+        "events": [
+          "医药创新"
+        ],
+        "stocks": [
+          "恒瑞医药",
+          "爱尔眼科",
+          "百济神州",
+          "药明康德",
+          "迈瑞医疗"
+        ],
+        "news": [
+          "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+        ]
+      }
+    ],
+    "updated_at": "2026-09-18T06:59:07"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 5
+    },
+    {
+      "stock": "中芯国际",
+      "score": 93.4,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "“供应短缺”！全球半导体设备景气周期确认(附股)",
+        "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+        "华为新款AI芯片提前推出！相关概念股梳理"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 6
+    },
+    {
+      "stock": "北方华创",
+      "score": 93.4,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "“供应短缺”！全球半导体设备景气周期确认(附股)",
+        "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+        "华为新款AI芯片提前推出！相关概念股梳理"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 7
+    },
+    {
+      "stock": "中微公司",
+      "score": 93.4,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "“供应短缺”！全球半导体设备景气周期确认(附股)",
+        "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+        "华为新款AI芯片提前推出！相关概念股梳理"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 8
+    },
+    {
+      "stock": "寒武纪",
+      "score": 93.4,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "“供应短缺”！全球半导体设备景气周期确认(附股)",
+        "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+        "华为新款AI芯片提前推出！相关概念股梳理"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 9
+    },
+    {
+      "stock": "海光信息",
+      "score": 93.4,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "“供应短缺”！全球半导体设备景气周期确认(附股)",
+        "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+        "华为新款AI芯片提前推出！相关概念股梳理"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 34.4,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 10
+    },
+    {
+      "stock": "恒瑞医药",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 11
+    },
+    {
+      "stock": "迈瑞医疗",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 12
+    },
+    {
+      "stock": "药明康德",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 13
+    },
+    {
+      "stock": "百济神州",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 14
+    },
+    {
+      "stock": "爱尔眼科",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "CXO",
+        "创新药",
+        "医疗器械",
+        "生物医药"
+      ],
+      "events": [
+        "医药创新"
+      ],
+      "reasons": [
+        "《医药工业发展“十五五”规划》发布 创新药产业规模年均增速将超20%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 15
+    }
+  ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+        "研究人员利用Anthropic模型入侵OpenAI系统",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
+  "market_data": {
+    "timestamp": "2026-09-18T06:58:57.507703",
+    "market_open": false,
+    "sectors": [],
+    "gainers": [],
+    "northbound": {
+      "sh_net": 38.75,
+      "sz_net": 0.059,
+      "total_net": 38.81,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": 38.81,
+      "status": "inflow",
+      "updated": "2026-09-18T06:59:01.292539"
+    },
+    "main_force": {
+      "inflow_sectors": [],
+      "outflow_sectors": [],
+      "top_flow": [],
+      "updated": "2026-09-18T06:59:02.244846"
+    }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": 38.81,
+      "status": "inflow"
+    },
+    "top_sectors": [],
+    "top_gainers": [],
+    "main_force_inflow": [],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 57.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "OpenAI推迟上市，抬高软银500亿美元数据中心IPO项目的风险",
+          "研究人员利用Anthropic模型入侵OpenAI系统",
+          "OpenAI据悉接近破解又一个千禧年大奖难题——霍奇猜想"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 41.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "三星美国泰勒工厂提前试产特斯拉AI5芯片",
+          "华为新款AI芯片提前推出！相关概念股梳理",
+          "英伟达CEO黄仁勋：明年公司芯片销量将翻倍"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 6,
+        "score": 198.1
+      },
+      {
+        "word": "芯片",
+        "count": 4,
+        "score": 129.4
+      },
+      {
+        "word": "数据中心",
+        "count": 1,
+        "score": 41.7
+      },
+      {
+        "word": "半导体",
+        "count": 1,
+        "score": 36.7
+      },
+      {
+        "word": "创新药",
+        "count": 1,
+        "score": 32.7
+      },
+      {
+        "word": "算力",
+        "count": 1,
+        "score": 30.3
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
+  },
+  "status": "running"
+}
