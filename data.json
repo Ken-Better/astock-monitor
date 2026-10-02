@@ -1,0 +1,2191 @@
+{
+  "summary": {
+    "timestamp": "2026-10-02T07:04:20",
+    "important_count": 0,
+    "matched_count": 11,
+    "sector_count": 8,
+    "mood": {
+      "label": "谨慎",
+      "score": 39.1,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "强关注",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-initviii5784077.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790920457",
+      "fingerprint": "中环新能源午后涨逾11创新高上半年AI算力业务收入突破10亿元",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 56.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "算力"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviif1419627.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790923971",
+      "fingerprint": "机构AI芯片需求带动晶圆代工20增长三星电子维持全球第二",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 50.8,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片",
+        "晶圆"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviii5807887.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790924163",
+      "fingerprint": "亚马逊拟将80亿美元英伟达芯片装入SPV尝试把AI算力融资搬出资产负债表",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 43.5,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "算力"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviif1414780.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790923608",
+      "fingerprint": "软银完成对OpenAI最后一笔100亿美元投资累计投入升至646亿美元股价跌超5",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 41.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "华沿机器人拟回购不超过2亿元的H股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-02/doc-initvazi1470506.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790916326",
+      "fingerprint": "华沿机器人拟回购不超过2亿元的H股",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 36.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviif1397965.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790922080",
+      "fingerprint": "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 35.6,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviif1399795.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790922243",
+      "fingerprint": "Truist上调HPE目标价至75美元网络业务协同与AI需求被市场低估",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 34.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "Evercore上调埃森哲目标价至250美元：AI订单加速增长，托管服务预订创新高",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviim7398833.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790922063",
+      "fingerprint": "Evercore上调埃森哲目标价至250美元AI订单加速增长托管服务预订创新高",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 34.5,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviim7396173.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790921593",
+      "fingerprint": "博通启动600亿美元融资为Anthropic等公司采购芯片提供资金",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 34.5,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "知情人士：博通着手筹集600亿美元 为Anthropic采购芯片提供资金",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvazp7485054.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790914481",
+      "fingerprint": "知情人士博通着手筹集600亿美元为Anthropic采购芯片提供资金",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 30.9,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    },
+    {
+      "title": "知情人士：亚马逊计划向投资者出售价值80亿美元的英伟达芯片",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvazi1445462.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1790913961",
+      "fingerprint": "知情人士亚马逊计划向投资者出售价值80亿美元的英伟达芯片",
+      "scan_time": "2026-10-02T07:04:20",
+      "score": 30.2,
+      "level": "普通",
+      "event": "半导体/国产替代",
+      "matched_keywords": [
+        "芯片"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "半导体",
+        "芯片设备",
+        "先进封装",
+        "信创"
+      ],
+      "stocks": [
+        "中芯国际",
+        "北方华创",
+        "中微公司",
+        "寒武纪",
+        "海光信息"
+      ],
+      "duration": "3-15天",
+      "risk": "medium"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      },
+      {
+        "sector": "先进封装",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      },
+      {
+        "sector": "信创",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      }
+    ],
+    "updated_at": "2026-10-02T07:04:20"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 5
+    },
+    {
+      "stock": "中芯国际",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+        "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+        "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 37.7,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 6
+    },
+    {
+      "stock": "北方华创",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+        "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+        "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 37.7,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 7
+    },
+    {
+      "stock": "中微公司",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+        "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+        "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 37.7,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 8
+    },
+    {
+      "stock": "寒武纪",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+        "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+        "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 37.7,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 9
+    },
+    {
+      "stock": "海光信息",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "信创",
+        "先进封装",
+        "半导体",
+        "芯片设备"
+      ],
+      "events": [
+        "半导体/国产替代"
+      ],
+      "reasons": [
+        "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+        "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+        "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 37.7,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 10
+    }
+  ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+        "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
+  "market_data": {
+    "timestamp": "2026-10-02T07:04:06.059505",
+    "market_open": false,
+    "sectors": [
+      {
+        "name": "医疗服务",
+        "code": "BK0727",
+        "change_pct": 309,
+        "turnover_yuan": 2603071648.0,
+        "main_flow_yuan": 695,
+        "market_cap_yuan": 1271871664000,
+        "pe_ratio": 47,
+        "up_count": 372,
+        "down_count": 158479
+      },
+      {
+        "name": "化学制药",
+        "code": "BK0465",
+        "change_pct": 210,
+        "turnover_yuan": 1945034624.0,
+        "main_flow_yuan": 403,
+        "market_cap_yuan": 2376641440000,
+        "pe_ratio": 139,
+        "up_count": 336,
+        "down_count": 3716948
+      },
+      {
+        "name": "航空机场",
+        "code": "BK0420",
+        "change_pct": 170,
+        "turnover_yuan": 157837200.0,
+        "main_flow_yuan": 580,
+        "market_cap_yuan": 545159632000,
+        "pe_ratio": 14,
+        "up_count": 64,
+        "down_count": 397432
+      },
+      {
+        "name": "食品饮料",
+        "code": "BK0438",
+        "change_pct": 151,
+        "turnover_yuan": 1420744880.0,
+        "main_flow_yuan": 557,
+        "market_cap_yuan": 3698109440000,
+        "pe_ratio": 107,
+        "up_count": 145,
+        "down_count": 2631313
+      },
+      {
+        "name": "银行Ⅱ",
+        "code": "BK0475",
+        "change_pct": 146,
+        "turnover_yuan": -86997760.0,
+        "main_flow_yuan": -33,
+        "market_cap_yuan": 16391597568000,
+        "pe_ratio": 42,
+        "up_count": 25,
+        "down_count": 439353
+      },
+      {
+        "name": "综合Ⅱ",
+        "code": "BK0539",
+        "change_pct": 121,
+        "turnover_yuan": 208547051.0,
+        "main_flow_yuan": 671,
+        "market_cap_yuan": 204199430000,
+        "pe_ratio": 14,
+        "up_count": 260,
+        "down_count": 1222325
+      },
+      {
+        "name": "农林牧渔",
+        "code": "BK0433",
+        "change_pct": 120,
+        "turnover_yuan": 485959584.0,
+        "main_flow_yuan": 233,
+        "market_cap_yuan": 1245096112000,
+        "pe_ratio": 81,
+        "up_count": 250,
+        "down_count": 1475060
+      },
+      {
+        "name": "钢铁",
+        "code": "BK0479",
+        "change_pct": 119,
+        "turnover_yuan": -7955360.0,
+        "main_flow_yuan": -15,
+        "market_cap_yuan": 824448688000,
+        "pe_ratio": 39,
+        "up_count": 70,
+        "down_count": 782824
+      },
+      {
+        "name": "装修装饰Ⅱ",
+        "code": "BK0725",
+        "change_pct": 110,
+        "turnover_yuan": 70645319.0,
+        "main_flow_yuan": 242,
+        "market_cap_yuan": 109657080000,
+        "pe_ratio": 11,
+        "up_count": 306,
+        "down_count": 91810
+      },
+      {
+        "name": "贵金属",
+        "code": "BK0732",
+        "change_pct": 104,
+        "turnover_yuan": 54909104.0,
+        "main_flow_yuan": 56,
+        "market_cap_yuan": 594820432000,
+        "pe_ratio": 11,
+        "up_count": 178,
+        "down_count": 232650
+      },
+      {
+        "name": "农化制品",
+        "code": "BK0731",
+        "change_pct": 103,
+        "turnover_yuan": 107352400.0,
+        "main_flow_yuan": 132,
+        "market_cap_yuan": 842961104000,
+        "pe_ratio": 47,
+        "up_count": 124,
+        "down_count": 164006
+      },
+      {
+        "name": "房地产开发",
+        "code": "BK0451",
+        "change_pct": 91,
+        "turnover_yuan": -336482080.0,
+        "main_flow_yuan": -106,
+        "market_cap_yuan": 928151696000,
+        "pe_ratio": 56,
+        "up_count": 425,
+        "down_count": 1457610
+      },
+      {
+        "name": "化学原料",
+        "code": "BK1019",
+        "change_pct": 88,
+        "turnover_yuan": -18803472.0,
+        "main_flow_yuan": -18,
+        "market_cap_yuan": 802821968000,
+        "pe_ratio": 45,
+        "up_count": 102,
+        "down_count": 104138
+      },
+      {
+        "name": "公用事业",
+        "code": "BK0427",
+        "change_pct": 82,
+        "turnover_yuan": 74699680.0,
+        "main_flow_yuan": 29,
+        "market_cap_yuan": 4147210240000,
+        "pe_ratio": 110,
+        "up_count": 79,
+        "down_count": 938989
+      },
+      {
+        "name": "航运港口",
+        "code": "BK0450",
+        "change_pct": 81,
+        "turnover_yuan": -112245872.0,
+        "main_flow_yuan": -148,
+        "market_cap_yuan": 1266689264000,
+        "pe_ratio": 30,
+        "up_count": 63,
+        "down_count": 1244091
+      },
+      {
+        "name": "一般零售",
+        "code": "BK0482",
+        "change_pct": 79,
+        "turnover_yuan": 246457264.0,
+        "main_flow_yuan": 373,
+        "market_cap_yuan": 430156800000,
+        "pe_ratio": 44,
+        "up_count": 147,
+        "down_count": 1668573
+      },
+      {
+        "name": "装修建材",
+        "code": "BK0476",
+        "change_pct": 77,
+        "turnover_yuan": 225654144.0,
+        "main_flow_yuan": 506,
+        "market_cap_yuan": 230505262000,
+        "pe_ratio": 20,
+        "up_count": 202,
+        "down_count": 1567299
+      },
+      {
+        "name": "保险Ⅱ",
+        "code": "BK0474",
+        "change_pct": 73,
+        "turnover_yuan": 301932352.0,
+        "main_flow_yuan": 572,
+        "market_cap_yuan": 2829772624000,
+        "pe_ratio": 4,
+        "up_count": 20,
+        "down_count": 134683
+      },
+      {
+        "name": "水泥",
+        "code": "BK0424",
+        "change_pct": 70,
+        "turnover_yuan": -20863733.0,
+        "main_flow_yuan": -68,
+        "market_cap_yuan": 278188080000,
+        "pe_ratio": 14,
+        "up_count": 123,
+        "down_count": 2664815
+      },
+      {
+        "name": "电力",
+        "code": "BK0428",
+        "change_pct": 67,
+        "turnover_yuan": 24652848.0,
+        "main_flow_yuan": 11,
+        "market_cap_yuan": 3884382176000,
+        "pe_ratio": 81,
+        "up_count": 77,
+        "down_count": 1914182
+      },
+      {
+        "name": "煤炭",
+        "code": "BK0437",
+        "change_pct": 60,
+        "turnover_yuan": -103432432.0,
+        "main_flow_yuan": -113,
+        "market_cap_yuan": 2340945424000,
+        "pe_ratio": 24,
+        "up_count": 95,
+        "down_count": 1423364
+      },
+      {
+        "name": "铁路公路",
+        "code": "BK0421",
+        "change_pct": 59,
+        "turnover_yuan": 101168464.0,
+        "main_flow_yuan": 286,
+        "market_cap_yuan": 770848272000,
+        "pe_ratio": 27,
+        "up_count": 45,
+        "down_count": 853519
+      },
+      {
+        "name": "饰品",
+        "code": "BK0734",
+        "change_pct": 50,
+        "turnover_yuan": -24676089.0,
+        "main_flow_yuan": -282,
+        "market_cap_yuan": 99156200000,
+        "pe_ratio": 11,
+        "up_count": 109,
+        "down_count": 35872
+      },
+      {
+        "name": "化学纤维",
+        "code": "BK0471",
+        "change_pct": 44,
+        "turnover_yuan": 76561117.0,
+        "main_flow_yuan": 279,
+        "market_cap_yuan": 249100307000,
+        "pe_ratio": 14,
+        "up_count": 108,
+        "down_count": 1652801
+      },
+      {
+        "name": "工程机械",
+        "code": "BK0739",
+        "change_pct": 34,
+        "turnover_yuan": 289091424.0,
+        "main_flow_yuan": 547,
+        "market_cap_yuan": 672275024000,
+        "pe_ratio": 23,
+        "up_count": 118,
+        "down_count": 205966
+      },
+      {
+        "name": "多元金融",
+        "code": "BK0738",
+        "change_pct": 33,
+        "turnover_yuan": -71563743.0,
+        "main_flow_yuan": -239,
+        "market_cap_yuan": 490826864000,
+        "pe_ratio": 16,
+        "up_count": 58,
+        "down_count": 56924
+      },
+      {
+        "name": "化学制品",
+        "code": "BK0538",
+        "change_pct": 31,
+        "turnover_yuan": -406358096.0,
+        "main_flow_yuan": -141,
+        "market_cap_yuan": 1633741536000,
+        "pe_ratio": 91,
+        "up_count": 211,
+        "down_count": 3176155
+      },
+      {
+        "name": "证券Ⅱ",
+        "code": "BK0473",
+        "change_pct": 24,
+        "turnover_yuan": -440341600.0,
+        "main_flow_yuan": -372,
+        "market_cap_yuan": 3352006176000,
+        "pe_ratio": 28,
+        "up_count": 43,
+        "down_count": 13499322
+      },
+      {
+        "name": "石油石化",
+        "code": "BK0464",
+        "change_pct": 19,
+        "turnover_yuan": -510312736.0,
+        "main_flow_yuan": -538,
+        "market_cap_yuan": 5149937920000,
+        "pe_ratio": 27,
+        "up_count": 30,
+        "down_count": 650251
+      },
+      {
+        "name": "能源金属",
+        "code": "BK1015",
+        "change_pct": 19,
+        "turnover_yuan": 1570977520.0,
+        "main_flow_yuan": 1127,
+        "market_cap_yuan": 470511232000,
+        "pe_ratio": 7,
+        "up_count": 324,
+        "down_count": 71095
+      },
+      {
+        "name": "贸易Ⅱ",
+        "code": "BK0484",
+        "change_pct": 15,
+        "turnover_yuan": -3006849.0,
+        "main_flow_yuan": -40,
+        "market_cap_yuan": 134657189000,
+        "pe_ratio": 7,
+        "up_count": 67,
+        "down_count": 960693
+      },
+      {
+        "name": "电网设备",
+        "code": "BK0457",
+        "change_pct": 5,
+        "turnover_yuan": -222328976.0,
+        "main_flow_yuan": -102,
+        "market_cap_yuan": 1543926640000,
+        "pe_ratio": 66,
+        "up_count": 157,
+        "down_count": 3517223
+      },
+      {
+        "name": "汽车零部件",
+        "code": "BK0481",
+        "change_pct": 1,
+        "turnover_yuan": 743171232.0,
+        "main_flow_yuan": 195,
+        "market_cap_yuan": 2480833584000,
+        "pe_ratio": 131,
+        "up_count": 204,
+        "down_count": 4320063
+      },
+      {
+        "name": "物流",
+        "code": "BK0422",
+        "change_pct": -9,
+        "turnover_yuan": -38279383.0,
+        "main_flow_yuan": -113,
+        "market_cap_yuan": 619307840000,
+        "pe_ratio": 21,
+        "up_count": 68,
+        "down_count": 714997
+      },
+      {
+        "name": "家居用品",
+        "code": "BK0440",
+        "change_pct": -22,
+        "turnover_yuan": -30259424.0,
+        "main_flow_yuan": -44,
+        "market_cap_yuan": 459558864000,
+        "pe_ratio": 31,
+        "up_count": 217,
+        "down_count": 4931487
+      },
+      {
+        "name": "汽车服务",
+        "code": "BK1016",
+        "change_pct": -23,
+        "turnover_yuan": -7876229.0,
+        "main_flow_yuan": -160,
+        "market_cap_yuan": 34146509000,
+        "pe_ratio": 2,
+        "up_count": 151,
+        "down_count": 95232
+      },
+      {
+        "name": "家用电器",
+        "code": "BK0456",
+        "change_pct": -25,
+        "turnover_yuan": -62135648.0,
+        "main_flow_yuan": -38,
+        "market_cap_yuan": 1924332544000,
+        "pe_ratio": 41,
+        "up_count": 120,
+        "down_count": 2397905
+      },
+      {
+        "name": "有色金属",
+        "code": "BK0478",
+        "change_pct": -47,
+        "turnover_yuan": 829379328.0,
+        "main_flow_yuan": 143,
+        "market_cap_yuan": 5190952192000,
+        "pe_ratio": 57,
+        "up_count": 111,
+        "down_count": 2595762
+      },
+      {
+        "name": "环保",
+        "code": "BK0728",
+        "change_pct": -50,
+        "turnover_yuan": 80150624.0,
+        "main_flow_yuan": 77,
+        "market_cap_yuan": 811684208000,
+        "pe_ratio": 55,
+        "up_count": 119,
+        "down_count": 54052
+      },
+      {
+        "name": "橡胶",
+        "code": "BK1018",
+        "change_pct": -52,
+        "turnover_yuan": -171189302.0,
+        "main_flow_yuan": -767,
+        "market_cap_yuan": 126412145000,
+        "pe_ratio": 10,
+        "up_count": 180,
+        "down_count": 145880
+      },
+      {
+        "name": "纺织服饰",
+        "code": "BK0436",
+        "change_pct": -54,
+        "turnover_yuan": -214523456.0,
+        "main_flow_yuan": -261,
+        "market_cap_yuan": 593013376000,
+        "pe_ratio": 46,
+        "up_count": 162,
+        "down_count": 1349058
+      },
+      {
+        "name": "非金属材料Ⅱ",
+        "code": "BK1020",
+        "change_pct": -63,
+        "turnover_yuan": -55533040.0,
+        "main_flow_yuan": -88,
+        "market_cap_yuan": 167755730000,
+        "pe_ratio": 5,
+        "up_count": 235,
+        "down_count": 198386
+      },
+      {
+        "name": "小金属",
+        "code": "BK1027",
+        "change_pct": -65,
+        "turnover_yuan": -259069248.0,
+        "main_flow_yuan": -237,
+        "market_cap_yuan": 995691936000,
+        "pe_ratio": 7,
+        "up_count": 121,
+        "down_count": 359262
+      },
+      {
+        "name": "教育",
+        "code": "BK0740",
+        "change_pct": -69,
+        "turnover_yuan": 78312651.0,
+        "main_flow_yuan": 261,
+        "market_cap_yuan": 88177331000,
+        "pe_ratio": 5,
+        "up_count": 274,
+        "down_count": 63643
+      },
+      {
+        "name": "工程咨询服务Ⅱ",
+        "code": "BK0726",
+        "change_pct": -73,
+        "turnover_yuan": -263241162.0,
+        "main_flow_yuan": -507,
+        "market_cap_yuan": 211411876000,
+        "pe_ratio": 16,
+        "up_count": 239,
+        "down_count": 82140
+      },
+      {
+        "name": "专用设备",
+        "code": "BK0910",
+        "change_pct": -74,
+        "turnover_yuan": -850271616.0,
+        "main_flow_yuan": -332,
+        "market_cap_yuan": 1640969328000,
+        "pe_ratio": 70,
+        "up_count": 148,
+        "down_count": 333906
+      },
+      {
+        "name": "传媒",
+        "code": "BK0486",
+        "change_pct": -79,
+        "turnover_yuan": -1385137008.0,
+        "main_flow_yuan": -403,
+        "market_cap_yuan": 1426461168000,
+        "pe_ratio": 35,
+        "up_count": 238,
+        "down_count": 1003609
+      },
+      {
+        "name": "通信设备",
+        "code": "BK0448",
+        "change_pct": -97,
+        "turnover_yuan": -370401792.0,
+        "main_flow_yuan": -41,
+        "market_cap_yuan": 4068090224000,
+        "pe_ratio": 25,
+        "up_count": 275,
+        "down_count": 2369702
+      },
+      {
+        "name": "玻璃玻纤",
+        "code": "BK0546",
+        "change_pct": -103,
+        "turnover_yuan": -681545552.0,
+        "main_flow_yuan": -646,
+        "market_cap_yuan": 569953440000,
+        "pe_ratio": 4,
+        "up_count": 180,
+        "down_count": 6631584
+      },
+      {
+        "name": "计算机设备",
+        "code": "BK0735",
+        "change_pct": -108,
+        "turnover_yuan": -858236944.0,
+        "main_flow_yuan": -552,
+        "market_cap_yuan": 1324601584000,
+        "pe_ratio": 20,
+        "up_count": 156,
+        "down_count": 158059
+      },
+      {
+        "name": "通用设备",
+        "code": "BK0545",
+        "change_pct": -110,
+        "turnover_yuan": -1458102832.0,
+        "main_flow_yuan": -303,
+        "market_cap_yuan": 2329390448000,
+        "pe_ratio": 64,
+        "up_count": 246,
+        "down_count": 5012633
+      },
+      {
+        "name": "软件开发",
+        "code": "BK0737",
+        "change_pct": -124,
+        "turnover_yuan": -1028909456.0,
+        "main_flow_yuan": -416,
+        "market_cap_yuan": 1486162640000,
+        "pe_ratio": 21,
+        "up_count": 210,
+        "down_count": 106698
+      },
+      {
+        "name": "塑料",
+        "code": "BK0454",
+        "change_pct": -126,
+        "turnover_yuan": -533273216.0,
+        "main_flow_yuan": -384,
+        "market_cap_yuan": 657335728000,
+        "pe_ratio": 18,
+        "up_count": 234,
+        "down_count": 2163670
+      },
+      {
+        "name": "仪器仪表",
+        "code": "BK0458",
+        "change_pct": -173,
+        "turnover_yuan": -541093392.0,
+        "main_flow_yuan": -365,
+        "market_cap_yuan": 752546848000,
+        "pe_ratio": 10,
+        "up_count": 237,
+        "down_count": 2240701
+      },
+      {
+        "name": "通信服务",
+        "code": "BK0736",
+        "change_pct": -182,
+        "turnover_yuan": -355617952.0,
+        "main_flow_yuan": -457,
+        "market_cap_yuan": 3100572736000,
+        "pe_ratio": 5,
+        "up_count": 54,
+        "down_count": 104046
+      },
+      {
+        "name": "元件",
+        "code": "BK0459",
+        "change_pct": -401,
+        "turnover_yuan": -3932953088.0,
+        "main_flow_yuan": -530,
+        "market_cap_yuan": 3175916912000,
+        "pe_ratio": 3,
+        "up_count": 414,
+        "down_count": 6484691
+      }
+    ],
+    "gainers": [
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "price": 12.24,
+        "change_pct": 9.97,
+        "volume": 898769,
+        "turnover_yuan": 23299783.0,
+        "main_flow_yuan": 2.4
+      },
+      {
+        "code": "000019",
+        "name": "深粮控股",
+        "price": 7.01,
+        "change_pct": 4.63,
+        "volume": 268648,
+        "turnover_yuan": 19292782.0,
+        "main_flow_yuan": 10.33
+      },
+      {
+        "code": "000002",
+        "name": "万  科Ａ",
+        "price": 4.26,
+        "change_pct": 4.41,
+        "volume": 13094440,
+        "turnover_yuan": -380684368.0,
+        "main_flow_yuan": -7.38
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "price": 11.57,
+        "change_pct": 1.94,
+        "volume": 1045357,
+        "turnover_yuan": 125061199.0,
+        "main_flow_yuan": 10.37
+      },
+      {
+        "code": "000009",
+        "name": "中国宝安",
+        "price": 6.93,
+        "change_pct": 1.02,
+        "volume": 106828,
+        "turnover_yuan": -1095820.0,
+        "main_flow_yuan": -1.49
+      },
+      {
+        "code": "000012",
+        "name": "南  玻Ａ",
+        "price": 3.69,
+        "change_pct": 0.54,
+        "volume": 148042,
+        "turnover_yuan": 1793497.0,
+        "main_flow_yuan": 3.29
+      },
+      {
+        "code": "000008",
+        "name": "神州高铁",
+        "price": 2.4,
+        "change_pct": 0.42,
+        "volume": 156574,
+        "turnover_yuan": -3534376.0,
+        "main_flow_yuan": -9.43
+      }
+    ],
+    "northbound": {
+      "sh_net": 11.74,
+      "sz_net": -0.001,
+      "total_net": 11.74,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": 11.74,
+      "status": "inflow",
+      "updated": "2026-10-02T07:04:12.122455"
+    },
+    "main_force": {
+      "inflow_sectors": [
+        {
+          "name": "航空机场",
+          "code": "BK0420",
+          "main_flow_yuan": 580,
+          "change_pct": 170,
+          "turnover_yuan": 157837200.0
+        },
+        {
+          "name": "食品饮料",
+          "code": "BK0438",
+          "main_flow_yuan": 557,
+          "change_pct": 151,
+          "turnover_yuan": 1420744880.0
+        },
+        {
+          "name": "铁路公路",
+          "code": "BK0421",
+          "main_flow_yuan": 286,
+          "change_pct": 59,
+          "turnover_yuan": 101168464.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": 233,
+          "change_pct": 120,
+          "turnover_yuan": 485959584.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": 29,
+          "change_pct": 82,
+          "turnover_yuan": 74699680.0
+        }
+      ],
+      "outflow_sectors": [
+        {
+          "name": "水泥",
+          "code": "BK0424",
+          "main_flow_yuan": -68,
+          "change_pct": 70,
+          "turnover_yuan": -20863733.0
+        },
+        {
+          "name": "物流",
+          "code": "BK0422",
+          "main_flow_yuan": -113,
+          "change_pct": -9,
+          "turnover_yuan": -38279383.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -113,
+          "change_pct": 60,
+          "turnover_yuan": -103432432.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -261,
+          "change_pct": -54,
+          "turnover_yuan": -214523456.0
+        }
+      ],
+      "top_flow": [
+        {
+          "name": "航空机场",
+          "code": "BK0420",
+          "main_flow_yuan": 580,
+          "change_pct": 170,
+          "turnover_yuan": 157837200.0
+        },
+        {
+          "name": "食品饮料",
+          "code": "BK0438",
+          "main_flow_yuan": 557,
+          "change_pct": 151,
+          "turnover_yuan": 1420744880.0
+        },
+        {
+          "name": "铁路公路",
+          "code": "BK0421",
+          "main_flow_yuan": 286,
+          "change_pct": 59,
+          "turnover_yuan": 101168464.0
+        },
+        {
+          "name": "农林牧渔",
+          "code": "BK0433",
+          "main_flow_yuan": 233,
+          "change_pct": 120,
+          "turnover_yuan": 485959584.0
+        },
+        {
+          "name": "公用事业",
+          "code": "BK0427",
+          "main_flow_yuan": 29,
+          "change_pct": 82,
+          "turnover_yuan": 74699680.0
+        },
+        {
+          "name": "电力",
+          "code": "BK0428",
+          "main_flow_yuan": 11,
+          "change_pct": 67,
+          "turnover_yuan": 24652848.0
+        },
+        {
+          "name": "水泥",
+          "code": "BK0424",
+          "main_flow_yuan": -68,
+          "change_pct": 70,
+          "turnover_yuan": -20863733.0
+        },
+        {
+          "name": "物流",
+          "code": "BK0422",
+          "main_flow_yuan": -113,
+          "change_pct": -9,
+          "turnover_yuan": -38279383.0
+        },
+        {
+          "name": "煤炭",
+          "code": "BK0437",
+          "main_flow_yuan": -113,
+          "change_pct": 60,
+          "turnover_yuan": -103432432.0
+        },
+        {
+          "name": "纺织服饰",
+          "code": "BK0436",
+          "main_flow_yuan": -261,
+          "change_pct": -54,
+          "turnover_yuan": -214523456.0
+        }
+      ],
+      "updated": "2026-10-02T07:04:13.972755"
+    }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": 11.74,
+      "status": "inflow"
+    },
+    "top_sectors": [
+      {
+        "name": "医疗服务",
+        "change_pct": 309.0,
+        "main_flow_yuan": 695.0
+      },
+      {
+        "name": "化学制药",
+        "change_pct": 210.0,
+        "main_flow_yuan": 403.0
+      },
+      {
+        "name": "航空机场",
+        "change_pct": 170.0,
+        "main_flow_yuan": 580.0
+      },
+      {
+        "name": "食品饮料",
+        "change_pct": 151.0,
+        "main_flow_yuan": 557.0
+      },
+      {
+        "name": "银行Ⅱ",
+        "change_pct": 146.0,
+        "main_flow_yuan": -33.0
+      },
+      {
+        "name": "综合Ⅱ",
+        "change_pct": 121.0,
+        "main_flow_yuan": 671.0
+      },
+      {
+        "name": "农林牧渔",
+        "change_pct": 120.0,
+        "main_flow_yuan": 233.0
+      },
+      {
+        "name": "钢铁",
+        "change_pct": 119.0,
+        "main_flow_yuan": -15.0
+      },
+      {
+        "name": "装修装饰Ⅱ",
+        "change_pct": 110.0,
+        "main_flow_yuan": 242.0
+      },
+      {
+        "name": "贵金属",
+        "change_pct": 104.0,
+        "main_flow_yuan": 56.0
+      }
+    ],
+    "top_gainers": [
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "change_pct": 9.97,
+        "price": 12.24
+      },
+      {
+        "code": "000019",
+        "name": "深粮控股",
+        "change_pct": 4.63,
+        "price": 7.01
+      },
+      {
+        "code": "000002",
+        "name": "万  科Ａ",
+        "change_pct": 4.41,
+        "price": 4.26
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "change_pct": 1.94,
+        "price": 11.57
+      },
+      {
+        "code": "000009",
+        "name": "中国宝安",
+        "change_pct": 1.02,
+        "price": 6.93
+      },
+      {
+        "code": "000012",
+        "name": "南  玻Ａ",
+        "change_pct": 0.54,
+        "price": 3.69
+      },
+      {
+        "code": "000008",
+        "name": "神州高铁",
+        "change_pct": 0.42,
+        "price": 2.4
+      }
+    ],
+    "main_force_inflow": [
+      {
+        "name": "航空机场",
+        "code": "BK0420",
+        "main_flow_yuan": 580,
+        "change_pct": 170,
+        "turnover_yuan": 157837200.0
+      },
+      {
+        "name": "食品饮料",
+        "code": "BK0438",
+        "main_flow_yuan": 557,
+        "change_pct": 151,
+        "turnover_yuan": 1420744880.0
+      },
+      {
+        "name": "铁路公路",
+        "code": "BK0421",
+        "main_flow_yuan": 286,
+        "change_pct": 59,
+        "turnover_yuan": 101168464.0
+      },
+      {
+        "name": "农林牧渔",
+        "code": "BK0433",
+        "main_flow_yuan": 233,
+        "change_pct": 120,
+        "turnover_yuan": 485959584.0
+      },
+      {
+        "name": "公用事业",
+        "code": "BK0427",
+        "main_flow_yuan": 29,
+        "change_pct": 82,
+        "turnover_yuan": 74699680.0
+      }
+    ],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 62.0,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "亚马逊拟将80亿美元英伟达芯片装入SPV，尝试把AI算力融资搬出资产负债表",
+          "软银完成对OpenAI最后一笔100亿美元投资，累计投入升至646亿美元，股价跌超5%",
+          "Truist上调HPE目标价至75美元：网络业务协同与AI需求被市场低估"
+        ]
+      },
+      {
+        "sector": "半导体",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      },
+      {
+        "sector": "芯片设备",
+        "score": 45.5,
+        "events": [
+          "半导体/国产替代"
+        ],
+        "stocks": [
+          "中微公司",
+          "中芯国际",
+          "北方华创",
+          "寒武纪",
+          "海光信息"
+        ],
+        "news": [
+          "机构：AI芯片需求带动晶圆代工2.0增长 三星电子维持全球第二",
+          "马斯克称特斯拉大幅下调AI5和AI6芯片内存规格",
+          "博通启动600亿美元融资 为Anthropic等公司采购芯片提供资金"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 5,
+        "score": 211.3
+      },
+      {
+        "word": "芯片",
+        "count": 5,
+        "score": 182.0
+      },
+      {
+        "word": "算力",
+        "count": 2,
+        "score": 100.3
+      },
+      {
+        "word": "晶圆",
+        "count": 1,
+        "score": 50.8
+      },
+      {
+        "word": "机器人",
+        "count": 1,
+        "score": 36.8
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
+  },
+  "status": "running"
+}
