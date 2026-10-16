@@ -1,0 +1,976 @@
+{
+  "summary": {
+    "timestamp": "2026-10-16T06:40:50",
+    "important_count": 0,
+    "matched_count": 7,
+    "sector_count": 4,
+    "mood": {
+      "label": "谨慎",
+      "score": 34.3,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "强关注",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "Meta与苹果合作推出适配Mac的AI大模型",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmazq1534444.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792132768",
+      "fingerprint": "Meta与苹果合作推出适配Mac的AI大模型",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 43.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI",
+        "大模型"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "OpenAI代理在运行中试图偷窃数字钱包",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmazr8293414.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792131968",
+      "fingerprint": "OpenAI代理在运行中试图偷窃数字钱包",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 35.0,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwtt8374691.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792128978",
+      "fingerprint": "数据中心需求提振销售额施耐德电气再次上调全年业绩展望",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 33.6,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "数据中心"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "SK海力士展示HBM之外的下一代AI内存技术",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwti7036184.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792126863",
+      "fingerprint": "SK海力士展示HBM之外的下一代AI内存技术",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 32.9,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "特朗普的超级智能工作组将委托撰写报告 评估AI相关技术风险",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwtm7764785.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792126639",
+      "fingerprint": "特朗普的超级智能工作组将委托撰写报告评估AI相关技术风险",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 32.5,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "机器人概念股早盘走势强劲 均胜电子涨超9%来福谐波涨超8%",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivksmv8343581.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792120980",
+      "fingerprint": "机器人概念股早盘走势强劲均胜电子涨超9来福谐波涨超8",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 32.5,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "机器人"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "沃什积极定调AI长期前景，10月美联储利率路径仍留白! 美债收益率降温打开科技反攻窗口?",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-16/doc-inivkwti7021233.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792124410",
+      "fingerprint": "沃什积极定调AI长期前景10月美联储利率路径仍留白美债收益率降温打开科技反攻窗口",
+      "scan_time": "2026-10-16T06:40:50",
+      "score": 30.0,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      }
+    ],
+    "updated_at": "2026-10-16T06:40:50"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 100,
+      "action": "strong_buy",
+      "action_label": "强关注",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 40,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "新闻热度、题材宽度和人气股属性同时满足，适合只在量能确认后强关注。",
+      "rank": 5
+    }
+  ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 100,
+      "action": "focus",
+      "position_pct": 12,
+      "entry": "开盘后量能确认且高开不超过6%再考虑",
+      "stop_loss": "-6%",
+      "take_profit": "+12%至+18%分批",
+      "evidence": [
+        "Meta与苹果合作推出适配Mac的AI大模型",
+        "OpenAI代理在运行中试图偷窃数字钱包",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 40,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
+  "market_data": {
+    "timestamp": "2026-10-16T06:40:21.503723",
+    "market_open": false,
+    "sectors": [],
+    "gainers": [
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "price": 11.22,
+        "change_pct": 3.7,
+        "volume": 863559,
+        "turnover_yuan": 178112763.0,
+        "main_flow_yuan": 17.87
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "price": 12.77,
+        "change_pct": 3.4,
+        "volume": 114512,
+        "turnover_yuan": -3302288.0,
+        "main_flow_yuan": -2.24
+      },
+      {
+        "code": "000002",
+        "name": "万  科Ａ",
+        "price": 3.63,
+        "change_pct": 0.83,
+        "volume": 4180545,
+        "turnover_yuan": 11146545.0,
+        "main_flow_yuan": 0.72
+      },
+      {
+        "code": "000019",
+        "name": "深粮控股",
+        "price": 6.79,
+        "change_pct": 0.74,
+        "volume": 117290,
+        "turnover_yuan": 1838596.0,
+        "main_flow_yuan": 2.28
+      },
+      {
+        "code": "000007",
+        "name": "全新好",
+        "price": 10.07,
+        "change_pct": 0.6,
+        "volume": 40310,
+        "turnover_yuan": -1619711.0,
+        "main_flow_yuan": -3.97
+      },
+      {
+        "code": "000008",
+        "name": "神州高铁",
+        "price": 2.31,
+        "change_pct": 0.43,
+        "volume": 295020,
+        "turnover_yuan": -8322628.0,
+        "main_flow_yuan": -12.11
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "price": 11.45,
+        "change_pct": 0.35,
+        "volume": 990490,
+        "turnover_yuan": -53775746.0,
+        "main_flow_yuan": -4.71
+      },
+      {
+        "code": "000017",
+        "name": "深中华A",
+        "price": 6.83,
+        "change_pct": 0.15,
+        "volume": 299466,
+        "turnover_yuan": 7794046.0,
+        "main_flow_yuan": 3.73
+      },
+      {
+        "code": "000014",
+        "name": "沙河股份",
+        "price": 10.55,
+        "change_pct": 0.09,
+        "volume": 140522,
+        "turnover_yuan": -2793236.0,
+        "main_flow_yuan": -1.82
+      },
+      {
+        "code": "000021",
+        "name": "深科技",
+        "price": 28.13,
+        "change_pct": 0.04,
+        "volume": 445493,
+        "turnover_yuan": -26858151.0,
+        "main_flow_yuan": -2.1
+      }
+    ],
+    "northbound": {
+      "sh_net": -23.19,
+      "sz_net": -0.034,
+      "total_net": -23.22,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": -23.22,
+      "status": "outflow",
+      "updated": "2026-10-16T06:40:35.615319"
+    },
+    "main_force": {
+      "inflow_sectors": [],
+      "outflow_sectors": [],
+      "top_flow": [],
+      "updated": "2026-10-16T06:40:45.848058"
+    }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": -23.22,
+      "status": "outflow"
+    },
+    "top_sectors": [],
+    "top_gainers": [
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "change_pct": 3.7,
+        "price": 11.22
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "change_pct": 3.4,
+        "price": 12.77
+      },
+      {
+        "code": "000002",
+        "name": "万  科Ａ",
+        "change_pct": 0.83,
+        "price": 3.63
+      },
+      {
+        "code": "000019",
+        "name": "深粮控股",
+        "change_pct": 0.74,
+        "price": 6.79
+      },
+      {
+        "code": "000007",
+        "name": "全新好",
+        "change_pct": 0.6,
+        "price": 10.07
+      },
+      {
+        "code": "000008",
+        "name": "神州高铁",
+        "change_pct": 0.43,
+        "price": 2.31
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "change_pct": 0.35,
+        "price": 11.45
+      },
+      {
+        "code": "000017",
+        "name": "深中华A",
+        "change_pct": 0.15,
+        "price": 6.83
+      },
+      {
+        "code": "000014",
+        "name": "沙河股份",
+        "change_pct": 0.09,
+        "price": 10.55
+      },
+      {
+        "code": "000021",
+        "name": "深科技",
+        "change_pct": 0.04,
+        "price": 28.13
+      }
+    ],
+    "main_force_inflow": [],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 60.1,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "Meta与苹果合作推出适配Mac的AI大模型",
+          "OpenAI代理在运行中试图偷窃数字钱包",
+          "数据中心需求提振销售额，施耐德电气再次上调全年业绩展望"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 5,
+        "score": 174.1
+      },
+      {
+        "word": "大模型",
+        "count": 1,
+        "score": 43.7
+      },
+      {
+        "word": "数据中心",
+        "count": 1,
+        "score": 33.6
+      },
+      {
+        "word": "机器人",
+        "count": 1,
+        "score": 32.5
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
+  },
+  "status": "running"
+}
