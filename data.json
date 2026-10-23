@@ -1,0 +1,1253 @@
+{
+  "summary": {
+    "timestamp": "2026-10-23T06:53:12",
+    "important_count": 0,
+    "matched_count": 5,
+    "sector_count": 12,
+    "mood": {
+      "label": "谨慎",
+      "score": 32.7,
+      "class": "cautious"
+    },
+    "top_stock": "科大讯飞",
+    "top_action": "观察",
+    "version": "v5",
+    "scan_interval": "1分钟"
+  },
+  "important_news": [],
+  "scored_news": [
+    {
+      "title": "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweuqw2718367.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792734578",
+      "fingerprint": "迈富时午后拉升超7全栈Token工厂持续释放AI应用商业化动能",
+      "scan_time": "2026-10-23T06:53:12",
+      "score": 43.7,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqs4902167.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792731595",
+      "fingerprint": "乌克兰拟将海关查验转移至欧盟境内躲避俄军无人机袭击",
+      "scan_time": "2026-10-23T06:53:12",
+      "score": 34.9,
+      "level": "普通",
+      "event": "航天/军工",
+      "matched_keywords": [
+        "无人机"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "航天军工",
+        "卫星互联网",
+        "低空经济",
+        "军工电子"
+      ],
+      "stocks": [
+        "中国卫星",
+        "航天电子",
+        "航天动力",
+        "中航沈飞",
+        "航发动力"
+      ],
+      "duration": "1-5天",
+      "risk": "medium"
+    },
+    {
+      "title": "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweqhr5667512.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792727999",
+      "fingerprint": "威华达控股午前涨超5近期引入AI战略股东特斯联公司快速切入AI产业",
+      "scan_time": "2026-10-23T06:53:12",
+      "score": 34.8,
+      "level": "普通",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweqhw2046043.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792728002",
+      "fingerprint": "港股午评恒指涨058科指涨086汽车股走强锂电池股回暖",
+      "scan_time": "2026-10-23T06:53:12",
+      "score": 32.7,
+      "level": "普通",
+      "event": "新能源/汽车",
+      "matched_keywords": [
+        "锂电池"
+      ],
+      "negative_keywords": [],
+      "sectors": [
+        "新能源汽车",
+        "锂电池",
+        "储能",
+        "智能驾驶"
+      ],
+      "stocks": [
+        "比亚迪",
+        "宁德时代",
+        "亿纬锂能",
+        "阳光电源",
+        "德赛西威"
+      ],
+      "duration": "2-10天",
+      "risk": "medium"
+    },
+    {
+      "title": "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqq8201594.shtml",
+      "source": "新浪财经",
+      "source_weight": 0.95,
+      "published_at": "1792736385",
+      "fingerprint": "美国养老金巨头Calpers减持大型科技股AI行情遇冷",
+      "scan_time": "2026-10-23T06:53:12",
+      "score": 17.2,
+      "level": "风险信号",
+      "event": "AI/算力",
+      "matched_keywords": [
+        "AI"
+      ],
+      "negative_keywords": [
+        "减持"
+      ],
+      "sectors": [
+        "AI应用",
+        "算力",
+        "传媒游戏",
+        "机器人"
+      ],
+      "stocks": [
+        "科大讯飞",
+        "中科曙光",
+        "浪潮信息",
+        "金山办公",
+        "拓尔思"
+      ],
+      "duration": "3-10天",
+      "risk": "high"
+    }
+  ],
+  "sector_impact": {
+    "sectors": [
+      {
+        "sector": "AI应用",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "航天军工",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      },
+      {
+        "sector": "卫星互联网",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      },
+      {
+        "sector": "低空经济",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      },
+      {
+        "sector": "军工电子",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      },
+      {
+        "sector": "新能源汽车",
+        "score": 8.2,
+        "events": [
+          "新能源/汽车"
+        ],
+        "stocks": [
+          "亿纬锂能",
+          "宁德时代",
+          "德赛西威",
+          "比亚迪",
+          "阳光电源"
+        ],
+        "news": [
+          "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+        ]
+      },
+      {
+        "sector": "锂电池",
+        "score": 8.2,
+        "events": [
+          "新能源/汽车"
+        ],
+        "stocks": [
+          "亿纬锂能",
+          "宁德时代",
+          "德赛西威",
+          "比亚迪",
+          "阳光电源"
+        ],
+        "news": [
+          "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+        ]
+      },
+      {
+        "sector": "储能",
+        "score": 8.2,
+        "events": [
+          "新能源/汽车"
+        ],
+        "stocks": [
+          "亿纬锂能",
+          "宁德时代",
+          "德赛西威",
+          "比亚迪",
+          "阳光电源"
+        ],
+        "news": [
+          "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+        ]
+      },
+      {
+        "sector": "智能驾驶",
+        "score": 8.2,
+        "events": [
+          "新能源/汽车"
+        ],
+        "stocks": [
+          "亿纬锂能",
+          "宁德时代",
+          "德赛西威",
+          "比亚迪",
+          "阳光电源"
+        ],
+        "news": [
+          "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+        ]
+      }
+    ],
+    "updated_at": "2026-10-23T06:53:12"
+  },
+  "recommendations": [
+    {
+      "stock": "科大讯飞",
+      "score": 53.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 16.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 1
+    },
+    {
+      "stock": "中科曙光",
+      "score": 53.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 16.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 2
+    },
+    {
+      "stock": "浪潮信息",
+      "score": 53.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 16.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 3
+    },
+    {
+      "stock": "金山办公",
+      "score": 53.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 16.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 4
+    },
+    {
+      "stock": "拓尔思",
+      "score": 53.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "AI应用",
+        "传媒游戏",
+        "机器人",
+        "算力"
+      ],
+      "events": [
+        "AI/算力"
+      ],
+      "reasons": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 16.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 5
+    },
+    {
+      "stock": "中国卫星",
+      "score": 33.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "低空经济",
+        "军工电子",
+        "卫星互联网",
+        "航天军工"
+      ],
+      "events": [
+        "航天/军工"
+      ],
+      "reasons": [
+        "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 7.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 6
+    },
+    {
+      "stock": "航天电子",
+      "score": 33.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "低空经济",
+        "军工电子",
+        "卫星互联网",
+        "航天军工"
+      ],
+      "events": [
+        "航天/军工"
+      ],
+      "reasons": [
+        "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 7.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 7
+    },
+    {
+      "stock": "航天动力",
+      "score": 33.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "低空经济",
+        "军工电子",
+        "卫星互联网",
+        "航天军工"
+      ],
+      "events": [
+        "航天/军工"
+      ],
+      "reasons": [
+        "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 7.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 8
+    },
+    {
+      "stock": "中航沈飞",
+      "score": 33.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "低空经济",
+        "军工电子",
+        "卫星互联网",
+        "航天军工"
+      ],
+      "events": [
+        "航天/军工"
+      ],
+      "reasons": [
+        "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 7.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 9
+    },
+    {
+      "stock": "航发动力",
+      "score": 33.1,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "低空经济",
+        "军工电子",
+        "卫星互联网",
+        "航天军工"
+      ],
+      "events": [
+        "航天/军工"
+      ],
+      "reasons": [
+        "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 7.2,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 10
+    },
+    {
+      "stock": "比亚迪",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 11
+    },
+    {
+      "stock": "宁德时代",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 12
+    },
+    {
+      "stock": "亿纬锂能",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 13
+    },
+    {
+      "stock": "阳光电源",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 14
+    },
+    {
+      "stock": "德赛西威",
+      "score": 32.0,
+      "action": "watch",
+      "action_label": "观察",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "time_stop": "3个交易日无放量确认则降级观察",
+      "sectors": [
+        "储能",
+        "新能源汽车",
+        "智能驾驶",
+        "锂电池"
+      ],
+      "events": [
+        "新能源/汽车"
+      ],
+      "reasons": [
+        "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "news_heat": 6.8,
+        "event_breadth": 12,
+        "stock_attention": 5,
+        "sector_flow": 0,
+        "risk_penalty": 0
+      },
+      "decision": "有题材映射但强度不足，优先等板块持续性和成交量。",
+      "rank": 15
+    }
+  ],
+  "candidate_pool": [
+    {
+      "rank": 1,
+      "code": "",
+      "name": "科大讯飞",
+      "score": 53.1,
+      "action": "watch",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "evidence": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 16.2,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 2,
+      "code": "",
+      "name": "中科曙光",
+      "score": 53.1,
+      "action": "watch",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "evidence": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 16.2,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 3,
+      "code": "",
+      "name": "浪潮信息",
+      "score": 53.1,
+      "action": "watch",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "evidence": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 16.2,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 4,
+      "code": "",
+      "name": "金山办公",
+      "score": 53.1,
+      "action": "watch",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "evidence": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 16.2,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    },
+    {
+      "rank": 5,
+      "code": "",
+      "name": "拓尔思",
+      "score": 53.1,
+      "action": "watch",
+      "position_pct": 0,
+      "entry": "等待板块持续性和成交量确认",
+      "stop_loss": "-",
+      "take_profit": "-",
+      "evidence": [
+        "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+        "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业",
+        "题材映射: AI应用、传媒游戏",
+        "事件类型: AI/算力"
+      ],
+      "risk_flags": [],
+      "factors": {
+        "trend": 16.2,
+        "flow": 0,
+        "event": 12,
+        "sector": 5,
+        "risk": 0
+      }
+    }
+  ],
+  "alarm_schedule": [
+    {
+      "name": "盘前候选检查",
+      "trigger_time": "09:20",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "刷新新闻、板块和候选池，筛选盘前最值得观察的 3-5 只股票。",
+      "enabled": true
+    },
+    {
+      "name": "盘中热点扫描",
+      "trigger_time": "10:30",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "检查突发利好、板块扩散和候选池变化。",
+      "enabled": true
+    },
+    {
+      "name": "午后风险复核",
+      "trigger_time": "13:10",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "复核上午信号是否被资金确认，剔除高风险候选。",
+      "enabled": true
+    },
+    {
+      "name": "收盘后复盘",
+      "trigger_time": "15:05",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "task": "保存当日信号、候选池和风险状态，供下一交易日使用。",
+      "enabled": true
+    }
+  ],
+  "skills_applied": [
+    "a-stock-data",
+    "AstraTrade: stock-ranker",
+    "AstraTrade: astra-trade-schema",
+    "AstraTrade: astra-trade-alarm"
+  ],
+  "market_data": {
+    "timestamp": "2026-10-23T06:53:01.400253",
+    "market_open": false,
+    "sectors": [],
+    "gainers": [],
+    "northbound": {
+      "sh_net": 0,
+      "sz_net": 0,
+      "total_net": 0,
+      "sh_accum": 0,
+      "sz_accum": 0,
+      "total_accum": 0,
+      "status": "neutral",
+      "updated": "2026-10-23T06:53:04.865928"
+    },
+    "main_force": {
+      "inflow_sectors": [],
+      "outflow_sectors": [],
+      "top_flow": [],
+      "updated": "2026-10-23T06:53:06.012534"
+    }
+  },
+  "market_pulse": {
+    "market_open": false,
+    "northbound": {
+      "net": 0,
+      "status": "neutral"
+    },
+    "top_sectors": [],
+    "top_gainers": [],
+    "main_force_inflow": [],
+    "event_sectors": [
+      {
+        "sector": "AI应用",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "算力",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "传媒游戏",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "机器人",
+        "score": 23.9,
+        "events": [
+          "AI/算力"
+        ],
+        "stocks": [
+          "中科曙光",
+          "拓尔思",
+          "浪潮信息",
+          "科大讯飞",
+          "金山办公"
+        ],
+        "news": [
+          "美国养老金巨头Calpers减持大型科技股，AI行情遇冷",
+          "迈富时午后拉升超7% 全栈Token工厂持续释放AI应用商业化动能",
+          "威华达控股午前涨超5% 近期引入AI战略股东特斯联 公司快速切入AI产业"
+        ]
+      },
+      {
+        "sector": "航天军工",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      },
+      {
+        "sector": "卫星互联网",
+        "score": 8.7,
+        "events": [
+          "航天/军工"
+        ],
+        "stocks": [
+          "中国卫星",
+          "中航沈飞",
+          "航发动力",
+          "航天动力",
+          "航天电子"
+        ],
+        "news": [
+          "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击"
+        ]
+      }
+    ],
+    "hot_keywords": [
+      {
+        "word": "AI",
+        "count": 3,
+        "score": 95.7
+      },
+      {
+        "word": "无人机",
+        "count": 1,
+        "score": 34.9
+      },
+      {
+        "word": "锂电池",
+        "count": 1,
+        "score": 32.7
+      }
+    ]
+  },
+  "automation": {
+    "runtime": "GitHub Actions",
+    "hosting": "GitHub Pages",
+    "computer_required": false,
+    "schedule": "A股交易日 09:20-15:05，北京时间",
+    "target_interval": "1分钟",
+    "note": "GitHub 定时任务由云端触发，可能有分钟级延迟；非交易时段不会覆盖最近有效看板。"
+  },
+  "status": "running"
+}
